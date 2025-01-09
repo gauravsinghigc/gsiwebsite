@@ -1,0 +1,278 @@
+.rounded-3 {
+    border-radius: 1.5rem !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.social-share li a i.fa {
+    color: #585858;
+    font-size: 2.5rem;
+    margin-top: 1.75rem;
+}
+
+.social-share li a:hover i.fa {
+    color: white;
+}
+
+img {
+    border-radius: 1.5rem !important;
+}
+
+.text-grey {
+    color: lightgrey !important;
+}
+
+.pricing-for {
+    padding-left: 0rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0px;
+}
+
+.pricing-for li {
+    margin-right: 0.35rem;
+    background-color: white;
+    box-shadow: 0px 0px 4px rgb(229, 229, 229);
+    width: 5rem;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+.pricing-for li i {
+    font-size: 2.7rem;
+    margin-top: 0.45rem;
+}
+
+.pricing-for li i.fa-facebook {
+    color: #0266bd !important;
+}
+
+.pricing-for li i.fa-twitter {
+    color: #00aced !important;
+}
+
+.pricing-for li i.fa-instagram {
+    color: #c13584 !important;
+}
+
+.pricing-for li i.fa-youtube {
+    color: #ff0000 !important;
+}
+
+.pricing-for li i.fa-linkedin {
+    color: #007bb6 !important;
+}
+
+.pricing-for li i.fa-map-marker {
+    color: #5bf335 !important;
+}
+
+.flex-s-b {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="checkbox"] {
+    appearance: auto !important;
+    /* Ensures default checkbox rendering */
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.form-group.selections input {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 0.25rem;
+}
+
+.form-group.selections label span {
+    margin-left: 4rem;
+    font-size: 1.2rem;
+}
+
+.form-control-lg.p-3 {
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem !important;
+    height: 5.5rem;
+    border-radius: 0.5rem !important;
+}
+
+.pricing-bg {
+    padding: 3rem;
+    border-radius: 0.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff !important;
+}
+
+.box-shadow-2 {
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e !important;
+}
+
+.gsi-footer-links {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.gsi-footer-links li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.85rem;
+}
+
+.gsi-footer-links li a {
+    color: #424242;
+}
+
+.gsi-footer-links li a:hover {
+    color: #0266bd;
+}
+
+.gsi-footer-links li a i {
+    display: none;
+}
+
+.gsi-footer-links li a:hover i {
+    display: inline-block;
+    color: #0266bd;
+    transition: all 2s linear;
+}
+
+
+.social-icons a {
+    width: 5rem;
+    height: 5rem;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+
+.social-icons a i {
+    color: #383838;
+}
+
+.social-icons a:hover {
+    background-color: #0266bd;
+    color: white;
+}
+
+.social-icons a:hover i {
+    transform: scale(1.2);
+    color: white;
+}
+
+.dot {
+    width: 1rem;
+    height: 1rem;
+    background-color: #0266bd;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+.trail {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #00aced;
+    opacity: 0.5;
+    pointer-events: none;
+    animation: fadeOut 1s linear forwards;
+}
+
+.star-line {
+    position: fixed;
+    width: 0.75rem;
+    border-radius: 5rem;
+    height: 0.75rem;
+    background-color: #ff0000;
+    transform-origin: center;
+    animation: fadeOut 1s ease-in-out;
+    margin-right: 5rem;
+    right: 2rem;
+    z-index: 9;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+}
+
+.AssistantPerson {
+    position: fixed;
+    bottom: 1rem;
+    left: 2rem;
+    width: auto;
+    min-width: 10rem;
+    max-width: 15rem;
+    z-index: 9999;
+    display: none;
+    box-shadow: 0px 0px 150px #00aced !important;
+    border-radius: 2rem !important;
+    animation: bounceFloat 5s infinite ease-in-out, shadowPulse 2s infinite alternate;
+}
+
+@keyframes bounceFloat {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    20% {
+        transform: translateY(-15px) rotate(0deg);
+    }
+
+    40% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    60% {
+        transform: translateY(-15px) rotate(0deg);
+    }
+
+    80% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0px 0px 50px #00aced !important;
+    }
+
+    50% {
+        box-shadow: 0px 0px 80px #00aced !important;
+    }
+
+    100% {
+        box-shadow: 0px 0px 50px #00aced !important;
+    }
+}
