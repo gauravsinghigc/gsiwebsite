@@ -6,7 +6,7 @@ foreach (APP_PORTFOLIO as $PortfolioKey => $PortfolioValues) { ?>
             <div class="inner">
                 <div class="thumbnail">
                     <a href="javascript:void(0)">
-                        <img src="<?php echo $PortfolioValues['image']; ?>" alt="Personal Portfolio Images">
+                        <img loading="lazy" src="<?php echo $PortfolioValues['image']; ?>" alt="Personal Portfolio Images">
                     </a>
                 </div>
                 <div class="content">

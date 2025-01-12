@@ -108,7 +108,7 @@ DEFINE("APP", [
         "SECONDARY" => "hello@" . DOMAIN
     ],
     "ADDRESS" => [
-        "PRIMARY" => "Sector 76, Faridabad, Haryana-121004"
+        "PRIMARY" => "First Floor, Next Door Mall, Sector 76, Faridabad, Haryana-121004"
     ],
     "LOGO" => [
         "SQAURE" => STORAGE_URL . "/images/logo/gauravsinghigc-square-logo-image.png",
@@ -125,6 +125,10 @@ DEFINE("APP", [
         "codepen" => "https://codepen.io/gauravsinghigc",
         "medium" => "https://medium.com/@gauravsinghigc",
         "link" => "https://www.threads.net/@gauravsinghigc",
+        "google" => "https://www.google.com/search?q=gauravsinghigc.in"
+    ],
+    "BROCHURE" => [
+        "PRIMARY" => STORAGE_URL . "/document/Gauravsinghigc-Brochure.pdf",
     ]
 ]);
 

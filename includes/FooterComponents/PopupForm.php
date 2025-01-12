@@ -11,7 +11,7 @@
             <!-- End of .modal-header -->
 
             <div class="modal-body">
-                <img src="assets/images/blog/blog-big-01.jpg" alt="news modal" class="img-fluid modal-feat-img">
+                <img loading="lazy" src="assets/images/blog/blog-big-01.jpg" alt="news modal" class="img-fluid modal-feat-img">
                 <div class="news-details">
                     <span class="date">2 May, 2021</span>
                     <h2 class="title">Digital Marketo to Their New Office.</h2>

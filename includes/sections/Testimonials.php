@@ -4,7 +4,7 @@
         <div class="inner">
             <div class="card-info">
                 <div class="card-thumbnail">
-                    <img src="<?php echo $ReviewValues['logo']; ?>" class='p-3 bg-white' alt="Testimonial-image">
+                    <img loading="lazy" src="<?php echo $ReviewValues['logo']; ?>" class='p-3 bg-white' alt="Testimonial-image">
                 </div>
                 <div class="card-content">
                     <span class="subtitle mt--10"><?php echo $ReviewValues['company']; ?></span>

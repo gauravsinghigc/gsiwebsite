@@ -5,7 +5,7 @@
             <div class="inner">
                 <div class="thumbnail">
                     <a href="<?php echo $BlogValue['link']; ?>">
-                        <img src="<?php echo $BlogValue['image']; ?>" alt="<?php echo $BlogValue['title']; ?>" title="<?php echo $BlogValue['title']; ?>">
+                        <img loading="lazy" src="<?php echo $BlogValue['image']; ?>" alt="<?php echo $BlogValue['title']; ?>" title="<?php echo $BlogValue['title']; ?>">
                     </a>
                 </div>
                 <div class="content">

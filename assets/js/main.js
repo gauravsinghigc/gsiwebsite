@@ -150,9 +150,9 @@
         adaptiveHeight: true,
         cssEase: "linear",
         prevArrow:
-          '<button class="slide-arrow prev-arrow"><i class="feather-arrow-left"></i></button>',
+          '<button class="slide-arrow prev-arrow"><i class="fa fa-angle-left"></i></button>',
         nextArrow:
-          '<button class="slide-arrow next-arrow"><i class="feather-arrow-right"></i></button>',
+          '<button class="slide-arrow next-arrow"><i class="fa fa-angle-right"></i></button>',
       });
 
       $(".testimonial-item-one").slick({
@@ -164,9 +164,9 @@
         adaptiveHeight: true,
         cssEase: "linear",
         prevArrow:
-          '<button class="slide-arrow prev-arrow"><i class="feather-chevron-left"></i></button>',
+          '<button class="slide-arrow prev-arrow"><i class="fa fa-angle-left"></i></button>',
         nextArrow:
-          '<button class="slide-arrow next-arrow"><i class="feather-chevron-right"></i></button>',
+          '<button class="slide-arrow next-arrow"><i class="fa fa-angle-right"></i></button>',
         responsive: [
           {
             breakpoint: 1200,
@@ -186,9 +186,9 @@
         cssEase: "linear",
         adaptiveHeight: true,
         prevArrow:
-          '<button class="slide-arrow prev-arrow"><i class="feather-arrow-left"></i></button>',
+          '<button class="slide-arrow prev-arrow"><i class="fa fa-angle-left"></i></button>',
         nextArrow:
-          '<button class="slide-arrow next-arrow"><i class="feather-arrow-right"></i></button>',
+          '<button class="slide-arrow next-arrow"><i class="fa fa-angle-right"></i></button>',
         responsive: [
           {
             breakpoint: 1124,
@@ -225,9 +225,9 @@
         cssEase: "linear",
         adaptiveHeight: true,
         prevArrow:
-          '<button class="slide-arrow prev-arrow"><i class="feather-arrow-left"></i></button>',
+          '<button class="slide-arrow prev-arrow"><i class="fa fa-angle-left"></i></button>',
         nextArrow:
-          '<button class="slide-arrow next-arrow"><i class="feather-arrow-right"></i></button>',
+          '<button class="slide-arrow next-arrow"><i class="fa fa-angle-right"></i></button>',
         responsive: [
           {
             breakpoint: 1124,
@@ -264,9 +264,9 @@
         slidesToScroll: 1,
         adaptiveHeight: true,
         prevArrow:
-          '<button class="slide-arrow prev-arrow"><i class="feather-chevron-left"></i></button>',
+          '<button class="slide-arrow prev-arrow"><i class="fa fa-angle-left"></i></button>',
         nextArrow:
-          '<button class="slide-arrow next-arrow"><i class="feather-chevron-right"></i></button>',
+          '<button class="slide-arrow next-arrow"><i class="fa fa-angle-right"></i></button>',
         responsive: [
           {
             breakpoint: 1124,
@@ -303,9 +303,9 @@
         slidesToScroll: 1,
         adaptiveHeight: true,
         prevArrow:
-          '<button class="slide-arrow prev-arrow"><i class="feather-chevron-left"></i></button>',
+          '<button class="slide-arrow prev-arrow"><i class="fa fa-angle-left"></i></button>',
         nextArrow:
-          '<button class="slide-arrow next-arrow"><i class="feather-chevron-right"></i></button>',
+          '<button class="slide-arrow next-arrow"><i class="fa fa-angle-right"></i></button>',
         responsive: [
           {
             breakpoint: 1124,

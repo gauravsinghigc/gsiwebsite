@@ -1,6 +1,56 @@
 <?php
 DEFINE("APP_BLOGS", [
-    "blog1" => [
+    "blog8" => [
+        "image" => STORAGE_URL . "/blogs/how-to-become-a-flutter-app-developer-at-gauravsinghigc.jpg",
+        "tags" => "Flutter App Development Course",
+        "time" => "12 Jan 2025 15:15 PM",
+        "title" => "How to Become a Flutter App Developer Crash Course",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/how-to-become-a-flutter-app-developer-guide-by-gaurav-singh-igc",
+        "desc" => "Learn the essentials of Flutter app development with this comprehensive crash course by Gaurav Singh (gauravsinghigc). Master Flutter, widgets, state management, navigation, and more to build cross-platform mobile applications and become a skilled Flutter app developer.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/how-to-become-a-flutter-app-developer-guide-by-gaurav-singh-igc",
+        "keywords" => "Flutter crash course, learn Flutter, Flutter app development tutorial, Flutter widgets, state management in Flutter, Flutter navigation tutorial, build cross-platform mobile applications, become a Flutter developer, Flutter for beginners, Flutter tutorial, by Gaurav Singh (gauravsinghigc)",
+    ],
+    "blog7" => [
+        "image" => STORAGE_URL . "/blogs/how-to-become-a-reactjs-developer-at-gauravsinghigc.jpg",
+        "tags" => "ReactJS Development Course",
+        "time" => "12 Jan 2025 15:15 PM",
+        "title" => "How to Become a ReactJS Developer Crash Course",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/how-to-become-a-reactjs-developer-guide-by-gaurav-singh-igc",
+        "desc" => "Learn the essentials of ReactJS development with this comprehensive crash course by Gaurav Singh (gauravsinghigc). Master ReactJS, components, state management, hooks, and more to build dynamic web applications and become a skilled ReactJS developer.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/how-to-become-a-reactjs-developer-guide-by-gaurav-singh-igc",
+        "keywords" => "ReactJS crash course, learn ReactJS, ReactJS development tutorial, ReactJS components, state management in ReactJS, ReactJS hooks tutorial, build dynamic web applications, become a ReactJS developer, ReactJS for beginners, ReactJS tutorial, by Gaurav Singh (gauravsinghigc)",
+    ],
+    "blog6" => [
+        "image" => STORAGE_URL . "/blogs/complete-digital-marketing-crash-course-by-gauravsinghigc.jpg",
+        "tags" => "Professional Digital Marketing Course",
+        "time" => "12 Jan 2025 15:05 PM",
+        "title" => "Professional Digital Marketing Crash Course",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/professional-digital-marketing-course-guide-by-gaurav-singh-igc",
+        "desc" => "Learn the essentials of digital marketing with this comprehensive crash course by Gaurav Singh (gauravsinghigc). Master SEO, PPC, content marketing, social media strategies, email marketing, and more to drive online growth and business success.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/professional-digital-marketing-course-guide-by-gaurav-singh-igc",
+        "keywords" => "digital marketing crash course, learn digital marketing, SEO course, PPC marketing course, content marketing guide, social media marketing tutorial, email marketing strategies, online business growth, digital marketing for beginners, learn digital marketing strategies, digital marketing tutorial, by Gaurav Singh (gauravsinghigc)",
+    ],
+    "blog5" => [
+        "image" => STORAGE_URL . "/blogs/back-end-development-crash-course-guide-by-gauravsinghigc.jpg",
+        "tags" => "Back-end Development Course",
+        "time" => "12 Jan 2025 14:48 PM",
+        "title" => "Back-End Development Crash Course Guide",
+        "link" => "https://www.wscubetech.com/back-end-development-course",
+        "desc" => "Learn the essentials of backend development with this comprehensive crash course by Gaurav Singh (gauravsinghigc). Master server-side languages, databases, APIs, and more to build powerful backend systems for dynamic websites and apps.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/back-end-development-crash-course-guide-by-gaurav-singh-igc-faridabad",
+        "keywords" => "backend development, backend development crash course, learn backend development, server-side programming course, build dynamic web applications, Gaurav Singh backend guide, backend programming tutorial, web development for beginners, learn server-side development, backend development tutorial, by Gaurav Singh (gauravsinghigc)",
+    ],
+    "blog4" => [
+        "image" => STORAGE_URL . "/blogs/front-end-development-crash-course-guide-by-gauravsinghigc.jpg",
+        "tags" => "Front-end Development Course",
+        "time" => "12 Jan 2025 14:48 PM",
+        "title" => "Front-End Development Crash Course Guide",
+        "link" => "https://www.wscubetech.com/front-end-development-course",
+        "desc" => "Learn the essentials of front-end development with this comprehensive crash course by Gaurav Singh (gauravsinghigc). Master HTML, CSS, JavaScript, and more to build responsive websites and apps from scratch.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/front-end-development-crash-course-guide-by-gaurav-singh-igc-faridabad",
+        "keywords" => "front-end development, front-end development crash course, learn front-end development, HTML CSS JavaScript course, build responsive websites, Gaurav Singh front-end guide, front-end programming tutorial, web development for beginners, learn web development, front-end development tutorial, by Gaurav Singh (gauravsinghigc)",
+    ],
+    "blog3" => [
         "image" => STORAGE_URL . "/blogs/Hostinger-Review-One-of-the-cheapest-hosting-providers-referred-by-gauravsinghigc.png",
         "tags" => "Hosting Servers",
         "time" => "3 Jan 2025 06:32 PM",
@@ -8,6 +58,7 @@ DEFINE("APP_BLOGS", [
         "link" => "https://www.hostg.xyz/aff_c?offer_id=6&aff_id=39332",
         "desc" => "Hostinger offers exceptional managed WordPress hosting with features like 200 GB NVMe storage, free SSL, a dedicated IP, and a free domain, ensuring high-speed performance and robust security. Recommended by Gaurav Singh, it's perfect for developers and businesses seeking affordability, reliability, and SEO optimization.",
         "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/best-hosting-service-provider-hostinger",
+        "keywords" => "Hostinger, web hosting services, shared hosting, VPS hosting, cloud hosting, WordPress hosting, free domain, SEO-friendly hosting, SSL certificates, SEO optimization tools, website builders, fast loading speeds, high uptime, cheap Hostinger plans, 24/7 customer support, hosting plans, scalable hosting, web hosting solutions, affordable hosting, reliable hosting, secure hosting, fast web hosting, WordPress optimized hosting, customer support hosting, website security.",
     ],
     "blog2" => [
         "image" => STORAGE_URL . "/blogs/best-programming-laptops-referred-by-gaurav-singh-igc.png",
@@ -16,16 +67,17 @@ DEFINE("APP_BLOGS", [
         "title" => "Best Programming & Gaming Laptops",
         "desc" => "The ASUS ROG Zephyrus G14 and Apple MacBook Pro (M2 Max) offer powerful performance and portability for both programming and gaming. The Razer Blade 16 and Dell XPS 15 provide high-quality displays and exceptional speed, making them great options for multitasking and gaming.",
         "link" => "https://amzn.to/4jc4LmP",
-        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/best-programming-and-gaming-laptops"
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/best-programming-and-gaming-laptops",
+        "keywords" => "",
     ],
-    "blog3" => [
+    "blog1" => [
         "image" => STORAGE_URL . "/blogs/how-to-become-a-full-stack-developer-in-2025-by-gaurav-singh-igc.jpg",
         "tags" => "Full Stack Developer",
         "time" => "1 Jan 2025 06:38 PM",
         "title" => "How to Become a Full Stack Developer in 2025",
         "link" => "https://www.youtube.com/channel/UCJhx-zoVDamWOa6oZSLTmhw",
         "desc" => "To become a full-stack developer in 2025, master HTML, CSS, JavaScript, and frameworks like React or Node.js for both front-end and back-end development. Learn Git, work with databases, and practice building real-world projects, while staying updated with new technologies and creating a strong portfolio.",
-        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/how-to-become-a-full-stack-developer-in-2025"
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/how-to-become-a-full-stack-developer-in-2025",
+        "keywords" => "",
     ]
-
 ]);

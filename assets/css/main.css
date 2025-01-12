@@ -11792,44 +11792,44 @@ body.template-color-1 {
 }
 
 .header-wrapper {
-    height: 122px;
+    height: 100px;
     padding: 0 64px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     .header-wrapper {
-        padding: 0 30px;
+        padding: 0 25px;
     }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .header-wrapper {
-        padding: 0 30px;
+        padding: 0 35px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-wrapper {
-        padding: 0 30px;
+        padding: 0 35px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .header-wrapper {
-        padding: 0 20px;
+        padding: 0 25px;
         height: 80px;
     }
 }
 
 @media only screen and (max-width: 575px) {
     .header-wrapper {
-        padding: 0 3px;
+        padding: 0 5px;
     }
 }
 
 @media only screen and (max-width: 479px) {
     .header-wrapper {
-        padding: 0;
+        padding: 1rem;
     }
 }
 
@@ -11837,6 +11837,7 @@ body.template-color-1 {
     flex-basis: 20%;
     justify-content: flex-start;
     display: flex;
+    width: 100%;
 }
 
 .header-wrapper .header-center {
@@ -12091,7 +12092,7 @@ body.template-color-1 {
 }
 
 .sticky .header-wrapper {
-    height: 90px;
+    height: 85px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -12109,12 +12110,12 @@ body.template-color-1 {
 @media only screen and (max-width: 767px) {
     .sticky .header-wrapper {
         height: 70px;
-        padding: 0;
+        padding: 1rem;
     }
 }
 
 .sticky .header-wrapper .logo img {
-    max-width: 90%;
+    max-width: 78%;
 }
 
 .logo a {
@@ -12123,7 +12124,7 @@ body.template-color-1 {
 
 .logo a img {
     transition: 0.3s;
-    width: 30%;
+    width: 20%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -12359,8 +12360,8 @@ body.template-color-1 {
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.8);
-    visibility: hidden;
     opacity: 0;
+    visibility: hidden;
     transition: opacity 0.5s ease-out;
 }
 
@@ -14015,7 +14016,7 @@ figcaption {
 }
 
 .slide.slider-style-1 {
-    padding-top: 150px;
+    padding-top: 140px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -19369,8 +19370,8 @@ span.sr-only {
 
 .backto-top>div {
     position: fixed;
-    bottom: 50px;
-    right: 30px;
+    bottom: 2rem;
+    right: 2rem;
     cursor: pointer;
     z-index: 999;
     width: 50px;
@@ -21813,8 +21814,8 @@ body.white-version .gsi-btn-ulderline {
 
 .white-version .backto-top>div {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 1rem;
+    right: 2rem;
     cursor: pointer;
     z-index: 999;
     width: 50px;

@@ -61,12 +61,14 @@ setInterval(() => {
   // Get the main body and app name elements
   const mainBody = document.getElementById("MainBody");
   const appName = document.getElementById("AppName");
+  const GsiMobileNavigation = document.getElementById("GsiMobileNavigation");
 
   // Check if the current time is between 6 AM and 6 PM (daytime)
   if (hours >= 6 && hours < 18) {
     // Daytime: Add 'white-version' and apply the theme
     if (mainBody) {
       mainBody.classList.add("white-version");
+      GsiMobileNavigation.classList.remove("dark");
 
       // Replace 'box-shadow-2' back to 'box-shadow' on all elements that have box-shadow-2
       const allElements = document.querySelectorAll("*");
@@ -93,6 +95,7 @@ setInterval(() => {
     // Nighttime: Remove 'white-version' and apply the theme
     if (mainBody) {
       mainBody.classList.remove("white-version");
+      GsiMobileNavigation.classList.add("dark");
 
       // Replace 'box-shadow' with 'box-shadow-2' on all elements that have box-shadow
       const allElements = document.querySelectorAll("*");
@@ -178,5 +181,16 @@ function scrollToNextSection() {
   }
 }
 
-// Set an interval to auto-scroll to the next section every 7.5 seconds
-setInterval(scrollToNextSection, 25000);
+// Set an interval to auto-scroll to the next section every 7.5 seconds//
+//setInterval(scrollToNextSection, 10000);
+
+//mobile navigation
+function MobileNavigation() {
+  var GsiMobileNavigation = document.getElementById("GsiMobileNavigation");
+
+  if (GsiMobileNavigation.style.display == "none") {
+    GsiMobileNavigation.style.display = "block";
+  } else {
+    GsiMobileNavigation.style.display = "none";
+  }
+}

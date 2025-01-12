@@ -5,17 +5,17 @@ include $RunningDir . "/config.php"; ?>
 <html lang="en">
 
 <head>
-    <title><?php echo APP['NAME']; ?> @ <?php echo APP['TAGLINE']; ?></title>
+    <title><?php echo APP['APP_NAME']; ?> @ <?php echo APP['EXPERTISE']; ?></title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
     <?php include $RunningDir . "/assets/HeaderStylesheets.php"; ?>
-    <meta content="description" name="gauravsinghigc by Gaurav Singh is one of the experienced Full Stack Developer. If You are planning to give your business a new direction then you are at the right place and with right Firm">
-    <meta name="keywords" content="gauravsinghigc, full stack developer, software development, web development, web design, php development, javascript development, node.js development, react.js development, angular.js development, vue.js development, e-commerce development, digital marketing, digital marketing agency, digital marketing company, digital marketing agency in noida, digital marketing company in noida, digital marketing company in delhi, digital marketing agency in delhi" />
-    <meta name="google-site-verification" content="_GCBqfApn0cJuYJe9-gMTHyk2KqOudFL2-PfucTtiQ8" />
+    <meta name="title" content="Gaurav Singh (gauravsinghigc) @ Full Stack Developer & IT Support ">
+    <meta name="description" content="Gaurav Singh (gauravsinghigc) Faridabad, experienced full stack developer, digital marketing services and all type technical service provider.">
+    <meta name="keywords" content="gauravsinghigc, full stack developer, software development, web development, web design, php development, javascript development, node.js development, react.js development, angular.js development, vue.js development, e-commerce development, digital marketing, digital marketing agency, digital marketing company, digital marketing agency in noida, digital marketing company in noida, digital marketing company in delhi, digital marketing agency in delhi">
 </head>
 
 <body id='MainBody' class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
-    <?php include $RunningDir . "/includes/Header.php"; ?>
+    <?php include $RunningDir . "/includes/PageHeader.php"; ?>
     <main class="main-page-wrapper">
 
         <div id="home" class="gsi-slider-area">
@@ -791,19 +791,12 @@ include $RunningDir . "/config.php"; ?>
                     </div>
                 </div>
                 <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
-                    <?php include __DIR__ . "/includes/sections/Blogs.php"; ?>
+                    <?php include $RunningDir . "/includes/sections/Blogs.php"; ?>
                 </div>
             </div>
         </div>
 
-        <?php include __DIR__ . "/includes/sections/ContactUsSectionForm.php";  ?>
-
-        <div class="backto-top">
-            <div>
-                <i data-feather="arrow-up"></i>
-            </div>
-        </div>
-
+        <?php include $RunningDir . "/includes/sections/ContactUsSectionForm.php";  ?>
     </main>
 
     <?php

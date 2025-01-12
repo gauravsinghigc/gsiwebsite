@@ -4,7 +4,7 @@
         <div class="gsi-service">
             <div class="inner">
                 <div class="icon">
-                    <img src="<?php echo $Services['image']; ?>" alt='<?php echo $Services['name']; ?> @ <?php echo APP['APP_NAME']; ?>' loading="lazy">
+                    <img loading="lazy" src="<?php echo $Services['image']; ?>" alt='<?php echo $Services['name']; ?> @ <?php echo APP['APP_NAME']; ?>' loading="lazy">
                 </div>
                 <div class="content">
                     <h4 class="title mb-1"><a href="<?php echo $Services['link']; ?>"><?php echo $Services['name']; ?></a></h4>

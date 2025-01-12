@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.gauravsinghigc\.in [NC]
+RewriteRule ^(.*)$ http://gauravsinghigc.in/$1 [L,R=301]
