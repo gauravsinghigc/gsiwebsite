@@ -550,3 +550,10 @@ input[type="checkbox"] {
     margin-bottom: 2rem;
     border-radius: 2rem;
 }
+
+* {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
