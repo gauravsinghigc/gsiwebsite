@@ -1,9 +1,39 @@
 <?php
 DEFINE("APP_BLOGS", [
+    "blog11" => [
+        "image" => STORAGE_URL . "/blogs/android-16-live-updates-feature-will-change-the-way-we-check-notifications-heres-how.jpeg",
+        "tags" => "Android Updates Feature",
+        "time" => "29 Jan 2025 09:30 PM",
+        "title" => "Android 16 live updates feature to revolutionize notifications and enhance user experience",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/android-16-live-updates-feature-will-change-the-way-we-check-notifications-heres-how",
+        "desc" => "Android 16 introduces the Live Updates feature, allowing users to pin specific notifications for easy access, similar to Apple's Live Activities. This feature enhances notification management by displaying updates on the lock screen and status bar, offering a more streamlined and interactive user experience.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/android-16-live-updates-feature-will-change-the-way-we-check-notifications-heres-how",
+        "keywords" => "android 16, live updates feature, android notifications, android 16 beta, android updates, android live notifications, lock screen notifications, notification shelf android, android features 2025, android 16 release, live activities android, status bar updates android, always-on display android, android user experience, android 16 improvements",
+    ],
+    "blog10" => [
+        "image" => STORAGE_URL . "/blogs/case-registered-for-developing-a-deceptive-cybercrime-reporting-portal-investigation-in-progress.jpeg",
+        "tags" => "Cyber Crime",
+        "time" => "29 Jan 2025 08:55 PM",
+        "title" => "Case registered for developing a deceptive cybercrime reporting portal, investigation in progress",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/case-registered-for-developing-a-deceptive-cybercrime-reporting-portal-investigation-in-progress",
+        "desc" => "An individual had created a fraudulent link with the heading “Cyber Fraud Online Complaint - Cyber Crime Complaint Number 7501141599, Customers Legal Advice (www.customerslegaladvice.in)” and promoted it through a sponsored ad on Google.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/case-registered-for-developing-a-deceptive-cybercrime-reporting-portal-investigation-in-progress",
+        "keywords" => "cyber crime news, latest tech scam, latest online scam, cyber fraud awareness, online fraud prevention, cyber security tips, tech scam updates, internet scam news, cyber attack reports, phishing scams, identity theft prevention, online scam alerts, digital fraud news, latest cybersecurity threats, online fraud prevention techniques.",
+    ],
+    "blog9" => [
+        "image" => STORAGE_URL . "/blogs/top-trending-front-end-technologies-for-web-development-suggested-by-gauravsinghigc.jpg",
+        "tags" => "Trending front end technologies",
+        "time" => "29 Jan 2025 07:29 PM",
+        "title" => "Trending Front End Technologies in 2025 for Beginners",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/top-trending-front-end-technologies-for-web-development-suggested-by-gaurav-singh-igc",
+        "desc" => "Learn the essentials of modern web development with this comprehensive guide by Gaurav Singh (gauravsinghigc). Master React, Next.js, Vue.js, state management, routing, and more to build scalable, high-performance web applications and become a skilled front-end developer.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/top-trending-front-end-technologies-for-web-development-suggested-by-gaurav-singh-igc",
+        "keywords" => "Frontend web development crash course, learn React, Next.js tutorial, UI/UX design, state management in React, web navigation tutorial, build modern web applications, become a frontend developer, web development for beginners, JavaScript tutorial, by Gaurav Singh (gauravsinghigc)",
+    ],
     "blog8" => [
         "image" => STORAGE_URL . "/blogs/how-to-become-a-flutter-app-developer-at-gauravsinghigc.jpg",
         "tags" => "Flutter App Development Course",
-        "time" => "12 Jan 2025 15:15 PM",
+        "time" => "12 Jan 2025 03:15 PM",
         "title" => "How to Become a Flutter App Developer Crash Course",
         "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/how-to-become-a-flutter-app-developer-guide-by-gaurav-singh-igc",
         "desc" => "Learn the essentials of Flutter app development with this comprehensive crash course by Gaurav Singh (gauravsinghigc). Master Flutter, widgets, state management, navigation, and more to build cross-platform mobile applications and become a skilled Flutter app developer.",
@@ -13,7 +43,7 @@ DEFINE("APP_BLOGS", [
     "blog7" => [
         "image" => STORAGE_URL . "/blogs/how-to-become-a-reactjs-developer-at-gauravsinghigc.jpg",
         "tags" => "ReactJS Development Course",
-        "time" => "12 Jan 2025 15:15 PM",
+        "time" => "12 Jan 2025 03:15 PM",
         "title" => "How to Become a ReactJS Developer Crash Course",
         "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/how-to-become-a-reactjs-developer-guide-by-gaurav-singh-igc",
         "desc" => "Learn the essentials of ReactJS development with this comprehensive crash course by Gaurav Singh (gauravsinghigc). Master ReactJS, components, state management, hooks, and more to build dynamic web applications and become a skilled ReactJS developer.",
@@ -23,7 +53,7 @@ DEFINE("APP_BLOGS", [
     "blog6" => [
         "image" => STORAGE_URL . "/blogs/complete-digital-marketing-crash-course-by-gauravsinghigc.jpg",
         "tags" => "Professional Digital Marketing Course",
-        "time" => "12 Jan 2025 15:05 PM",
+        "time" => "12 Jan 2025 03:05 PM",
         "title" => "Professional Digital Marketing Crash Course",
         "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/professional-digital-marketing-course-guide-by-gaurav-singh-igc",
         "desc" => "Learn the essentials of digital marketing with this comprehensive crash course by Gaurav Singh (gauravsinghigc). Master SEO, PPC, content marketing, social media strategies, email marketing, and more to drive online growth and business success.",
@@ -33,7 +63,7 @@ DEFINE("APP_BLOGS", [
     "blog5" => [
         "image" => STORAGE_URL . "/blogs/back-end-development-crash-course-guide-by-gauravsinghigc.jpg",
         "tags" => "Back-end Development Course",
-        "time" => "12 Jan 2025 14:48 PM",
+        "time" => "12 Jan 2025 02:48 PM",
         "title" => "Back-End Development Crash Course Guide",
         "link" => "https://www.wscubetech.com/back-end-development-course",
         "desc" => "Learn the essentials of backend development with this comprehensive crash course by Gaurav Singh (gauravsinghigc). Master server-side languages, databases, APIs, and more to build powerful backend systems for dynamic websites and apps.",
@@ -43,7 +73,7 @@ DEFINE("APP_BLOGS", [
     "blog4" => [
         "image" => STORAGE_URL . "/blogs/front-end-development-crash-course-guide-by-gauravsinghigc.jpg",
         "tags" => "Front-end Development Course",
-        "time" => "12 Jan 2025 14:48 PM",
+        "time" => "12 Jan 2025 02:48 PM",
         "title" => "Front-End Development Crash Course Guide",
         "link" => "https://www.wscubetech.com/front-end-development-course",
         "desc" => "Learn the essentials of front-end development with this comprehensive crash course by Gaurav Singh (gauravsinghigc). Master HTML, CSS, JavaScript, and more to build responsive websites and apps from scratch.",

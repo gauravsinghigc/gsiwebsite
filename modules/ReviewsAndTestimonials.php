@@ -1,5 +1,14 @@
 <?php
 DEFINE("CUSTOMER_REVIEWS", [
+    "reviews4" => [
+        "logo" => STORAGE_URL . "/reviews/jh-interiors-by-gauravsinghigc.jpg",
+        "company" => "JH Interiors",
+        "name" => "Jagbeer Singh",
+        "designation" => "Founder",
+        "project" => "Fully Functional Website",
+        "date" => "Jan 2025",
+        "description" => "The website for JH Interiors, developed by Gaurav Singh, offers a sleek and professional user experience. The clean design, paired with a modern aesthetic and cohesive color scheme, ensures a visually appealing experience. To enhance engagement, consider adding client testimonials, detailed service descriptions, and a sticky header to improve navigation. Overall, the site effectively showcases the premium interior design services offered by Jagbeer Singh, providing a strong foundation for an exceptional user experience and better client interaction.",
+    ],
     "reviews1" => [
         "logo" => STORAGE_URL . "/reviews/crown-dental-logo.jpg",
         "company" => "Crown Dental & Implant Center",

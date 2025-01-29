@@ -1,5 +1,13 @@
 <?php
 DEFINE("APP_PORTFOLIO", [
+    "portfolio7" => [
+        "name" => "JH Interiors",
+        "tag" => "Website Development",
+        "image" => STORAGE_URL . "/portfolio/jh-interiors-interior-designing-website-by-gaurav-singh-igc.png",
+        "shortdesc" => "JH Interiors' website, crafted by Gaurav Singh, offers a sleek and professional platform showcasing premium interior design services by Jagbeer Singh. With a modern design and intuitive navigation, it effectively highlights the brand's expertise in transforming spaces.",
+        "longdesc" => "JH Interiors' website, developed by Gaurav Singh, presents a modern and user-friendly platform that perfectly showcases the premium interior design services offered by Jagbeer Singh. The website is built using a combination of HTML, CSS, JavaScript, and Bootstrap, ensuring a responsive and visually appealing experience across devices. With seamless navigation and a clean design, the site highlights JH Interiors' expertise in transforming spaces with creativity and precision. Developed with PHP for dynamic content management, the website is hosted on Hostinger's cloud server, providing reliable performance and scalability. The integration of sleek visuals, interactive elements, and clear service descriptions ensures a captivating user experience for visitors, making it a strong online presence for JH Interiors.",
+        "link" => "https://jhinteriors.in/"
+    ],
     "portfolio1" => [
         "name" => "Step-smith Immigration Services",
         "tag" => "Static Website + Payment Gateway",
