@@ -41,3 +41,29 @@
  <meta property="article:publisher" content="<?php echo DOMAIN; ?>"> <!-- Publisher URL -->
  <meta property="article:published_time" content="<?php echo APP_BLOGS[$ServiceId]['time']; ?>"> <!-- Date of publishing -->
  <meta property="article:modified_time" content="<?php echo APP_BLOGS[$ServiceId]['time']; ?>"> <!-- Last modified time -->
+
+ <!-- JSON-LD for structured data (Schema.org) for articles -->
+ <script type="application/ld+json">
+     {
+         "@context": "https://schema.org",
+         "@type": "Article",
+         "headline": "<?php echo APP_BLOGS[$ServiceId]['title']; ?>",
+         "description": "<?php echo APP_BLOGS[$ServiceId]['desc']; ?>",
+         "author": {
+             "@type": "Person",
+             "name": "<?php echo APP['AUTHOR']; ?>"
+         },
+         "publisher": {
+             "@type": "Individual",
+             "name": "<?php echo APP['APP_NAME_2']; ?>",
+             "logo": {
+                 "@type": "ImageObject",
+                 "url": "<?php echo APP['LOGO']['SQAURE']; ?>"
+             }
+         },
+         "datePublished": "<?php echo APP_BLOGS[$ServiceId]['time']; ?>",
+         "dateModified": "<?php echo APP_BLOGS[$ServiceId]['time']; ?>",
+         "image": "<?php echo APP_BLOGS[$ServiceId]['image']; ?>",
+         "url": "<?php echo APP_BLOGS[$ServiceId]['link']; ?>"
+     }
+ </script>
