@@ -12,9 +12,7 @@ $ServiceId = "blog4";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
     <?php include $RunningDir . "/assets/HeaderStylesheets.php"; ?>
-    <meta name="title" content="<?php echo APP_BLOGS[$ServiceId]['title']; ?>">
-    <meta name="description" content="<?php echo APP_BLOGS[$ServiceId]['desc']; ?>">
-    <meta name="keywords" content="<?php echo APP_BLOGS[$ServiceId]['keywords']; ?>">
+    <?php include __DIR__ . "/../sections/MetaHeaderTags.php"; ?>
 
 </head>
 
@@ -167,11 +165,8 @@ $ServiceId = "blog4";
                                 <p class="text-justify">Good luck on your front-end development journey, and remember, learning is an ongoing process. Stay curious, and continue coding!</p>
 
                                 <p class="text-justify"><strong>By Gaurav Singh (gauravsinghigc)</strong></p>
+                                <?php include $RunningDir . "/blogs-by-gaurav-singh-igc/sections/BlogShareOptions.php"; ?>
                 </div>
-
-
-
-
                 <?php include $RunningDir . "/includes/sections/BlogsNavigationForDetails.php"; ?>
             </div>
         </div>

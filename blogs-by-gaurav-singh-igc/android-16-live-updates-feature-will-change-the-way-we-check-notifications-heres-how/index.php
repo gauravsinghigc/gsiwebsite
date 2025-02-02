@@ -12,9 +12,7 @@ $ServiceId = "blog11";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
     <?php include $RunningDir . "/assets/HeaderStylesheets.php"; ?>
-    <meta name="title" content="<?php echo APP_BLOGS[$ServiceId]['title']; ?>">
-    <meta name="description" content="<?php echo APP_BLOGS[$ServiceId]['desc']; ?>">
-    <meta name="keywords" content="<?php echo APP_BLOGS[$ServiceId]['keywords']; ?>">
+    <?php include __DIR__ . "/../sections/MetaHeaderTags.php"; ?>
 </head>
 
 <body id='MainBody' class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
@@ -58,11 +56,9 @@ $ServiceId = "blog11";
                     <p class="text-justify">Android 16 Beta 1 is currently rolling out to supported Pixel devices, and more updates are expected to come before the final release. As the update progresses, Google will likely refine the <strong>'Live Updates'</strong> feature to enhance its capabilities even further, ensuring it meets the evolving needs of users across the globe.</p>
 
                     <p class="text-justify">For more information on Android 16 Beta and the latest updates, you can check out Google's official [Android 16 Beta page](https://developer.android.com/about/versions/16) and [Android 16 updates](https://www.android.com) for the latest news and features.</p>
+
+                    <?php include $RunningDir . "/blogs-by-gaurav-singh-igc/sections/BlogShareOptions.php"; ?>
                 </div>
-
-
-
-
                 <?php include $RunningDir . "/includes/sections/BlogsNavigationForDetails.php"; ?>
             </div>
         </div>

@@ -321,9 +321,16 @@ input[type="checkbox"] {
     position: fixed;
     bottom: 12%;
     display: flex;
-    right: 2rem;
     z-index: 9999;
     flex-direction: column;
+}
+
+.gsi-plugin-right {
+    right: 2rem !important;
+}
+
+.gsi-plugin-left {
+    left: 2rem !important;
 }
 
 .gsi-side-plugin img:hover {

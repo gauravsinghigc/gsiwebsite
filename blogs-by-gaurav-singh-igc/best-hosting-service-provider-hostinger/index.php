@@ -12,9 +12,7 @@ $ServiceId = "blog3";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
     <?php include $RunningDir . "/assets/HeaderStylesheets.php"; ?>
-    <meta name="title" content="<?php echo APP_BLOGS[$ServiceId]['title']; ?>">
-    <meta name="description" content="<?php echo APP_BLOGS[$ServiceId]['desc']; ?>">
-    <meta name="keywords" content="<?php echo APP_BLOGS[$ServiceId]['keywords']; ?>">
+    <?php include __DIR__ . "/../sections/MetaHeaderTags.php"; ?>
 
 </head>
 
@@ -82,9 +80,8 @@ $ServiceId = "blog3";
                     <p class="text-justify">If you are looking for a <strong>high-speed</strong>, <strong>secure</strong>, and <strong>SEO-optimized WordPress hosting solution</strong>, look no further than Hostinger. With its <strong>200 GB NVMe storage</strong>, <strong>free SSL</strong>, <strong>dedicated IP</strong>, and <strong>free domain</strong>, Hostinger offers everything you need to get your website up and running successfully. Partner with <strong>Gaurav Singh</strong> and get started with <strong>Hostinger Managed WordPress Hosting</strong> to take your website to the next level.</p>
 
                     <p class="text-justify"><strong>Contact Gaurav Singh (gauravsinghigc)</strong> today to learn more about how <strong>Hostinger</strong> can help your business grow through <strong>managed hosting</strong>, <strong>SEO optimization</strong>, and <strong>high-performance solutions</strong>.</p>
+                    <?php include $RunningDir . "/blogs-by-gaurav-singh-igc/sections/BlogShareOptions.php"; ?>
                 </div>
-
-
                 <?php include $RunningDir . "/includes/sections/BlogsNavigationForDetails.php"; ?>
             </div>
         </div>

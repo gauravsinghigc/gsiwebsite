@@ -1,5 +1,45 @@
 <?php
 DEFINE("APP_BLOGS", [
+    "blog15" => [
+        "image" => STORAGE_URL . "/blogs/whatsapp-warns-of-new-israeli-spyware-targeting-phones-and-breaking-into-private-data.jpeg",
+        "tags" => "WhatsApp, Israeli Spyware, Private Data, Cybersecurity, Phone Security, Data Protection, WhatsApp Security, Tech News",
+        "time" => "2 Feb 2025 10:48 AM",
+        "title" => "WhatsApp Warns of New Israeli Spyware Targeting Phones and Breaking into Private Data",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/whatsapp-warns-of-new-israeli-spyware-targeting-phones",
+        "desc" => "WhatsApp has issued a warning regarding a new Israeli spyware that poses a significant threat to mobile phone security. The spyware can break into private data, potentially compromising sensitive information. This malware is capable of exploiting vulnerabilities in mobile operating systems, enabling unauthorized access to private communications, photos, and more. WhatsApp urges users to remain cautious and to keep their phones updated to prevent exploitation by this spyware. This warning underscores the growing concerns over cybersecurity, with spyware becoming an increasing threat to user privacy. Understand the potential risks of this new spyware and how you can protect your data.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/whatsapp-warns-of-new-israeli-spyware-targeting-phones",
+        "keywords" => "WhatsApp, Israeli spyware, phone security, cybersecurity threats, private data, mobile spyware, tech security, data protection, WhatsApp security, spyware alert, mobile security news"
+    ],
+    "blog14" => [
+        "image" => STORAGE_URL . "/blogs/tech-layoffs-microsoft-fires-underperforming-employees.jpeg",
+        "tags" => "Tech Layoffs, Microsoft, Underperforming Employees, Workforce, Employee Termination, Job Cuts, Tech Industry",
+        "time" => "2 Feb 2025 10:25 AM",
+        "title" => "Microsoft Announces Immediate Layoffs for Underperforming Employees: A Bold Move in Tech Industry",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/tech-layoffs-microsoft-fires-underperforming-employees",
+        "desc" => "In a major move that has sent shockwaves through the tech industry, Microsoft has decided to fire underperforming employees effective immediately. The decision follows a company-wide performance review aimed at improving overall productivity and realigning the workforce to meet strategic goals. With increasing competition and economic uncertainty, tech companies are reassessing their operations, and this bold move by Microsoft underscores the shift towards performance-based employment practices. The layoffs could affect hundreds of employees, with the company focusing on retaining high performers and cutting costs. Understand the reasons behind this move and its potential impact on the tech workforce, employee morale, and the future of the industry. Will this trend of layoffs be adopted by other big tech firms? Get insights into the broader implications for tech job security and the evolving work culture.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/tech-layoffs-microsoft-fires-underperforming-employees",
+        "keywords" => "Tech layoffs, Microsoft layoffs, employee termination, workforce reduction, job cuts, tech industry news, Microsoft performance, layoffs impact, employee rights, tech job market, workforce management"
+    ],
+    "blog13" => [
+        "image" => STORAGE_URL . "/blogs/income-tax-slab-fy-2024-25-ay-2025-26.jpeg",
+        "tags" => "Income Tax, Tax Slab, FY 2024-25, AY 2025-26, Tax Rates, Finance",
+        "time" => "2 Feb 2025 10:05 AM",
+        "title" => "Income Tax Slabs for FY 2024-25 and AY 2025-26: A Detailed Guide to New and Old Regime Tax Rates",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/income-tax-slab-for-fy-2024-25-ay-2025-26",
+        "desc" => "Explore the new and old regime income tax slabs for FY 2024-25 and AY 2025-26. Understand the key tax rates, deductions, and exemptions for individuals and businesses in this comprehensive guide.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/income-tax-slab-for-fy-2024-25-ay-2025-26",
+        "keywords" => "income tax slab 2024, tax rates FY 2024-25, tax rates AY 2025-26, new tax regime, old tax regime, income tax updates, tax slab guide, personal income tax, corporate tax rates, finance tips, tax planning, Indian tax law, tax exemptions, income tax deduction, FY 2024-25, AY 2025-26",
+    ],
+    "blog12" => [
+        "image" => STORAGE_URL . "/blogs/uk-bans-ai-tools-for-creating-child-abuse-material.jpeg",
+        "tags" => "AI Crime, Child Safety, Digital Law",
+        "time" => "2 Feb 2025 09:30 AM",
+        "title" => "UK Bans AI Tools for Creating Child Abuse Material | New Law, Digital Crime, Child Safety",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/uk-bans-ai-tools-for-creating-child-abuse-material",
+        "desc" => "The UK has introduced a new law criminalizing the use of AI tools to create child abuse material. This groundbreaking legislation aims to combat digital crime, enhance child safety, and address the misuse of AI technology. Learn how this law impacts technology abuse and online exploitation.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/uk-bans-ai-tools-for-creating-child-abuse-material",
+        "keywords" => "UK AI law, child abuse material ban, AI crime, digital crime, child safety, AI misuse, online exploitation, UK new law, technology abuse, AI-generated content, legal updates 2025, UK digital safety, AI legislation, child protection laws, AI ethics",
+    ],
     "blog11" => [
         "image" => STORAGE_URL . "/blogs/android-16-live-updates-feature-will-change-the-way-we-check-notifications-heres-how.jpeg",
         "tags" => "Android Updates Feature",

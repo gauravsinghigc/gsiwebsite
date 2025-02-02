@@ -12,9 +12,7 @@ $ServiceId = "blog2";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
     <?php include $RunningDir . "/assets/HeaderStylesheets.php"; ?>
-    <meta name="title" content="<?php echo APP_BLOGS[$ServiceId]['title']; ?>">
-    <meta name="description" content="<?php echo APP_BLOGS[$ServiceId]['desc']; ?>">
-    <meta name="keywords" content="<?php echo APP_BLOGS[$ServiceId]['keywords']; ?>">
+    <?php include __DIR__ . "/../sections/MetaHeaderTags.php"; ?>
 
 </head>
 
@@ -89,10 +87,8 @@ $ServiceId = "blog2";
 
                     <h4>Conclusion</h4>
                     <p class="text-justify">Whether you're a software developer or a gamer, the laptops listed above provide a solid balance of performance, portability, and display quality. The <strong>ASUS ROG Zephyrus G14</strong> and <strong>Apple MacBook Pro (M2 Max)</strong> are perfect for those seeking powerful, compact laptops that don't compromise on performance. Meanwhile, the <strong>Razer Blade 16</strong> and <strong>Dell XPS 15</strong> offer premium displays and cutting-edge performance for multitaskers and gaming enthusiasts. No matter your needs, these laptops will provide the speed, performance, and reliability to help you succeed in both programming and gaming.</p>
+                    <?php include $RunningDir . "/blogs-by-gaurav-singh-igc/sections/BlogShareOptions.php"; ?>
                 </div>
-
-
-
                 <?php include $RunningDir . "/includes/sections/BlogsNavigationForDetails.php"; ?>
             </div>
         </div>

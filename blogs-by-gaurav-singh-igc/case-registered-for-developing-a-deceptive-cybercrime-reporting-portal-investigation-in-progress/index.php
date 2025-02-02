@@ -12,9 +12,7 @@ $ServiceId = "blog10";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
     <?php include $RunningDir . "/assets/HeaderStylesheets.php"; ?>
-    <meta name="title" content="<?php echo APP_BLOGS[$ServiceId]['title']; ?>">
-    <meta name="description" content="<?php echo APP_BLOGS[$ServiceId]['desc']; ?>">
-    <meta name="keywords" content="<?php echo APP_BLOGS[$ServiceId]['keywords']; ?>">
+    <?php include __DIR__ . "/../sections/MetaHeaderTags.php"; ?>
 </head>
 
 <body id='MainBody' class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
@@ -59,10 +57,8 @@ $ServiceId = "blog10";
 
                     <p class="text-justify">The police are currently working on blocking the fraudulent link that was promoted on Google to prevent further harm, while efforts are underway to trace the accused using the <strong>money trail</strong>.</p>
 
+                    <?php include $RunningDir . "/blogs-by-gaurav-singh-igc/sections/BlogShareOptions.php"; ?>
                 </div>
-
-
-
                 <?php include $RunningDir . "/includes/sections/BlogsNavigationForDetails.php"; ?>
             </div>
         </div>

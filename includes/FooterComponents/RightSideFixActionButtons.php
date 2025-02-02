@@ -1,4 +1,4 @@
-<div class="gsi-side-plugin">
+<div class="gsi-side-plugin gsi-plugin-right">
     <a href="tel:+91<?php echo APP['PHONE_NUMBER']['PRIMARY']; ?>">
         <img src="<?php echo STORAGE_URL; ?>/others/call-now-button.gif" class="img-fluid" alt='<?php echo APP['APP_NAME']; ?>' title='<?php echo APP['APP_NAME']; ?>'>
     </a>
