@@ -17,14 +17,12 @@ foreach (APP_BLOGS as $BlogKey => $BlogValue) {
                             <div class="category-list">
                                 <a href="<?php echo $BlogValue['dir']; ?>"><?php echo $BlogValue['tags']; ?></a>
                             </div>
-                            <div class="meta">
-                                <span><i class="fa fa-clock"></i> <?php echo $BlogValue['time']; ?></span>
-                            </div>
                         </div>
                         <h4 class="title">
                             <a href="<?php echo $BlogValue['dir']; ?>"><?php echo $BlogValue['title']; ?>
                                 <i class="fa fa-angle-right pull-right"></i>
                             </a>
+                            <span class="small text-secondary fs-6"><i class="fa fa-clock"></i> <?php echo $BlogValue['time']; ?></span>
                         </h4>
                         <p class="description text-justify small">
                             <?php echo $BlogValue['desc']; ?>

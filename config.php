@@ -101,14 +101,13 @@ DEFINE("APP", [
         "GIT_EMAIL" => "gauravsinghigc@gmail.com",
     ],
     "PHONE_NUMBER" => [
-        "PRIMARY" => "9266882565",
+        "PRIMARY" => "8447572565",
     ],
     "EMAILS" => [
-        "PRIMARY" => "gauravsinghigc@gmail.com",
-        "SECONDARY" => "hello@" . DOMAIN
+        "PRIMARY" => "enquiry@gauravsinghigc.in",
     ],
     "ADDRESS" => [
-        "PRIMARY" => "First Floor, Next Door Mall, Sector 76, Faridabad, Haryana-121004"
+        "PRIMARY" => "Next Door Mall, Sector 76, Faridabad, Haryana-121004"
     ],
     "LOGO" => [
         "SQAURE" => STORAGE_URL . "/images/logo/gauravsinghigc-square-logo-image.png",

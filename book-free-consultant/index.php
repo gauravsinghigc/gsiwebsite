@@ -70,10 +70,10 @@ include $RunningDir . "/config.php"; ?>
                     <div class="navigation-wrapper">
                         <ul class="nav" id="myTab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-style" id="test-tab" data-bs-toggle="tab" href="#test" role="tab" aria-controls="test" aria-selected="false">Starter Plans</a>
+                                <a class="nav-style text-black-50" id="test-tab" data-bs-toggle="tab" href="#test" role="tab" aria-controls="test" aria-selected="false">Starter Plans</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-style" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">Standard Plans</a>
+                                <a class="nav-style text-black-50" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">Standard Plans</a>
                             </li>
                             <li class="nav-item recommended">
                                 <a class="nav-style active" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Book Free Consultant</a>
@@ -321,23 +321,23 @@ include $RunningDir . "/config.php"; ?>
                                     <div class="pricing-body">
                                         <div class="contact-form-wrapper customized">
                                             <div class="introduce">
-                                                <form class="rwt-dynamic-form row" method="POST">
+                                                <form class="GSI-FREE-GUIDANCE-BOOKED row" method="POST" action='<?php echo DOMAIN; ?>/controller/BookFreeConsultant.php'>
                                                     <div class="col-lg-6">
                                                         <div class="form-group">
                                                             <label for="contact-name">Your Full Name</label>
-                                                            <input class="form-control" name="contact-name" id="contact-name" type="text">
+                                                            <input class="form-control" name="contact-name" type="text">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-6">
                                                         <div class="form-group">
                                                             <label for="contact-phone">Phone Number</label>
-                                                            <input class="form-control" name="contact-phone" id="contact-phone" type="text">
+                                                            <input class="form-control" name="contact-phone" type="text">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12">
                                                         <div class="form-group">
                                                             <label for="contact-email">Email-Id</label>
-                                                            <input class="form-control" id="contact-email" name="contact-email" type="email">
+                                                            <input class="form-control" name="contact-email" type="email">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-12">
@@ -346,37 +346,37 @@ include $RunningDir . "/config.php"; ?>
                                                     <div class="col-lg-6 mb-3">
                                                         <div class='form-group selections'>
                                                             <label>
-                                                                <input type='checkbox' name='REQUIREMENT' value=''>
+                                                                <input type='checkbox' name='REQUIREMENT[]' value='LANDING PAGE'>
                                                                 <span>Landing Pages</span>
                                                             </label>
                                                         </div>
                                                         <div class='form-group selections'>
                                                             <label>
-                                                                <input type='checkbox' name='REQUIREMENT' value=''>
+                                                                <input type='checkbox' name='REQUIREMENT[]' value='DYNAMIC WEBSITE'>
                                                                 <span>Dynamic Websites</span>
                                                             </label>
                                                         </div>
                                                         <div class='form-group selections'>
                                                             <label>
-                                                                <input type='checkbox' name='REQUIREMENT' value=''>
+                                                                <input type='checkbox' name='REQUIREMENT[]' value='E-COMMERCE WEBSITE'>
                                                                 <span>E-Commerce Websites</span>
                                                             </label>
                                                         </div>
                                                         <div class='form-group selections'>
                                                             <label>
-                                                                <input type='checkbox' name='REQUIREMENT' value=''>
+                                                                <input type='checkbox' name='REQUIREMENT[]' value='MOBILE APP DEVELOPMENT'>
                                                                 <span>Mobile Apps (Android & iOS App)</span>
                                                             </label>
                                                         </div>
                                                         <div class='form-group selections'>
                                                             <label>
-                                                                <input type='checkbox' name='REQUIREMENT' value=''>
+                                                                <input type='checkbox' name='REQUIREMENT[]' value='CUSTOMIZED CRM DEVELOPMENT'>
                                                                 <span>Customized CRM & App Development</span>
                                                             </label>
                                                         </div>
                                                         <div class='form-group selections'>
                                                             <label>
-                                                                <input type='checkbox' name='REQUIREMENT' value=''>
+                                                                <input type='checkbox' name='REQUIREMENT[]' value='INDUSTRY AUTOMATION'>
                                                                 <span>Industry Automation</span>
                                                             </label>
                                                         </div>
@@ -384,37 +384,37 @@ include $RunningDir . "/config.php"; ?>
                                                     <div class="col-lg-6 mb-3">
                                                         <div class='form-group selections'>
                                                             <label>
-                                                                <input type='checkbox' name='REQUIREMENT' value=''>
+                                                                <input type='checkbox' name='REQUIREMENT[]' value='SOCIAL MEDIA OPTIMIZATION'>
                                                                 <span>Social Media Optimization</span>
                                                             </label>
                                                         </div>
                                                         <div class='form-group selections'>
                                                             <label>
-                                                                <input type='checkbox' name='REQUIREMENT' value=''>
+                                                                <input type='checkbox' name='REQUIREMENT[]' value='SOCIAL MEDIA MARKETING'>
                                                                 <span>Social Media Marketing (Meta Ads)</span>
                                                             </label>
                                                         </div>
                                                         <div class='form-group selections'>
                                                             <label>
-                                                                <input type='checkbox' name='REQUIREMENT' value=''>
+                                                                <input type='checkbox' name='REQUIREMENT[]' value='GOOGLE ADS'>
                                                                 <span>Google Ads</span>
                                                             </label>
                                                         </div>
                                                         <div class='form-group selections'>
                                                             <label>
-                                                                <input type='checkbox' name='REQUIREMENT' value=''>
+                                                                <input type='checkbox' name='REQUIREMENT[]' value='YOUTUBE ADS'>
                                                                 <span>Youtube Ads</span>
                                                             </label>
                                                         </div>
                                                         <div class='form-group selections'>
                                                             <label>
-                                                                <input type='checkbox' name='REQUIREMENT' value=''>
+                                                                <input type='checkbox' name='REQUIREMENT[]' value='LEADS GENERATION'>
                                                                 <span>Leads Generation</span>
                                                             </label>
                                                         </div>
                                                         <div class='form-group selections'>
                                                             <label>
-                                                                <input type='checkbox' name='REQUIREMENT' value=''>
+                                                                <input type='checkbox' name='REQUIREMENT[]' value='SALES AUTOMATION'>
                                                                 <span>Complete Sales Automation</span>
                                                             </label>
                                                         </div>
@@ -422,7 +422,7 @@ include $RunningDir . "/config.php"; ?>
                                                     <div class="col-lg-6 mb-3">
                                                         <div class="form-group">
                                                             <label>Industry Type</label>
-                                                            <select name='' class="form-control form-control-lg p-3">
+                                                            <select name='industry-type' class="form-control form-control-lg p-3">
                                                                 <option value="">Select Industry</option>
                                                                 <option value="Insurance_And_Finance">Insurance & Finance</option>
                                                                 <option value="Manufacturing_And_Logistics">Manufacturing & Logistics</option>
@@ -444,7 +444,7 @@ include $RunningDir . "/config.php"; ?>
                                                     <div class="col-lg-6 mb-3">
                                                         <div class="form-group">
                                                             <label>Prefer Time to Contact</label>
-                                                            <input type='datetime-local' min="<?php echo DATE('Y-m-d 09:00', strtotime("+1 day")); ?>" class="form-control form-control-lg" value="<?php echo DATE('Y-m-d h:m', strtotime("+1 day")); ?>">
+                                                            <input type='datetime-local' name='time-to-contact' min="<?php echo DATE('Y-m-d 09:00', strtotime("+1 day")); ?>" class="form-control form-control-lg" value="<?php echo DATE('Y-m-d h:m', strtotime("+1 day")); ?>">
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-12 mb-3">
@@ -455,8 +455,8 @@ include $RunningDir . "/config.php"; ?>
                                                     </div>
 
                                                     <div class="col-lg-12">
-                                                        <button name="submit" type="submit" id="submit" class="gsi-btn">
-                                                            <span>SEND DETAILS</span>
+                                                        <button name="BOOK_FREE_CONSULTANT" type="submit" class="gsi-btn">
+                                                            <span>BOOK FREE GUIDANCE</span>
                                                             <i data-feather="arrow-right"></i>
                                                         </button>
                                                     </div>

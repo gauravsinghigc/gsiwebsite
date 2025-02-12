@@ -1,6 +1,12 @@
 <?php
 $RunningDir = "..";
-include $RunningDir . "/config.php"; ?>
+include $RunningDir . "/config.php";
+
+if (isset($_GET['search'])) {
+    $SearchingValues = $_GET['search'];
+} else {
+    $SearchingValues = "";
+} ?>
 <!doctype html>
 <html lang="en">
 
@@ -19,62 +25,72 @@ include $RunningDir . "/config.php"; ?>
     <?php include $RunningDir . "/includes/PageHeader.php"; ?>
     <main class="main-page-wrapper">
 
-        <div class="container" style="margin-top: 14rem;">
+        <div class="container" style="margin-top: 15rem;">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="section-title text-left">
-                        <h2 class="title mb-4">Latest Blogs & Updates <br> <?php echo APP['APP_NAME']; ?></h2>
-                        <span class="subtitle">latest blogs, technology updates and offers </span>
-                    </div>
+                    <form action="" action='GET'>
+                        <div class="form-group">
+                            <label for="search-blog">Search Blogs:</label>
+                            <input type="text" class="form-control box-shadow" value="<?php echo $SearchingValues; ?>" onchange='form.submit()' name="search" list='GsiBlogList' placeholder="Start Typing here..">
+                            <datalist id='GsiBlogList'>
+                                <?php foreach (APP_BLOGS as $key => $blog) { ?>
+                                    <option value="<?php echo $blog['title']; ?>"></option>
+                                <?php } ?>
+                            </datalist>
+                        </div>
+                    </form>
+                    <?php if (isset($_GET['search'])) { ?>
+                        <a href="<?php echo DOMAIN; ?>/blogs-by-gaurav-singh-igc" class="gsi-btn"><i class="fa fa-times"></i> Remove Search Filters</a>
+                    <?php  } ?>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12 mt-5 mb-5 pb-3">
-                    <p class="text-justify">Hello, I’m <strong>Gaurav Singh</strong>, widely recognized online as <strong>gauravsinghigc</strong>. Based in <strong>Faridabad</strong>, I have been actively working in the <strong>IT industry since 2019</strong>, providing cutting-edge <strong>technology updates</strong>, <strong>industry insights</strong>, and <strong>digital transformation solutions</strong>. As a <strong>full-stack developer</strong>, <strong>CRM specialist</strong>, and <strong>IT support professional</strong>, I share the latest in <strong>technology trends</strong>, <strong>emerging technologies</strong>, and business strategies to help organizations stay ahead in the ever-evolving digital landscape.</p>
-
-                    <h4>Latest Blogs and Technology Updates</h4>
-                    <p class="text-justify">I regularly share the latest <strong>IT trends</strong>, <strong>technological advancements</strong>, and valuable insights into the <strong>digital ecosystem</strong>. Here’s a glimpse of what you can expect from my blogs:</p>
-
-                    <ul>
-                        <li><strong>Technology Trends:</strong> Stay updated with the latest developments in <strong>full-stack development</strong>, <strong>mobile applications</strong>, and <strong>CRM solutions</strong>, along with <strong>emerging technologies</strong> like <strong>AI</strong>, <strong>blockchain</strong>, and <strong>cloud computing</strong>.</li>
-                        <li><strong>Tech Offers and Discounts:</strong> Discover special offers, <strong>promotions</strong>, and <strong>discounts</strong> on <strong>IT services</strong>, including <strong>custom web solutions</strong>, <strong>CRM systems</strong>, and <strong>mobile app development</strong>.</li>
-                        <li><strong>Tips and Best Practices:</strong> Get actionable advice on <strong>web development</strong>, <strong>SEO</strong>, <strong>digital marketing</strong>, and <strong>IT strategies</strong> to enhance your <strong>business performance</strong>.</li>
-                        <li><strong>Case Studies and Success Stories:</strong> Learn from real-world examples of how businesses have leveraged the latest technologies such as <strong>cloud solutions</strong>, <strong>machine learning</strong>, and <strong>mobile-first development</strong> to streamline operations and boost growth.</li>
-                    </ul>
-
-                    <h4>Trending Technologies in Focus</h4>
-                    <p class="text-justify">My blogs cover an array of <strong>trending technologies</strong> that are revolutionizing the way businesses operate:</p>
-
-                    <ul>
-                        <li><strong>AI and Machine Learning:</strong> Explore how <strong>artificial intelligence</strong> and <strong>machine learning</strong> are transforming industries and how you can incorporate these technologies into your <strong>business processes</strong>.</li>
-                        <li><strong>Blockchain Technology:</strong> Learn about the potential of <strong>blockchain</strong> in enhancing security, transparency, and efficiency across industries such as <strong>finance</strong>, <strong>healthcare</strong>, and <strong>supply chain</strong>.</li>
-                        <li><strong>Cloud Computing:</strong> Understand the benefits of <strong>cloud computing</strong> for data management, scalability, cost-effectiveness, and <strong>remote work solutions</strong>.</li>
-                        <li><strong>Progressive Web Apps (PWA):</strong> Find out how <strong>PWAs</strong> are changing the way businesses interact with customers, improving <strong>user experience</strong> and <strong>customer engagement</strong>.</li>
-                        <li><strong>Cross-Platform Development:</strong> Learn about the advantages of using frameworks like <strong>React Native</strong>, <strong>Flutter</strong>, and <strong>Xamarin</strong> for building mobile apps that work seamlessly across both <strong>iOS</strong> and <strong>Android</strong>.</li>
-                    </ul>
-
-                    <h4>Stay Informed with Gaurav Singh (gauravsinghigc)</h4>
-                    <p class="text-justify">By following my blog, you’ll stay ahead of the curve with the latest <strong>updates</strong>, expert insights, and <strong>industry trends</strong>. Whether you're interested in learning about the latest <strong>development tools</strong>, discovering innovative <strong>tech solutions</strong>, or finding out about upcoming <strong>technology events</strong> and <strong>offers</strong>, my blogs will provide you with valuable information to help you make informed decisions for your business.</p>
-
-                    <h4>Let’s Collaborate and Innovate</h4>
-                    <p class="text-justify">If you're looking for expert advice, innovative solutions, or the latest updates on <strong>technology trends</strong>, my blogs are the go-to resource. Let’s stay connected and work together to leverage the power of <strong>technology</strong> for your business success. Check out my latest blogs and get in touch to discuss how I can help elevate your business!</p>
-                </div>
-
             </div>
         </div>
 
-        <div class="container mt-5 pt-1">
-            <div class="row mt-3">
-                <div class="col-lg-12">
-                    <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="section-title text-center">
-                        <span class="subtitle">Visit my blog and keep your feedback</span>
-                        <h2 class="title">My Blog</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row row--25 mt--30 mt_md--10 mt_sm--10">
-                <?php include $RunningDir . "/includes/sections/Blogs.php"; ?>
+        <div class="container mt-1 pt-1">
+            <div class="row row--25 mt--30 mt_md--5 mt_sm--5">
+                <?php
+                $StartLimits = 0;
+                $searchQuery = isset($_GET['search']) ? strtolower(trim($_GET['search'])) : ''; // Get search query
+
+                foreach (APP_BLOGS as $BlogKey => $BlogValue) {
+                    $blogTitle = strtolower($BlogValue['title']); // Convert blog title to lowercase for case-insensitive search
+
+                    // Check if search query matches the blog title
+                    if ($searchQuery === '' || strpos($blogTitle, $searchQuery) !== false) {
+                        $StartLimits++;
+                        if ($StartLimits <= 48) {  ?>
+                            <!-- Start Single blog -->
+                            <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true" class="col-lg-6 col-xl-4 mt--30 col-md-6 col-sm-12 col-12 mt--30">
+                                <div class="gsi-blog">
+                                    <div class="inner">
+                                        <div class="thumbnail">
+                                            <a href="<?php echo $BlogValue['link']; ?>">
+                                                <img loading="lazy" src="<?php echo $BlogValue['image']; ?>" alt="<?php echo $BlogValue['title']; ?>" title="<?php echo $BlogValue['title']; ?>">
+                                            </a>
+                                        </div>
+                                        <div class="content">
+                                            <div class="category-info">
+                                                <div class="category-list">
+                                                    <a href="<?php echo $BlogValue['dir']; ?>"><?php echo $BlogValue['tags']; ?></a>
+                                                </div>
+                                            </div>
+                                            <h4 class="title">
+                                                <a href="<?php echo $BlogValue['dir']; ?>"><?php echo $BlogValue['title']; ?>
+                                                    <i class="fa fa-angle-right pull-right"></i>
+                                                </a>
+                                                <span class="small text-secondary fs-6"><i class="fa fa-clock"></i> <?php echo $BlogValue['time']; ?></span>
+                                            </h4>
+                                            <p class="description text-justify small">
+                                                <?php echo $BlogValue['desc']; ?>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single blog -->
+                <?php }
+                    }
+                } ?>
             </div>
         </div>
 

@@ -31,46 +31,44 @@
              <div data-aos-delay="600" class="col-lg-7 contact-input">
                  <div class="contact-form-wrapper">
                      <div class="introduce">
-
-                         <form class="rnt-contact-form rwt-dynamic-form row" id="contact-form" method="POST" action="mail.php">
-
+                         <form class="GSI-WEBSITE-CONTACT-FORM rnt-contact-form row" method="POST" action="<?php echo DOMAIN; ?>/controller/ContactHandler.php">
                              <div class="col-lg-6">
                                  <div class="form-group">
                                      <label for="contact-name">Your Name</label>
-                                     <input class="form-control form-control-lg" name="contact-name" id="contact-name" type="text">
+                                     <input class="form-control form-control-lg" name="FULL_NAME" type="text">
                                  </div>
                              </div>
 
                              <div class="col-lg-6">
                                  <div class="form-group">
                                      <label for="contact-phone">Phone Number</label>
-                                     <input class="form-control" name="contact-phone" id="contact-phone" type="text">
+                                     <input class="form-control" name="PHONE_NUMBER" type="text">
                                  </div>
                              </div>
 
                              <div class="col-lg-12">
                                  <div class="form-group">
                                      <label for="contact-email">Email</label>
-                                     <input class="form-control form-control-sm" id="contact-email" name="contact-email" type="email">
+                                     <input class="form-control form-control-sm" name="EMAIL_ID" type="email">
                                  </div>
                              </div>
 
                              <div class="col-lg-12">
                                  <div class="form-group">
-                                     <label for="subject">subject</label>
-                                     <input class="form-control form-control-sm" id="subject" name="subject" type="text">
+                                     <label for="subject">subject/topic/reason</label>
+                                     <input class="form-control form-control-sm" name="SUBJECT" type="text">
                                  </div>
                              </div>
 
                              <div class="col-lg-12">
                                  <div class="form-group">
                                      <label for="contact-message">Your Message</label>
-                                     <textarea name="contact-message" id="contact-message" cols="30" rows="10"></textarea>
+                                     <textarea name="MESSAGE" cols="30" rows="10"></textarea>
                                  </div>
                              </div>
 
                              <div class="col-lg-12">
-                                 <button name="submit" type="submit" id="submit" class="gsi-btn">
+                                 <button name="SEND_CONTACT_FORM" type="submit" class="gsi-btn">
                                      <span>SEND MESSAGE</span>
                                      <i data-feather="arrow-right"></i>
                                  </button>

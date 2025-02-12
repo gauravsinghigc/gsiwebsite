@@ -90,6 +90,8 @@ setInterval(() => {
     if (appName) {
       appName.classList.remove("text-white");
       appName.classList.add("text-dark");
+      document.querySelectorAll("a").style.color = "black !important";
+      document.querySelectorAll("a").style.transition = "color 0.5s !important";
     }
   } else {
     // Nighttime: Remove 'white-version' and apply the theme
@@ -117,6 +119,8 @@ setInterval(() => {
     if (appName) {
       appName.classList.remove("text-dark");
       appName.classList.add("text-white");
+      document.querySelectorAll("a").style.color = "white !important";
+      document.querySelectorAll("a").style.transition = "color 0.5s !important";
     }
   }
 }, 500); // The interval is set to 10 seconds, so it repeats every 10 seconds
