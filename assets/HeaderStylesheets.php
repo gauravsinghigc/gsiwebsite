@@ -16,6 +16,10 @@
 <link rel="icon" type="image/png" sizes="32x32" href="<?php echo APP['LOGO']['FAVICON']; ?>">
 <link rel="icon" type="image/png" sizes="16x16" href="<?php echo APP['LOGO']['FAVICON']; ?>">
 
+<!-- Canonical Meta Tag -->
+<?php $canonicalUrl = getCurrentUrl(); ?>
+<link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
+
 <link rel="stylesheet" href="<?php echo ASSETS_URL; ?>/css/bootstrap.css">
 <link rel="stylesheet" href="<?php echo ASSETS_URL; ?>/css/slick.css">
 <link rel="stylesheet" href="<?php echo ASSETS_URL; ?>/css/slick-slider.css">
@@ -33,7 +37,7 @@
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="en">
-<meta name="revisit-after" content="5 days">
+<meta name="revisit-after" content="1 day">
 <meta name="author" content="Gaurav Singh (gauravsinghigc)">
 <meta name="google-site-verification" content="_GCBqfApn0cJuYJe9-gMTHyk2KqOudFL2-PfucTtiQ8" />
 <meta name="p:domain_verify" content="5cdbde1054def7c2774940e59b069591" />
@@ -50,24 +54,3 @@
 
     gtag('config', 'G-WB0JE2BV2G');
 </script>
-
-<!-- Matomo -->
-<script type="text/javascript">
-    var _paq = window._paq = window._paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-        var u = "//gauravsinghigc.epizy.com/analytics/";
-        _paq.push(['setTrackerUrl', u + 'matomo.php']);
-        _paq.push(['setSiteId', '2']);
-        var d = document,
-            g = d.createElement('script'),
-            s = d.getElementsByTagName('script')[0];
-        g.type = 'text/javascript';
-        g.async = true;
-        g.src = u + 'matomo.js';
-        s.parentNode.insertBefore(g, s);
-    })();
-</script>
-<!-- End Matomo Code -->

@@ -71,7 +71,7 @@ include $RunningDir . "/config.php"; ?>
                         <div class="order-1 order-lg-2 col-lg-5">
                             <div class="thumbnail">
                                 <div class="inner">
-                                    <img src="<?php echo STORAGE_URL; ?>/bg/gaurav-singhigc-author-gauravsinghigc-2.png" alt="<?php echo APP['AUTHOR']; ?>" title='<?php echo APP['AUTHOR']; ?>"'>
+                                    <img src="<?php echo STORAGE_URL; ?>/bg/gaurav-singhigc-author-gauravsinghigc.gif" alt="<?php echo APP['AUTHOR']; ?>" title='<?php echo APP['AUTHOR']; ?>"'>
                                 </div>
                             </div>
                         </div>

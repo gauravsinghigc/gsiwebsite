@@ -17,65 +17,36 @@ $ServiceId = "blog14";
 
 <body id='MainBody' class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
     <?php include $RunningDir . "/includes/PageHeader.php"; ?>
-    <main class="main-page-wrapper">
-        <div class="container-fluid gsi-blogs-image" style="background-image:url('<?php echo APP_BLOGS[$ServiceId]['image']; ?>')"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title text-left">
-                        <h1 class="title mb-4 h2"><?php echo APP_BLOGS[$ServiceId]['title']; ?></h1>
-                        <span class="subtitle">by <?php echo APP['APP_NAME_2']; ?></span>
-                        <p class="description small text-justify mb-2">
-                            <span>Tags : <strong><?php echo APP_BLOGS[$ServiceId]['tags']; ?></strong></span> |
-                            <span>Published at : <strong><?php echo APP_BLOGS[$ServiceId]['time']; ?></strong></span> |
-                            <span>Author : <strong><?php echo APP['APP_NAME']; ?></strong></span>
-                        </p>
-                        <p class="description text-justify small"><?php echo APP_BLOGS[$ServiceId]['desc']; ?></p>
+    <?php include $RunningDir . "/blogs-by-gaurav-singh-igc/sections/BlogHeaderSections.php"; ?>
 
-                        <a class="gsi-btn btn-lg" href="<?php echo APP_BLOGS[$ServiceId]['link']; ?>" target="_blank">KNOW MORE <i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
+    <div>
+        <h4><strong>Microsoft Layoffs</strong>: Immediate Dismissals Based on Job Performance - A New Trend in the <strong>Tech Industry</strong></h4>
 
-            <div class="row">
-                <div class="col-md-8 mt-5 mb-5 pb-3">
-                    <h4><strong>Microsoft Layoffs</strong>: Immediate Dismissals Based on Job Performance - A New Trend in the <strong>Tech Industry</strong></h4>
+        <p class="text-justify">In a bold move to optimize workforce performance, <strong>Microsoft has initiated layoffs</strong> targeting employees based on their job performance. The company has dismissed some employees immediately without severance pay, citing failure to meet the company’s <strong>performance standards</strong>. These layoffs are a part of a broader trend in the <strong>tech industry</strong>, where companies are increasingly adopting stricter <strong>performance management strategies</strong>.</p>
 
-                    <p class="text-justify">In a bold move to optimize workforce performance, <strong>Microsoft has initiated layoffs</strong> targeting employees based on their job performance. The company has dismissed some employees immediately without severance pay, citing failure to meet the company’s <strong>performance standards</strong>. These layoffs are a part of a broader trend in the <strong>tech industry</strong>, where companies are increasingly adopting stricter <strong>performance management strategies</strong>.</p>
+        <h5><strong>Details of the Layoffs</strong></h5>
 
-                    <h5><strong>Details of the Layoffs</strong></h5>
+        <p class="text-justify">According to reports, including from Business Insider, termination letters sent to affected employees indicated that they had failed to meet Microsoft’s minimum <strong>performance standards</strong>. Employees received their dismissal notices and were immediately cut off from Microsoft’s systems, accounts, and physical locations on the same day. At least three employees reported that they were not offered any <strong>severance pay</strong>, and their <strong>healthcare</strong>, <strong>prescription</strong>, and <strong>dental benefits</strong> were also terminated immediately.</p>
 
-                    <p class="text-justify">According to reports, including from Business Insider, termination letters sent to affected employees indicated that they had failed to meet Microsoft’s minimum <strong>performance standards</strong>. Employees received their dismissal notices and were immediately cut off from Microsoft’s systems, accounts, and physical locations on the same day. At least three employees reported that they were not offered any <strong>severance pay</strong>, and their <strong>healthcare</strong>, <strong>prescription</strong>, and <strong>dental benefits</strong> were also terminated immediately.</p>
+        <h5><strong>Company’s Stance on Layoffs</strong></h5>
 
-                    <h5><strong>Company’s Stance on Layoffs</strong></h5>
+        <p class="text-justify">A <strong>Microsoft spokesperson</strong> defended the decision, explaining, "At Microsoft, we focus on high-performance talent. We are always working on helping people learn and grow. When people are not performing, we take the appropriate action." The company has made it clear that employees seeking future employment with Microsoft will have their prior <strong>performance</strong> and the reasons for their termination considered, which could potentially impact their rehire opportunities.</p>
 
-                    <p class="text-justify">A <strong>Microsoft spokesperson</strong> defended the decision, explaining, "At Microsoft, we focus on high-performance talent. We are always working on helping people learn and grow. When people are not performing, we take the appropriate action." The company has made it clear that employees seeking future employment with Microsoft will have their prior <strong>performance</strong> and the reasons for their termination considered, which could potentially impact their rehire opportunities.</p>
+        <h5><strong>Impact on Microsoft Employees</strong></h5>
 
-                    <h5><strong>Impact on Microsoft Employees</strong></h5>
+        <p class="text-justify">Affected employees have been instructed to return all company property, including <strong>ID cards</strong>, <strong>corporate credit cards</strong>, and any <strong>Microsoft-issued hardware or software</strong>. Microsoft’s decision to enforce stricter <strong>performance management</strong> at various levels, including <strong>senior positions</strong>, is part of a broader restructuring effort that aligns with the company’s focus on retaining high-performing individuals while cutting costs and optimizing its workforce.</p>
 
-                    <p class="text-justify">Affected employees have been instructed to return all company property, including <strong>ID cards</strong>, <strong>corporate credit cards</strong>, and any <strong>Microsoft-issued hardware or software</strong>. Microsoft’s decision to enforce stricter <strong>performance management</strong> at various levels, including <strong>senior positions</strong>, is part of a broader restructuring effort that aligns with the company’s focus on retaining high-performing individuals while cutting costs and optimizing its workforce.</p>
+        <h5><strong>Broader Impact on the Tech Industry</strong></h5>
 
-                    <h5><strong>Broader Impact on the Tech Industry</strong></h5>
+        <p class="text-justify">The decision to lay off underperforming employees follows a growing trend within the <strong>tech industry</strong>. Other major players like <strong>Google</strong> and <strong>Amazon</strong> have already taken similar steps, such as Google's voluntary severance program for Android, Pixel, and Chrome divisions, and Amazon’s layoffs in its communications and corporate responsibility teams. <strong>Microsoft</strong>, with around 228,000 full-time employees as of June 2023, is the latest tech giant to adopt a <strong>performance-based layoff strategy</strong>.</p>
 
-                    <p class="text-justify">The decision to lay off underperforming employees follows a growing trend within the <strong>tech industry</strong>. Other major players like <strong>Google</strong> and <strong>Amazon</strong> have already taken similar steps, such as Google's voluntary severance program for Android, Pixel, and Chrome divisions, and Amazon’s layoffs in its communications and corporate responsibility teams. <strong>Microsoft</strong>, with around 228,000 full-time employees as of June 2023, is the latest tech giant to adopt a <strong>performance-based layoff strategy</strong>.</p>
+        <p class="text-justify">The <strong>tech sector</strong>, facing increased competition and the need for innovation, seems to be moving towards a more <strong>performance-focused workforce</strong>. These steps may set a precedent for other tech firms and could potentially impact <strong>job security</strong> for <strong>tech workers</strong>, making <strong>performance management</strong> a key factor in future hiring and layoffs.</p>
 
-                    <p class="text-justify">The <strong>tech sector</strong>, facing increased competition and the need for innovation, seems to be moving towards a more <strong>performance-focused workforce</strong>. These steps may set a precedent for other tech firms and could potentially impact <strong>job security</strong> for <strong>tech workers</strong>, making <strong>performance management</strong> a key factor in future hiring and layoffs.</p>
+        <h5><strong>Conclusion</strong></h5>
+        <p class="text-justify">As companies like <strong>Microsoft</strong>, <strong>Google</strong>, and <strong>Amazon</strong> adopt stricter <strong>performance management</strong> measures, the future of <strong>job security</strong> in the <strong>tech industry</strong> is uncertain. Employees will need to continuously perform at the highest standards to maintain their positions. While these moves help companies stay competitive and cost-efficient, they also raise questions about the future of work and employee rights in the evolving <strong>tech landscape</strong>.</p>
 
-                    <h5><strong>Conclusion</strong></h5>
-                    <p class="text-justify">As companies like <strong>Microsoft</strong>, <strong>Google</strong>, and <strong>Amazon</strong> adopt stricter <strong>performance management</strong> measures, the future of <strong>job security</strong> in the <strong>tech industry</strong> is uncertain. Employees will need to continuously perform at the highest standards to maintain their positions. While these moves help companies stay competitive and cost-efficient, they also raise questions about the future of work and employee rights in the evolving <strong>tech landscape</strong>.</p>
-
-                    <?php include $RunningDir . "/blogs-by-gaurav-singh-igc/sections/BlogShareOptions.php"; ?>
-                </div>
-                <?php include $RunningDir . "/includes/sections/BlogsNavigationForDetails.php"; ?>
-            </div>
-        </div>
-
-        <?php include $RunningDir . "/includes/sections/ContactUsSectionForm.php";  ?>
-    </main>
-
-    <?php
-    include $RunningDir . "/includes/Footer.php";
-    include $RunningDir . "/assets/FooterScripts.php"; ?>
+    </div>
+    <?php include $RunningDir . "/blogs-by-gaurav-singh-igc/sections/BlogFooterSections.php"; ?>
 </body>
 
 </html>
