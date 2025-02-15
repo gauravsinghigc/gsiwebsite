@@ -1,5 +1,147 @@
 <?php
 DEFINE("APP_BLOGS", [
+    //15 feb 2025
+    "blog91" => [
+        "image" => STORAGE_URL . "/blogs/elon-musk-grok-3-chatbot.jpg",
+        "tags" => "Elon Musk Grok 3, Grok AI chatbot, best AI chatbot 2025, xAI Grok advancements, OpenAI vs Grok, AI model competition, artificial intelligence news",
+        "time" => "15 Feb 2025 06:20 AM", // Manually updated date & time
+        "title" => "Elon Musk Says Grok 3 in Final Stages, Claims It Outperforms All Chatbots",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/elon-musk-grok-3-chatbot",
+        "desc" => "<strong>Elon Musk</strong> has announced that <strong>Grok 3</strong> is in its final stages, claiming it <strong>outperforms all existing chatbots</strong>. Learn what makes this AI model a game-changer in the artificial intelligence space.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/elon-musk-grok-3-chatbot",
+        "keywords" => "Grok 3 chatbot, Elon Musk AI, best chatbot 2025, AI competition, xAI vs OpenAI, next-gen AI models, artificial intelligence advancements, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog90" => [
+        "image" => STORAGE_URL . "/blogs/tim-cook-apple-product-launch-iphone-se4.jpg",
+        "tags" => "Tim Cook Apple event, iPhone SE 4 launch, new Apple product February 19, Apple leaks 2025, iPhone SE 4 rumors, Apple announcement, tech news",
+        "time" => "15 Feb 2025 06:15 AM", // Manually updated date & time
+        "title" => "Tim Cook Teases New Apple Product for February 19 – Could It Be iPhone SE 4?",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/tim-cook-apple-product-launch-iphone-se4",
+        "desc" => "<strong>Apple CEO Tim Cook</strong> has hinted at a major <strong>product launch</strong> on <strong>February 19</strong>, sparking speculation that it could be the highly anticipated <strong>iPhone SE 4</strong>. Get the latest updates on Apple’s next big reveal.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/tim-cook-apple-product-launch-iphone-se4",
+        "keywords" => "Apple product launch, iPhone SE 4 rumors, Tim Cook Apple event, new iPhone 2025, Apple leaks and updates, smartphone announcements, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog89" => [
+        "image" => STORAGE_URL . "/blogs/anthropic-hybrid-ai-vs-openai-o3.jpg",
+        "tags" => "Anthropic hybrid AI, OpenAI GPT-4o competitor, Claude AI advancements, AI model competition, next-gen AI technology, artificial intelligence race, tech news 2025",
+        "time" => "15 Feb 2025 06:10 AM", // Manually updated date & time
+        "title" => "Anthropic Gears Up to Launch ‘Hybrid’ AI Model to Compete with OpenAI’s O3",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/anthropic-hybrid-ai-vs-openai-o3",
+        "desc" => "<strong>Anthropic</strong> is set to introduce a revolutionary <strong>hybrid AI model</strong> aimed at challenging <strong>OpenAI’s O3</strong>. Learn how this new AI innovation could reshape the competitive landscape.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/anthropic-hybrid-ai-vs-openai-o3",
+        "keywords" => "Anthropic AI model, OpenAI O3 rival, Claude AI advancements, hybrid artificial intelligence, next-gen AI models, AI industry trends 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog88" => [
+        "image" => STORAGE_URL . "/blogs/asus-vivobook-14-flip-review.jpg",
+        "tags" => "ASUS Vivobook 14 Flip review, best 2-in-1 laptop 2025, ASUS convertible laptop, touchscreen laptop review, Vivobook Flip specs, laptop performance test, tech reviews",
+        "time" => "15 Feb 2025 06:05 AM", // Manually updated date & time
+        "title" => "ASUS Vivobook 14 Flip Review: The Most Versatile Laptop Tested Recently",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/asus-vivobook-14-flip-review",
+        "desc" => "The <strong>ASUS Vivobook 14 Flip</strong> stands out as one of the most <strong>versatile 2-in-1 laptops</strong>. With its <strong>touchscreen, flexible design, and powerful specs</strong>, find out why it’s a top choice in 2025.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/asus-vivobook-14-flip-review",
+        "keywords" => "ASUS Vivobook Flip, best convertible laptop, touchscreen laptop 2025, ASUS laptop review, 2-in-1 laptop performance, laptop buying guide, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog87" => [
+        "image" => STORAGE_URL . "/blogs/jiohotstar-pricing-subscription.jpg",
+        "tags" => "JioHotstar subscription, Hotstar pricing changes, Jio and Disney+ Hotstar, streaming service India, OTT platform updates, JioHotstar plans, tech news 2025",
+        "time" => "15 Feb 2025 06:00 AM", // Manually updated date & time
+        "title" => "JioHotstar: Everything You Need to Know About Pricing & Subscription Changes",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/jiohotstar-pricing-subscription",
+        "desc" => "<strong>JioHotstar</strong> is bringing new <strong>pricing and subscription</strong> updates for Indian users. Learn about the latest <strong>OTT plans, features, and streaming benefits</strong> of this new collaboration.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/jiohotstar-pricing-subscription",
+        "keywords" => "JioHotstar plans, Disney+ Hotstar Jio partnership, streaming service pricing, OTT updates India, Jio subscription changes, best streaming services 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog86" => [
+        "image" => STORAGE_URL . "/blogs/indian-developer-ar-game-snap-spectacles.jpg",
+        "tags" => "Indian developer AR game, Snap Spectacles AR, augmented reality gaming, AR technology India, Snap AR development, wearable gaming, tech innovation 2025",
+        "time" => "15 Feb 2025 05:55 AM", // Manually updated date & time
+        "title" => "How This Indian Developer Created an AR Game for Snap’s Spectacles Glasses",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/indian-developer-ar-game-snap-spectacles",
+        "desc" => "An <strong>Indian developer</strong> has built a groundbreaking <strong>AR game</strong> for <strong>Snap’s Spectacles glasses</strong>. Learn how this innovation is pushing the boundaries of <strong>augmented reality gaming</strong> in India and beyond.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/indian-developer-ar-game-snap-spectacles",
+        "keywords" => "Snap Spectacles AR game, Indian developer success, augmented reality gaming, AR glasses technology, wearable gaming trends, tech startups India, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog85" => [
+        "image" => STORAGE_URL . "/blogs/apple-humanoid-robots.jpg",
+        "tags" => "Apple consumer robots, humanoid robots, non-humanoid AI, Apple robotics project, AI-powered robots, tech innovation 2025, future of robotics",
+        "time" => "15 Feb 2025 05:50 AM", // Manually updated date & time
+        "title" => "Apple May Be Exploring Both Humanoid & Non-Humanoid Consumer Robots",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/apple-humanoid-robots",
+        "desc" => "<strong>Apple</strong> is reportedly looking into developing both <strong>humanoid and non-humanoid consumer robots</strong>. Learn how the tech giant plans to revolutionize <strong>AI-powered robotics</strong> for daily use.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/apple-humanoid-robots",
+        "keywords" => "Apple AI robots, humanoid vs non-humanoid robots, future of consumer robotics, Apple automation, AI-powered assistants, robotics industry trends 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog84" => [
+        "image" => STORAGE_URL . "/blogs/meta-romance-scam-warning.jpg",
+        "tags" => "Meta romance scam warning, online scam alerts, social media fraud, digital safety features, scam prevention tools, Facebook security updates, tech news 2025",
+        "time" => "15 Feb 2025 05:45 AM", // Manually updated date & time
+        "title" => "Meta is Testing a New Feature to Warn Users About Romance Scams",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/meta-romance-scam-warning",
+        "desc" => "<strong>Meta</strong> is testing a new feature designed to <strong>detect and warn users about romance scams</strong> on its platforms. Learn how this update aims to enhance <strong>online safety</strong> and prevent digital fraud.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/meta-romance-scam-warning",
+        "keywords" => "Meta scam alert, romance scam detection, Facebook security features, online fraud prevention, digital safety updates, tech security trends 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog83" => [
+        "image" => STORAGE_URL . "/blogs/motorola-android-15-update-issue.jpg",
+        "tags" => "Motorola Android 15 update, Android 15 issues, Motorola phone problems, software update bugs, smartphone OS update, Android latest news, tech reports 2025",
+        "time" => "15 Feb 2025 05:40 AM", // Manually updated date & time
+        "title" => "Motorola’s Android 15 Update Reportedly Making Some Phones Unusable",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/motorola-android-15-update-issue",
+        "desc" => "<strong>Motorola’s Android 15 update</strong> is reportedly causing major issues, rendering some devices <strong>unusable</strong>. Find out which models are affected and what users can do to fix the problem.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/motorola-android-15-update-issue",
+        "keywords" => "Motorola update issues, Android 15 bugs, smartphone software problems, Motorola phone update, OS update errors, mobile tech news 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog82" => [
+        "image" => STORAGE_URL . "/blogs/alibaba-apple-ai-partnership.jpg",
+        "tags" => "Alibaba Apple partnership, AI collaboration, Alibaba stock surge, Apple AI features, tech industry news, AI innovation 2025, stock market impact",
+        "time" => "15 Feb 2025 05:35 AM", // Manually updated date & time
+        "title" => "Alibaba to Partner with Apple on AI Features, Shares Hit 3-Year High",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/alibaba-apple-ai-partnership",
+        "desc" => "<strong>Alibaba</strong> has announced a strategic partnership with <strong>Apple</strong> to enhance AI-driven features, sending its shares to a <strong>3-year high</strong>. Learn how this collaboration could shape the future of AI technology.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/alibaba-apple-ai-partnership",
+        "keywords" => "Alibaba Apple AI deal, AI-powered tech innovations, stock market impact, Apple AI advancements, Alibaba technology growth, AI partnerships 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog81" => [
+        "image" => STORAGE_URL . "/blogs/bollywood-music-labels-vs-openai.jpg",
+        "tags" => "Bollywood music copyright, OpenAI lawsuit India, AI and music rights, copyright infringement AI, Indian music industry legal battle, AI-generated content dispute, tech law 2025",
+        "time" => "15 Feb 2025 05:30 AM", // Manually updated date & time
+        "title" => "Bollywood Music Labels to Challenge OpenAI in India Copyright Lawsuit",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/bollywood-music-labels-vs-openai",
+        "desc" => "<strong>Bollywood music labels</strong> are gearing up for a legal battle against <strong>OpenAI</strong>, accusing the AI giant of <strong>copyright infringement</strong>. Learn about the case, its implications, and the future of AI in music rights.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/bollywood-music-labels-vs-openai",
+        "keywords" => "OpenAI copyright lawsuit, Bollywood music legal battle, AI music infringement, India copyright law, AI and intellectual property, tech lawsuits 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog80" => [
+        "image" => STORAGE_URL . "/blogs/google-ai-age-verification.jpg",
+        "tags" => "Google AI age verification, AI detecting fake age, online safety AI, Meta age verification, AI in digital security, Google privacy policies, tech news 2025",
+        "time" => "15 Feb 2025 05:25 AM", // Manually updated date & time
+        "title" => "After Meta, Google to Use AI for Detecting Users Lying About Their Age",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/google-ai-age-verification",
+        "desc" => "<strong>Google</strong> is following <strong>Meta</strong> in implementing <strong>AI-driven age verification</strong> to detect users providing false age information. Learn how AI is reshaping <strong>online safety and digital identity checks</strong>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/google-ai-age-verification",
+        "keywords" => "Google AI age check, Meta age verification AI, online safety measures, AI-powered identity verification, digital privacy AI, tech updates 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog79" => [
+        "image" => STORAGE_URL . "/blogs/whatsapp-chat-themes.jpg",
+        "tags" => "WhatsApp chat themes, WhatsApp new features, how to change WhatsApp theme, WhatsApp customization, messaging app updates, WhatsApp 2025, tech news",
+        "time" => "15 Feb 2025 05:20 AM", // Manually updated date & time
+        "title" => "WhatsApp Adds Chat Themes: Where to Find & How to Use Them",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/whatsapp-chat-themes",
+        "desc" => "<strong>WhatsApp</strong> has introduced <strong>chat themes</strong>, allowing users to customize their conversations with unique designs. Learn where to find this feature and how to apply it to your chats.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/whatsapp-chat-themes",
+        "keywords" => "WhatsApp new update, chat themes WhatsApp, WhatsApp customization, messaging app features, tech news 2025, WhatsApp latest version, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog78" => [
+        "image" => STORAGE_URL . "/blogs/dark-side-of-instant-messaging.jpg",
+        "tags" => "instant messaging risks, cyber traps awareness, online privacy threats, secure messaging apps, digital scams prevention, social media safety, cybercrime 2025",
+        "time" => "15 Feb 2025 05:15 AM", // Manually updated date & time
+        "title" => "The Dark Side of Instant Messaging Apps: How to Identify & Avoid Cyber Traps",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/dark-side-of-instant-messaging",
+        "desc" => "Instant messaging apps offer convenience but also pose <strong>cybersecurity risks</strong>. Learn how to <strong>identify scams, phishing attempts, and privacy threats</strong> while keeping your digital conversations secure.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/dark-side-of-instant-messaging",
+        "keywords" => "instant messaging dangers, cyber traps prevention, online scam awareness, secure chat apps, digital privacy protection, cyber threats 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+
     //14 feb 2025
     "blog77" => [
         "image" => STORAGE_URL . "/blogs/chatgpt-vs-deepseek-ai.jpg",
