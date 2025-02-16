@@ -1,5 +1,117 @@
 <?php
 DEFINE("APP_BLOGS", [
+    //16 Feb 2025
+    "blog102" => [
+        "image" => STORAGE_URL . "/blogs/trai-real-time-spam-detection.jpg",
+        "tags" => "TRAI spam detection, real-time spam calls, telecom regulations India, spam prevention measures, AI in call filtering, telecom security updates, TRAI caller ID system",
+        "time" => "16 Feb 2025 05:50 AM", // Manually updated date & time
+        "title" => "TRAI’s New System to Identify Spammers in Real-Time: How It Works",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/trai-real-time-spam-detection",
+        "desc" => "<strong>TRAI</strong> is introducing an advanced system to <strong>detect spam callers in real-time</strong> by analyzing <strong>high call volumes, short call durations, and unusual call ratios</strong>. Learn how this move aims to improve telecom security.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/trai-real-time-spam-detection",
+        "keywords" => "TRAI spam filters, AI-based spam detection, telecom security updates, spam call prevention, real-time caller verification, TRAI regulatory measures, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog101" => [
+        "image" => STORAGE_URL . "/blogs/india-us-tech-collaboration-ai-chips.jpg",
+        "tags" => "India-US tech partnership, AI and semiconductor collaboration, US-India TRUST initiative, technology diplomacy, chip manufacturing India, global tech relations, innovation partnerships",
+        "time" => "16 Feb 2025 05:45 AM", // Manually updated date & time
+        "title" => "India & US Strengthen Tech Collaboration with Focus on AI & Semiconductor Advancements",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/india-us-tech-collaboration-ai-chips",
+        "desc" => "<strong>India and the US</strong> are expanding their <strong>technology partnership</strong> with a focus on <strong>AI development and semiconductor manufacturing</strong>. The latest initiative aims to enhance <strong>global innovation and supply chain resilience</strong>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/india-us-tech-collaboration-ai-chips",
+        "keywords" => "India US AI collaboration, semiconductor partnership, global tech initiatives, US-India TRUST agreement, AI research & development, next-gen chip manufacturing, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog100" => [
+        "image" => STORAGE_URL . "/blogs/ioc-chairman-us-gas-russian-oil.jpg",
+        "tags" => "IOC Chairman Arvinder Singh Sahney, Indian Oil Corporation, US gas imports, Russian oil trade, global energy market, crude oil purchases, energy news 2025",
+        "time" => "16 Feb 2025 05:40 AM", // Manually updated date & time
+        "title" => "‘More Than Happy to Buy More US Gas; Can Buy Russian Oil via Clean Channel’: IOC Chairman",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/ioc-chairman-us-gas-russian-oil",
+        "desc" => "<strong>IOC Chairman Arvinder Singh Sahney</strong> has stated that India is <strong>open to buying more US gas</strong> while considering <strong>Russian oil purchases</strong> through secure trade channels. Learn how this impacts the global energy market.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/ioc-chairman-us-gas-russian-oil",
+        "keywords" => "Indian Oil Corporation, US gas imports, Russian oil trade, global energy policies, crude oil market, energy security India, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog99" => [
+        "image" => STORAGE_URL . "/blogs/asteroid-2024-yr4-earth-impact-risk.jpg",
+        "tags" => "Asteroid 2024 YR4, asteroid impact risk, NASA asteroid tracking, space threats 2025, Earth impact probability, planetary defense, space news",
+        "time" => "16 Feb 2025 05:35 AM", // Manually updated date & time
+        "title" => "Chances of Asteroid 2024 YR4 Hitting Earth Just Shot Up – Should We Panic?",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/asteroid-2024-yr4-earth-impact-risk",
+        "desc" => "New calculations suggest that <strong>asteroid 2024 YR4</strong> has a higher probability of <strong>impacting Earth</strong>. Should we be worried? Here’s what experts say about potential risks and NASA’s response.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/asteroid-2024-yr4-earth-impact-risk",
+        "keywords" => "asteroid Earth impact, NASA asteroid warning, space threat analysis, planetary defense system, asteroid tracking 2025, near-Earth objects, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog98" => [
+        "image" => STORAGE_URL . "/blogs/mit-robotic-insect-drones.jpg",
+        "tags" => "MIT robotic insect drones, AI-powered pollination, tiny robot pollinators, futuristic agriculture, bio-inspired robotics, drone technology 2025, MIT innovation",
+        "time" => "16 Feb 2025 05:30 AM", // Manually updated date & time
+        "title" => "MIT Scientists Build Tiny Robotic Insect Drones to Aid Pollination",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/mit-robotic-insect-drones",
+        "desc" => "<strong>MIT scientists</strong> have developed <strong>tiny robotic insect drones</strong> designed to assist with <strong>pollination</strong>. These AI-powered robots mimic <strong>insect-like endurance and agility</strong>, potentially revolutionizing modern agriculture.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/mit-robotic-insect-drones",
+        "keywords" => "MIT tiny drones, robotic insect pollinators, AI-powered drones, agriculture technology, bio-inspired robotics, drone-assisted farming, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog97" => [
+        "image" => STORAGE_URL . "/blogs/perplexity-ai-deep-research-tool.jpg",
+        "tags" => "Perplexity AI Deep Research, AI research tools, free AI-powered search, Aravind Srinivas AI, best AI search engine, AI-driven research assistant, tech news 2025",
+        "time" => "16 Feb 2025 05:25 AM", // Manually updated date & time
+        "title" => "Perplexity AI’s Deep Research Tool is Free to Use – Here’s How It Works",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/perplexity-ai-deep-research-tool",
+        "desc" => "<strong>Perplexity AI</strong> has made its <strong>Deep Research tool</strong> free to use, offering a <strong>faster and more efficient AI-powered search experience</strong>. Learn how this innovation is changing the way users conduct research.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/perplexity-ai-deep-research-tool",
+        "keywords" => "Perplexity AI search, Deep Research AI tool, AI research assistant, Aravind Srinivas AI, free AI search tools, best AI-powered research, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog96" => [
+        "image" => STORAGE_URL . "/blogs/meta-project-waterworth-ai-subsea-cable.jpg",
+        "tags" => "Meta Project Waterworth, AI-driven subsea cables, global internet connectivity, Meta AI infrastructure, underwater data cables, internet expansion project, tech news 2025",
+        "time" => "16 Feb 2025 05:20 AM", // Manually updated date & time
+        "title" => "Meta Announces Project Waterworth: AI-Driven Subsea Cables for Global Connectivity",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/meta-project-waterworth-ai-subsea-cable",
+        "desc" => "<strong>Meta</strong> has unveiled <strong>Project Waterworth</strong>, an AI-powered <strong>subsea cable infrastructure</strong> designed to enhance <strong>global internet connectivity</strong>. Learn how this initiative aims to revolutionize data transmission worldwide.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/meta-project-waterworth-ai-subsea-cable",
+        "keywords" => "Meta subsea cables, AI-powered internet expansion, Project Waterworth connectivity, global data infrastructure, Meta AI networking, future of internet access, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog95" => [
+        "image" => STORAGE_URL . "/blogs/xiaomi-pad-7-vs-ipad-user-experience.jpg",
+        "tags" => "Xiaomi Pad 7 review, iPad vs Android tablet, Xiaomi tablet experience, best Android tablets 2025, Xiaomi Pad 7 features, tablet user experience, tech comparisons",
+        "time" => "16 Feb 2025 05:15 AM", // Manually updated date & time
+        "title" => "Living with Xiaomi Pad 7: An iPad User Switches to Android Tablet",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/xiaomi-pad-7-vs-ipad-user-experience",
+        "desc" => "A longtime <strong>iPad user</strong> switches to the <strong>Xiaomi Pad 7</strong> to explore the <strong>Android tablet experience</strong>. Find out how it compares in <strong>performance, usability, and ecosystem</strong>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/xiaomi-pad-7-vs-ipad-user-experience",
+        "keywords" => "Xiaomi Pad 7 vs iPad, best Android tablet, tablet performance comparison, Xiaomi tablet user experience, iPad alternatives 2025, Android tablet reviews, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog94" => [
+        "image" => STORAGE_URL . "/blogs/noise-bose-partnership-india.jpg",
+        "tags" => "Noise Bose partnership, Indian audio brands, Bose India collaboration, Noise co-founder Amit Khatri, Indian tech companies, wearable tech news, audio industry updates",
+        "time" => "16 Feb 2025 05:10 AM", // Manually updated date & time
+        "title" => "‘We Are Lucky… Everybody Has Eye on India Market,’ Says Noise Founder on Bose Tie-Up",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/noise-bose-partnership-india",
+        "desc" => "<strong>Noise co-founder Amit Khatri</strong> has revealed a landmark <strong>partnership with Bose</strong>, making it the first Indian brand to collaborate with the global audio giant. Learn how this strategic move strengthens India’s position in the tech market.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/noise-bose-partnership-india",
+        "keywords" => "Noise Bose collaboration, Indian tech companies, Bose India expansion, Noise co-founder interview, Indian audio industry, wearable tech trends 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog93" => [
+        "image" => STORAGE_URL . "/blogs/instagram-dislike-button-comments.jpg",
+        "tags" => "Instagram dislike button, Instagram new features, social media updates, comment reactions, Instagram engagement tools, tech news 2025, Instagram testing features",
+        "time" => "16 Feb 2025 05:05 AM", // Manually updated date & time
+        "title" => "Instagram Confirms Testing of ‘Dislike’ Button for Comments",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/instagram-dislike-button-comments",
+        "desc" => "<strong>Instagram</strong> has confirmed that it is testing a new <strong>‘dislike’ button for comments</strong>, aimed at improving content moderation and user engagement. Learn how this feature could change social interactions.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/instagram-dislike-button-comments",
+        "keywords" => "Instagram dislike button, social media engagement, comment moderation tools, Instagram updates 2025, new Instagram features, digital interaction trends, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog92" => [
+        "image" => STORAGE_URL . "/blogs/meta-humanoid-robots-home-assistance.jpg",
+        "tags" => "Meta humanoid robots, AI home assistants, Mark Zuckerberg robotics, smart home AI, Meta AI advancements, home automation robots, tech news 2025",
+        "time" => "16 Feb 2025 05:00 AM", // Manually updated date & time
+        "title" => "Mark Zuckerberg’s Meta Eyes Humanoid Robots for Home Assistance – What We Know So Far",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/meta-humanoid-robots-home-assistance",
+        "desc" => "<strong>Meta</strong> is reportedly working on <strong>humanoid robots</strong> designed for <strong>home assistance</strong>. Learn how <strong>AI-driven robotics</strong> could revolutionize daily life and smart home automation.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/meta-humanoid-robots-home-assistance",
+        "keywords" => "Meta AI robots, Mark Zuckerberg humanoid assistant, smart home automation, AI-driven robotics, home assistant technology, future of robotics 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+
     //15 feb 2025
     "blog91" => [
         "image" => STORAGE_URL . "/blogs/elon-musk-grok-3-chatbot.jpg",
