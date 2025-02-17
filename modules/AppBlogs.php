@@ -1,5 +1,127 @@
 <?php
 DEFINE("APP_BLOGS", [
+    //17 Feb 2025, 
+    "blog114" => [
+        "image" => STORAGE_URL . "/blogs/mahakumbh-dip-from-home-ad.jpg",
+        "tags" => "Mahakumbh Mela advertisement, viral ad campaign, dip from home, Mahakumbh Mela 2025, netizens reactions, social media viral ads, cultural marketing",
+        "time" => "17 Feb 2025 06:15 AM", // Manually updated date & time
+        "title" => "Advertisement Offering ‘Dip from Home’ at Mahakumbh Mela Goes Viral – Netizens React: ‘Land of Opportunity’",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/mahakumbh-dip-from-home-ad",
+        "desc" => "A creative <strong>Mahakumbh Mela advertisement</strong> offering people the chance to experience a <strong>‘dip from home’</strong> has gone viral, sparking reactions across social media. Discover why netizens are calling it the ‘<strong>Land of Opportunity</strong>.’",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/mahakumbh-dip-from-home-ad",
+        "keywords" => "Mahakumbh Mela advertisement, viral social media campaign, dip from home, cultural marketing India, netizens reactions, Mahakumbh 2025 marketing, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog113" => [
+        "image" => STORAGE_URL . "/blogs/lunatic-lexicographer-oxford-dictionary.jpg",
+        "tags" => "Oxford English Dictionary history, lexicographer asylum story, mental health and language, dictionary creation, history of the OED, word origins, linguistic stories 2025",
+        "time" => "17 Feb 2025 06:10 AM", // Manually updated date & time
+        "title" => "The Lunatic Lexicographer: How a Patient at a Mental Asylum Shaped the Oxford English Dictionary",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/lunatic-lexicographer-oxford-dictionary",
+        "desc" => "Discover the fascinating story of how a <strong>patient at a mental asylum</strong> became one of the most influential figures in the creation of the <strong>Oxford English Dictionary</strong>, shaping its vast linguistic legacy.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/lunatic-lexicographer-oxford-dictionary",
+        "keywords" => "Oxford English Dictionary history, lexicographer asylum, dictionary creation story, language development, OED linguistic impact, word origins, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog112" => [
+        "image" => STORAGE_URL . "/blogs/trump-tariff-bourbon-duty-india.jpg",
+        "tags" => "Trump tariff war, India liquor duty, bourbon imports India, US India trade relations, alcohol tariffs, international trade policy, liquor industry protest",
+        "time" => "17 Feb 2025 06:05 AM", // Manually updated date & time
+        "title" => "Trump’s Tariff War: Liquor Industry Protests as India Slashes Duty on Imported Bourbon",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/trump-tariff-bourbon-duty-india",
+        "desc" => "In response to <strong>India’s slashing of duties on imported bourbon</strong>, the <strong>liquor industry</strong> has raised concerns, especially amid the <strong>Trump-era tariff wars</strong>. Learn how this impacts the global alcohol trade and the US-India relations.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/trump-tariff-bourbon-duty-india",
+        "keywords" => "India bourbon imports, Trump tariff impact, US liquor trade, India alcohol duties, international trade news, US India relations, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog111" => [
+        "image" => STORAGE_URL . "/blogs/fm-sitharaman-bits-fta-negotiation.jpg",
+        "tags" => "FM Sitharaman BITS negotiation, India FTAs, economic diplomacy, BITs vs FTAs, foreign trade agreements, trade policy India, finance minister speech 2025",
+        "time" => "17 Feb 2025 06:00 AM", // Manually updated date & time
+        "title" => "FM Sitharaman: BITs Should Be Negotiated Separately from FTAs, Nations’ Interests Must Be Kept in Mind",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/fm-sitharaman-bits-fta-negotiation",
+        "desc" => "<strong>FM Nirmala Sitharaman</strong> emphasized that <strong>BITs (Bilateral Investment Treaties)</strong> should be negotiated separately from <strong>FTAs (Free Trade Agreements)</strong>, prioritizing national interests. Learn more about India’s strategy for future trade negotiations.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/fm-sitharaman-bits-fta-negotiation",
+        "keywords" => "BITs and FTAs India, trade policy India, foreign investment treaties, FM Sitharaman statement, India economic diplomacy, trade agreements 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog110" => [
+        "image" => STORAGE_URL . "/blogs/romance-scams-tech-companies-regulators.jpg",
+        "tags" => "romance scams, online dating fraud, tech companies tackling scams, regulators fight romance fraud, online safety awareness, scam prevention 2025, digital security news",
+        "time" => "17 Feb 2025 05:55 AM", // Manually updated date & time
+        "title" => "In the Month of Love, Tech Companies & Regulators Flag ‘Romance Scams’: What Are They?",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/romance-scams-tech-companies-regulators",
+        "desc" => "In the month of love, <strong>tech companies and regulators</strong> are raising awareness about <strong>romance scams</strong>, a growing threat in the digital world. Learn what these scams are and how to protect yourself from falling victim.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/romance-scams-tech-companies-regulators",
+        "keywords" => "romance scam prevention, online dating fraud, tech companies fighting scams, digital safety 2025, scam detection tools, regulators against online fraud, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog109" => [
+        "image" => STORAGE_URL . "/blogs/individual-taxpayers-political-donations.jpg",
+        "tags" => "political donations tax benefits, individual vs corporate tax claims, tax deductions India, political funding tax relief, income tax exemptions, financial news 2025, tax policy updates",
+        "time" => "17 Feb 2025 05:50 AM", // Manually updated date & time
+        "title" => "Individual Taxpayers Claimed Higher Tax Benefits on Political Donations Than Corporates",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/individual-taxpayers-political-donations",
+        "desc" => "<strong>Individual taxpayers</strong> in India have claimed <strong>higher tax deductions</strong> on <strong>political donations</strong> compared to corporate entities, highlighting a shift in tax-saving strategies. Learn how these contributions impact taxation and political funding.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/individual-taxpayers-political-donations",
+        "keywords" => "political donation tax relief, individual tax deductions, corporate tax exemptions, tax-saving strategies India, political funding and taxation, income tax benefits 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog108" => [
+        "image" => STORAGE_URL . "/blogs/openai-board-rejects-musk-offer.jpg",
+        "tags" => "OpenAI board decision, Elon Musk OpenAI offer, OpenAI valuation, Sam Altman vs Elon Musk, AI industry news, OpenAI funding, tech business updates",
+        "time" => "17 Feb 2025 05:45 AM", // Manually updated date & time
+        "title" => "OpenAI Board Rejects Elon Musk’s $97.4 Billion Offer",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/openai-board-rejects-musk-offer",
+        "desc" => "<strong>OpenAI’s board</strong> has turned down <strong>Elon Musk’s $97.4 billion offer</strong>, marking his latest attempt to influence the AI company he co-founded with <strong>Sam Altman</strong>. Learn more about the ongoing battle for OpenAI’s future.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/openai-board-rejects-musk-offer",
+        "keywords" => "OpenAI Musk offer, OpenAI valuation 2025, Sam Altman OpenAI leadership, AI industry business, tech investment news, OpenAI board decision, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog107" => [
+        "image" => STORAGE_URL . "/blogs/lava-prowatch-x-launch.jpg",
+        "tags" => "Lava Prowatch X, Lava smartwatch launch, best budget smartwatch, Prowatch X features, health tracking smartwatch, fitness smartwatch India, wearable tech 2025",
+        "time" => "17 Feb 2025 05:40 AM", // Manually updated date & time
+        "title" => "Lava Launches Prowatch X with Advanced Health Tracking for Rs 4,499",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/lava-prowatch-x-launch",
+        "desc" => "<strong>Lava</strong> has unveiled the <strong>Prowatch X</strong>, a feature-packed smartwatch priced at <strong>Rs 4,499</strong>. It offers <strong>advanced health tracking, 110+ customizable watch faces, and multiple sports modes</strong> for fitness enthusiasts.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/lava-prowatch-x-launch",
+        "keywords" => "Lava smartwatch, Prowatch X price India, best budget fitness watch, smartwatch with health tracking, wearable tech trends, fitness gadgets 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog106" => [
+        "image" => STORAGE_URL . "/blogs/apple-vision-pro-ai-spatial-content.jpg",
+        "tags" => "Apple Vision Pro AI, Vision Pro spatial content, Apple AI features, VisionOS updates, Apple AR/VR advancements, spatial computing, tech news 2025",
+        "time" => "17 Feb 2025 05:35 AM", // Manually updated date & time
+        "title" => "Apple to Integrate AI Features & Spatial Content App into Vision Pro",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/apple-vision-pro-ai-spatial-content",
+        "desc" => "<strong>Apple</strong> is working on enhancing the <strong>Vision Pro</strong> experience with advanced <strong>AI features and a spatial content app</strong>. Learn how these updates will revolutionize <strong>AR/VR interactions</strong> in the Apple ecosystem.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/apple-vision-pro-ai-spatial-content",
+        "keywords" => "Apple Vision Pro AI, spatial computing, Apple AR/VR technology, VisionOS updates, AI-powered mixed reality, Apple immersive content, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog105" => [
+        "image" => STORAGE_URL . "/blogs/taiwan-chip-industry-statement.jpg",
+        "tags" => "Taiwan semiconductor industry, global chip market, chip manufacturing independence, Taiwan tech policies, semiconductor supply chain, global technology trends, chip production news",
+        "time" => "17 Feb 2025 05:30 AM", // Manually updated date & time
+        "title" => "Taiwan Official Says No Single Country Should Dominate the Chip Industry",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/taiwan-chip-industry-statement",
+        "desc" => "<strong>Taiwan</strong> has emphasized the importance of a <strong>balanced and diversified semiconductor industry</strong>, stating that <strong>no single country</strong> should have complete control over global chip production. Learn how this impacts the future of the chip market.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/taiwan-chip-industry-statement",
+        "keywords" => "Taiwan semiconductor policy, global chip independence, chip supply chain security, semiconductor market trends, Taiwan chip production, tech industry leadership, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog104" => [
+        "image" => STORAGE_URL . "/blogs/samsung-oneui-7-features.jpg",
+        "tags" => "Samsung OneUI 7, One UI 7 new features, Samsung software update, Galaxy UI improvements, OneUI 7 customization, Android 15 Samsung update, tech news 2025",
+        "time" => "17 Feb 2025 05:25 AM", // Manually updated date & time
+        "title" => "Samsung OneUI 7: 6 Standout Features You Should Know About",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/samsung-oneui-7-features",
+        "desc" => "<strong>Samsung OneUI 7</strong> introduces exciting new features, including <strong>enhanced customization, AI-driven optimizations, and improved multitasking</strong>. Here are the top 6 highlights you need to know.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/samsung-oneui-7-features",
+        "keywords" => "OneUI 7 Samsung, Samsung software update, new One UI features, Galaxy customization options, Android 15 Samsung UI, smartphone UI enhancements, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog103" => [
+        "image" => STORAGE_URL . "/blogs/beats-powerbeats-pro-2-review.jpg",
+        "tags" => "Beats Powerbeats Pro 2 review, best fitness earbuds, Apple workout headphones, Powerbeats Pro 2 features, wireless sports earbuds, iOS-compatible fitness earbuds, audio tech 2025",
+        "time" => "17 Feb 2025 05:20 AM", // Manually updated date & time
+        "title" => "Beats Powerbeats Pro 2 Review: The Ultimate Fitness Earbuds for Apple Users",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/beats-powerbeats-pro-2-review",
+        "desc" => "The <strong>Beats Powerbeats Pro 2</strong> delivers high-quality <strong>audio and fitness tracking</strong> for active users. With features like <strong>heart rate monitoring, sweat resistance, and seamless iOS integration</strong>, it’s an ideal choice for fitness enthusiasts.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/beats-powerbeats-pro-2-review",
+        "keywords" => "Powerbeats Pro 2 Apple, best fitness earbuds 2025, workout headphones, Apple sports earphones, Beats wireless earbuds, sweat-resistant earphones, by Gaurav Singh (gauravsinghigc)"
+    ],
+
     //16 Feb 2025
     "blog102" => [
         "image" => STORAGE_URL . "/blogs/trai-real-time-spam-detection.jpg",
