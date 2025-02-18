@@ -1,5 +1,137 @@
 <?php
 DEFINE("APP_BLOGS", [
+    //18 Feb 2025
+    "blog127" => [
+        "image" => STORAGE_URL . "/blogs/elon-musk-grok-3-ai-launch.jpg",
+        "tags" => "Elon Musk Grok 3, Grok AI launch, AI comparison benchmarks, xAI Grok 3, Gemini 2 Pro, Deepseek V3, ChatGPT AI comparison, AI advancements 2025",
+        "time" => "18 Feb 2025 06:05 AM", // Manually updated date & time
+        "title" => "Elon Musk Launches Grok 3 AI, ‘The Smartest AI on Earth’: All the Details",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/elon-musk-grok-3-ai-launch",
+        "desc" => "<strong>Elon Musk</strong> has unveiled <strong>Grok 3</strong>, claiming it to be the <strong>smartest AI on Earth</strong>. With comparison benchmarks showing superior performance in <strong>science, coding, and math</strong>, Grok 3 outperforms the likes of <strong>Gemini 2 Pro, Deepseek V3, and ChatGPT 40</strong>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/elon-musk-grok-3-ai-launch",
+        "keywords" => "Grok 3 AI, Elon Musk xAI, AI benchmarks, Grok 3 vs Gemini 2 Pro, Grok 3 vs Deepseek V3, ChatGPT 40 comparison, AI in science and coding, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog126" => [
+        "image" => STORAGE_URL . "/blogs/zen-tech-shares-plunge.jpg",
+        "tags" => "Zen Tech stock fall, Q3 earnings decline, Zen Tech shares, stock market news, Zen Tech revenue decline, weak Q3 results, Indian tech stocks 2025",
+        "time" => "18 Feb 2025 06:00 AM", // Manually updated date & time
+        "title" => "Zen Tech Shares Extend Fall to 3rd Session, Plunge Another 10% on Weak Q3 Numbers",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/zen-tech-shares-plunge",
+        "desc" => "Zen Tech shares have dropped by another <strong>10%</strong> on weak <strong>Q3 earnings</strong>, following delays in contract bookings and a shift in revenue recognition to <strong>Q4</strong>. Find out more about this stock's performance.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/zen-tech-shares-plunge",
+        "keywords" => "Zen Tech stock drop, Q3 earnings report, Zen Tech revenue decline, stock market news 2025, tech stocks fall, Zen Tech quarterly performance, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog125" => [
+        "image" => STORAGE_URL . "/blogs/quality-power-ipo-day-3.jpg",
+        "tags" => "Quality Power IPO, GMP live updates, IPO subscription status, Hexaware allotment, IPO price band, Quality Power listing dates, IPO market news 2025",
+        "time" => "18 Feb 2025 05:55 AM", // Manually updated date & time
+        "title" => "Quality Power IPO Day 3 GMP Live: Check Final Day Subscription Status, GMP, Price Band and More",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/quality-power-ipo-day-3",
+        "desc" => "Stay updated with the <strong>Quality Power IPO Day 3</strong> GMP live. Check the final day <strong>subscription status</strong>, <strong>GMP, price band</strong>, and key details about the <strong>Hexaware allotment</strong> and listing dates.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/quality-power-ipo-day-3",
+        "keywords" => "Quality Power IPO GMP, IPO subscription status, Hexaware IPO allotment, Quality Power price band, IPO listing dates, stock market news 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog124" => [
+        "image" => STORAGE_URL . "/blogs/oman-vs-usa-live-score.jpg",
+        "tags" => "Oman vs USA live score, cricket match updates, USA cricket score, Oman vs USA 2025, live cricket score, USA batting performance, cricket scorecard",
+        "time" => "18 Feb 2025 05:50 AM", // Manually updated date & time
+        "title" => "Oman vs USA Live Score: USA Score After 19 Overs is 56/5",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/oman-vs-usa-live-score",
+        "desc" => "Catch the live updates of the <strong>Oman vs USA</strong> match as USA scores <strong>56/5 after 19 overs</strong>. Follow the live action here for all the latest developments.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/oman-vs-usa-live-score",
+        "keywords" => "Oman USA live score, cricket match updates, USA score 56/5, Oman vs USA live cricket, cricket scorecard, live cricket updates 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog123" => [
+        "image" => STORAGE_URL . "/blogs/ryan-reynolds-snl-legal-battle.jpg",
+        "tags" => "Ryan Reynolds SNL, Ryan Reynolds legal battle, SNL special, comedy and legal issues, celebrity legal news, Ryan Reynolds humor, Saturday Night Live news",
+        "time" => "18 Feb 2025 05:45 AM", // Manually updated date & time
+        "title" => "Ryan Reynolds Pokes Fun at Legal Battle During ‘SNL’ Special",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/ryan-reynolds-snl-legal-battle",
+        "desc" => "During his <strong>SNL</strong> special, <strong>Ryan Reynolds</strong> humorously poked fun at his ongoing <strong>legal battle</strong>, blending comedy with a touch of personal experience. Find out how he made light of the situation.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/ryan-reynolds-snl-legal-battle",
+        "keywords" => "Ryan Reynolds SNL special, Ryan Reynolds legal humor, celebrity legal issues, SNL comedy moments, legal battle jokes, Ryan Reynolds news 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog122" => [
+        "image" => STORAGE_URL . "/blogs/snowstorm-north-of-syracuse.jpg",
+        "tags" => "Syracuse snowstorm, heavy snowfall news, winter weather update, snowstorm alert, US weather forecast, snow accumulation north of Syracuse, winter storm warning",
+        "time" => "18 Feb 2025 05:40 AM", // Manually updated date & time
+        "title" => "NEW: Heavy Snow to Pound Areas North of Syracuse",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/snowstorm-north-of-syracuse",
+        "desc" => "A <strong>heavy snowstorm</strong> is expected to hit areas <strong>north of Syracuse</strong>, bringing significant snowfall accumulation. Here’s everything you need to know about the storm and its impact.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/snowstorm-north-of-syracuse",
+        "keywords" => "Syracuse snowstorm, heavy snowfall alert, winter weather US, snowstorm north of Syracuse, weather warnings, US winter storms 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog121" => [
+        "image" => STORAGE_URL . "/blogs/stock-market-hours-presidents-day.jpg",
+        "tags" => "Stock market open today, Presidents Day trading hours, US stock market schedule, NYSE and Nasdaq hours, financial markets holiday, trading hours update, Wall Street news",
+        "time" => "18 Feb 2025 05:35 AM", // Manually updated date & time
+        "title" => "Is the Stock Market Open Today? Trading Hours for Presidents Day 2025",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/stock-market-hours-presidents-day",
+        "desc" => "Wondering if the <strong>stock market</strong> is open on <strong>Presidents Day 2025</strong>? Here’s a breakdown of the <strong>NYSE, Nasdaq, and bond market trading hours</strong> for the holiday.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/stock-market-hours-presidents-day",
+        "keywords" => "Stock market holiday schedule, Presidents Day trading hours, NYSE and Nasdaq open, US financial markets, Wall Street holiday schedule, stock trading updates, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog120" => [
+        "image" => STORAGE_URL . "/blogs/delta-plane-incident-toronto.jpg",
+        "tags" => "Delta plane accident, Toronto airport incident, Delta flight overturns, aviation safety news, plane crash investigation, airline industry updates, emergency landing news",
+        "time" => "18 Feb 2025 05:30 AM", // Manually updated date & time
+        "title" => "18 Injured as Delta Plane Overturns After Landing at Toronto Airport",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/delta-plane-incident-toronto",
+        "desc" => "A <strong>Delta flight</strong> from <strong>Minneapolis</strong> overturned upon landing at <strong>Toronto airport</strong>, leaving <strong>18 people injured</strong>. Social media videos show the plane upside down on the runway. Here’s what happened.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/delta-plane-incident-toronto",
+        "keywords" => "Delta Airlines accident, Toronto airport plane crash, emergency landing news, aviation safety updates, Delta flight overturns, airline industry incidents, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog119" => [
+        "image" => STORAGE_URL . "/blogs/xiaomi-hyperos-2-1-update.jpg",
+        "tags" => "Xiaomi HyperOS 2.1 update, HyperOS AI features, Xiaomi software update, HyperOS eligible devices, Xiaomi global update, HyperOS performance improvements, smartphone OS update",
+        "time" => "18 Feb 2025 05:25 AM", // Manually updated date & time
+        "title" => "Xiaomi Announces Global Release of HyperOS 2.1 – AI-Powered Features & Eligible Devices",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/xiaomi-hyperos-2-1-update",
+        "desc" => "<strong>Xiaomi’s HyperOS 2.1</strong> brings major <strong>AI-driven enhancements, improved performance, and battery optimizations</strong>. Find out which devices are getting the update first!",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/xiaomi-hyperos-2-1-update",
+        "keywords" => "Xiaomi HyperOS update, HyperOS 2.1 features, Xiaomi AI enhancements, smartphone OS updates, Xiaomi software improvements, eligible Xiaomi devices, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog118" => [
+        "image" => STORAGE_URL . "/blogs/tcs-hike-letters-2025.jpg",
+        "tags" => "TCS salary hike, TCS appraisal 2025, IT sector salary increase, TCS employee benefits, tech industry salary trends, corporate salary updates, Indian IT job market",
+        "time" => "18 Feb 2025 05:15 AM", // Manually updated date & time
+        "title" => "TCS Set to Roll Out Hike Letters with Payouts Likely in 4-8% Range",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/tcs-hike-letters-2025",
+        "desc" => "<strong>TCS</strong> is preparing to distribute <strong>hike letters</strong> to employees, with expected salary increases ranging between <strong>4-8%</strong>. Learn more about the latest appraisal cycle in India’s IT sector.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/tcs-hike-letters-2025",
+        "keywords" => "TCS salary hikes, IT sector salary trends, TCS appraisal news, Indian IT job market, corporate salary updates, employee benefits TCS, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog117" => [
+        "image" => STORAGE_URL . "/blogs/delhi-earthquake-disaster-risk.jpg",
+        "tags" => "Delhi earthquake risk, earthquake disaster preparedness, NCR seismic activity, building safety Delhi, natural disaster response, earthquake-prone cities, urban planning issues",
+        "time" => "18 Feb 2025 05:10 AM", // Manually updated date & time
+        "title" => "Delhi Can’t Handle a ‘Great Earthquake Disaster’ – Where Does the Problem Lie?",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/delhi-earthquake-disaster-risk",
+        "desc" => "Experts warn that <strong>Delhi-NCR</strong> is at high risk of a <strong>major earthquake disaster</strong> due to poor <strong>building conditions and infrastructure</strong>. Find out where the real problem lies and what needs to be done.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/delhi-earthquake-disaster-risk",
+        "keywords" => "Delhi earthquake preparedness, NCR seismic activity, earthquake risk analysis, disaster management India, urban safety concerns, building regulations Delhi, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog116" => [
+        "image" => STORAGE_URL . "/blogs/barcelona-vs-rayo-vallecano-laliga-2025.jpg",
+        "tags" => "Barcelona vs Rayo Vallecano, LaLiga EA Sports, matchday 24 highlights, Barcelona 1-0 win, LaLiga latest updates, Spanish football news, Barca match report",
+        "time" => "18 Feb 2025 05:05 AM", // Manually updated date & time
+        "title" => "Barcelona 1-0 Rayo Vallecano: LaLiga EA Sports Matchday 24 Highlights",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/barcelona-vs-rayo-vallecano-laliga-2025",
+        "desc" => "<strong>Barcelona</strong> secured a narrow <strong>1-0 victory</strong> against <strong>Rayo Vallecano</strong> on LaLiga EA Sports Matchday 24. Get match highlights, key moments, and post-game analysis.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/barcelona-vs-rayo-vallecano-laliga-2025",
+        "keywords" => "Barcelona vs Rayo Vallecano, LaLiga match highlights, Spanish football results, Barca latest match, LaLiga EA Sports 2025, football news updates, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog115" => [
+        "image" => STORAGE_URL . "/blogs/rcb-vs-capitals-victory.jpg",
+        "tags" => "RCB vs Capitals, IPL 2025 match highlights, RCB winning streak, Delhi Capitals defeat, IPL latest updates, cricket match analysis, Indian Premier League news",
+        "time" => "18 Feb 2025 05:00 AM", // Manually updated date & time (Starts at 5:00 AM)
+        "title" => "RCB Go Two in Two with Demolition Job Over Capitals",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/rcb-vs-capitals-victory",
+        "desc" => "<strong>RCB</strong> continues its strong start in <strong>IPL 2025</strong>, securing a dominant win over <strong>Delhi Capitals</strong>. With back-to-back victories, they are emerging as early contenders in the tournament.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/rcb-vs-capitals-victory",
+        "keywords" => "RCB vs Capitals highlights, IPL 2025 latest updates, RCB winning streak, Delhi Capitals match review, Indian Premier League news, T20 cricket analysis, by Gaurav Singh (gauravsinghigc)"
+    ],
+
     //17 Feb 2025, 
     "blog114" => [
         "image" => STORAGE_URL . "/blogs/mahakumbh-dip-from-home-ad.jpg",
