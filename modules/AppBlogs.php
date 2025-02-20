@@ -1,5 +1,277 @@
 <?php
 DEFINE("APP_BLOGS", [
+    //20 Feb 2025
+    "blog154" => [
+        "image" => STORAGE_URL . "/blogs/libra-cryptocurrency-argentina-scandal.jpg",
+        "tags" => "LIBRA cryptocurrency, Argentina presidential scandal, Javier Milei crypto controversy, Argentina crypto news, cryptocurrency regulations, political finance scandals, digital currency investigations",
+        "time" => "20 Feb 2025 07:10 AM", // Manually updated date & time
+        "title" => "What is <code>$</code>LIBRA? The Cryptocurrency at the Heart of Argentina’s Presidential Scandal",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/libra-cryptocurrency-argentina-scandal",
+        "desc" => "A little-known cryptocurrency, <strong><code>$</code>LIBRA</strong>, has placed <strong>Argentina’s President Javier Milei</strong> in political turmoil. Learn how this digital currency became the center of a major scandal.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/libra-cryptocurrency-argentina-scandal",
+        "keywords" => "LIBRA crypto scandal, Argentina President crypto controversy, Javier Milei cryptocurrency, Argentina financial investigations, crypto regulations, digital currency scandals, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog153" => [
+        "image" => STORAGE_URL . "/blogs/adobe-max-2025-ai-tools.jpg",
+        "tags" => "Adobe AI photo editing, Adobe MAX 2025, AI-driven design tools, Adobe 3D design, creative software updates, Adobe Photoshop AI, digital art innovations",
+        "time" => "20 Feb 2025 07:05 AM", // Manually updated date & time
+        "title" => "Adobe Unveils New AI-Driven Photo Editing Features & 3D Design Tool at MAX 2025",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/adobe-max-2025-ai-tools",
+        "desc" => "<strong>Adobe</strong> has introduced <strong>AI-powered photo editing tools</strong> and an innovative <strong>3D design tool</strong> at <strong>MAX 2025</strong>. Learn how these features are set to revolutionize creative workflows.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/adobe-max-2025-ai-tools",
+        "keywords" => "Adobe AI tools, MAX 2025 highlights, AI photo editing, 3D design software, Adobe Photoshop AI, creative industry innovations, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog152" => [
+        "image" => STORAGE_URL . "/blogs/south-korea-ai-gpu-center.jpg",
+        "tags" => "South Korea AI computing, AI GPU procurement, national AI center, AI supercomputing, South Korea tech initiatives, AI infrastructure, GPU shortage solutions",
+        "time" => "20 Feb 2025 07:00 AM", // Manually updated date & time
+        "title" => "South Korea Aims to Secure 10,000 GPUs for National AI Computing Centre",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/south-korea-ai-gpu-center",
+        "desc" => "<strong>South Korea</strong> plans to acquire <strong>10,000 GPUs</strong> to power its <strong>national AI computing centre</strong>, aiming to boost <strong>AI research and supercomputing capabilities</strong>. Learn more about this ambitious project.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/south-korea-ai-gpu-center",
+        "keywords" => "South Korea AI supercomputer, GPU procurement for AI, AI computing infrastructure, AI research funding, AI technology expansion, South Korea tech growth, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog151" => [
+        "image" => STORAGE_URL . "/blogs/valve-removes-piratefi-malware.jpg",
+        "tags" => "Valve removes PirateFi, Steam malware alert, infostealing malware, Steam game security, PirateFi malware threat, gaming cybersecurity, malware in free games",
+        "time" => "20 Feb 2025 06:55 AM", // Manually updated date & time
+        "title" => "Valve Removes PirateFi, a Free Steam Game Laced with Infostealing Malware",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/valve-removes-piratefi-malware",
+        "desc" => "<strong>Valve</strong> has removed <strong>PirateFi</strong> from Steam after discovering it was laced with <strong>infostealing malware</strong>. Learn how this security threat affected gamers and what steps to take for protection.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/valve-removes-piratefi-malware",
+        "keywords" => "Steam malware alert, PirateFi game removed, Valve security update, infostealing malware, gaming cybersecurity, malware in free games, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog150" => [
+        "image" => STORAGE_URL . "/blogs/microsoft-quantum-computer-chip.jpg",
+        "tags" => "Microsoft quantum chip, quantum computing breakthrough, Microsoft quantum research, future of quantum computing, quantum processor development, tech innovation, computing advancements",
+        "time" => "20 Feb 2025 06:50 AM", // Manually updated date & time
+        "title" => "Microsoft Creates Chip That Brings Quantum Computers ‘Years, Not Decades’ Away",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/microsoft-quantum-computer-chip",
+        "desc" => "<strong>Microsoft</strong> has developed a <strong>new quantum computing chip</strong>, claiming it could make <strong>quantum computers a reality within years</strong>, not decades. Learn how this breakthrough could transform computing.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/microsoft-quantum-computer-chip",
+        "keywords" => "Microsoft quantum computing, quantum chip breakthrough, future of computing, Microsoft tech innovations, quantum processor development, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog149" => [
+        "image" => STORAGE_URL . "/blogs/zomato-nugget-ai-chatbot.jpg",
+        "tags" => "Zomato AI chatbot, Nugget AI-powered support, Zomato customer service AI, AI in food delivery, Zomato automation, chatbot technology, AI-driven customer support",
+        "time" => "20 Feb 2025 06:45 AM", // Manually updated date & time
+        "title" => "Zomato Unveils Nugget: AI-Powered Chatbot for Autonomous Customer Support",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/zomato-nugget-ai-chatbot",
+        "desc" => "<strong>Zomato</strong> has launched <strong>Nugget</strong>, an <strong>AI-powered chatbot</strong> designed to provide <strong>autonomous customer support</strong>. Learn how AI is transforming food delivery service interactions.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/zomato-nugget-ai-chatbot",
+        "keywords" => "Zomato AI chatbot, Nugget customer support AI, AI in food delivery, Zomato automation, AI-powered customer service, chatbot technology trends, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog148" => [
+        "image" => STORAGE_URL . "/blogs/android-16-anti-scam-features.jpg",
+        "tags" => "Android 16 security, Android 16 scam prevention, Google malware protection, sideloading restrictions, Android update features, smartphone security, anti-malware protection",
+        "time" => "20 Feb 2025 06:40 AM", // Manually updated date & time
+        "title" => "Android 16 Will Prevent Scammers from Taking Over Your Phone – Here’s How",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/android-16-anti-scam-features",
+        "desc" => "<strong>Android 16</strong> will introduce new security measures to <strong>block scammers from installing malware</strong>, including a feature that <strong>disables sideloading during calls</strong>. Learn how Google is strengthening smartphone security.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/android-16-anti-scam-features",
+        "keywords" => "Android 16 security update, Google scam protection, sideloading restrictions, Android anti-malware, smartphone security 2025, Android new features, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog147" => [
+        "image" => STORAGE_URL . "/blogs/oneplus-13-mini-battery.jpg",
+        "tags" => "OnePlus 13 Mini, OnePlus new phone, OnePlus 13 Mini battery, 6000mAh smartphone, OnePlus flagship device, smartphone battery life, OnePlus leaks and rumors",
+        "time" => "20 Feb 2025 06:35 AM", // Manually updated date & time
+        "title" => "OnePlus 13 Mini Might Pack an Impressive 6,000 mAh Battery",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/oneplus-13-mini-battery",
+        "desc" => "The upcoming <strong>OnePlus 13 Mini</strong> is rumored to feature a massive <strong>6,000 mAh battery</strong>, promising exceptional battery life for power users. Find out more about its expected specs and features.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/oneplus-13-mini-battery",
+        "keywords" => "OnePlus 13 Mini specs, OnePlus 6000mAh battery, smartphone battery life, OnePlus latest phone, OnePlus 13 Mini rumors, flagship compact phones, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog146" => [
+        "image" => STORAGE_URL . "/blogs/xiaomi-sound-outdoor-speaker-review.jpg",
+        "tags" => "Xiaomi Sound Outdoor Speaker, Xiaomi speaker review, best outdoor speakers, party speakers 2025, Xiaomi audio devices, Bluetooth speaker review, portable speaker sound quality",
+        "time" => "20 Feb 2025 06:30 AM", // Manually updated date & time
+        "title" => "Xiaomi Sound Outdoor Speaker Review: Perfect Audio Levels for a House Party",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/xiaomi-sound-outdoor-speaker-review",
+        "desc" => "The <strong>Xiaomi Sound Outdoor Speaker</strong> delivers <strong>powerful audio</strong>, making it an ideal choice for house parties. With <strong>long battery life and crystal-clear sound</strong>, this speaker keeps the music going all night.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/xiaomi-sound-outdoor-speaker-review",
+        "keywords" => "Xiaomi speaker review, best party speakers, outdoor Bluetooth speaker, Xiaomi Sound Outdoor, music gadgets 2025, speaker battery life, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog145" => [
+        "image" => STORAGE_URL . "/blogs/mistral-saba-ai-model.jpg",
+        "tags" => "Mistral Saba AI, region-specific AI model, AI for South Asia, Mistral AI Middle East, Tamil Malayalam AI support, AI language models, AI technology updates",
+        "time" => "20 Feb 2025 06:25 AM", // Manually updated date & time
+        "title" => "Meet Saba: Mistral’s Region-Specific AI Model Supporting Malayalam & Tamil",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/mistral-saba-ai-model",
+        "desc" => "<strong>Mistral</strong> has unveiled <strong>Saba</strong>, a <strong>24B parameter AI model</strong> designed specifically for the <strong>Middle Eastern and South Asian regions</strong>, with support for <strong>Malayalam and Tamil</strong>. Learn more about this breakthrough AI.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/mistral-saba-ai-model",
+        "keywords" => "Mistral Saba AI, AI for South Asian languages, Tamil Malayalam AI, region-specific AI, Mistral AI Middle East, AI technology trends, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog144" => [
+        "image" => STORAGE_URL . "/blogs/huawei-tri-foldable-phone.jpg",
+        "tags" => "Huawei tri-fold phone, foldable smartphone market, Huawei vs US restrictions, Huawei global expansion, next-gen foldable phones, smartphone innovation, tech industry news",
+        "time" => "20 Feb 2025 06:20 AM", // Manually updated date & time
+        "title" => "Huawei’s Tri-Foldable Phone Hits Global Markets Amid US Curbs",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/huawei-tri-foldable-phone",
+        "desc" => "<strong>Huawei</strong> has launched its <strong>tri-foldable smartphone</strong> globally, making a bold statement despite <strong>US trade restrictions</strong>. Find out how this innovation challenges the foldable phone industry.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/huawei-tri-foldable-phone",
+        "keywords" => "Huawei tri-fold phone, foldable smartphone innovation, US trade restrictions Huawei, Huawei global launch, next-gen smartphone technology, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog143" => [
+        "image" => STORAGE_URL . "/blogs/nasa-x-59-supersonic-jet.jpg",
+        "tags" => "NASA X-59 jet, supersonic aircraft, NASA supersonic project, X-59 speed, quiet supersonic travel, aerospace innovation, future of air travel",
+        "time" => "20 Feb 2025 06:15 AM", // Manually updated date & time
+        "title" => "NASA Fires Up X-59, a Supersonic Jet with a Top Speed of 1,489 kmph",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/nasa-x-59-supersonic-jet",
+        "desc" => "<strong>NASA</strong> has successfully fired up the <strong>X-59 supersonic jet</strong>, capable of reaching <strong>1,489 kmph</strong>. Learn how this breakthrough could redefine future air travel with <strong>low-boom technology</strong>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/nasa-x-59-supersonic-jet",
+        "keywords" => "NASA X-59, supersonic jet travel, quiet supersonic technology, future of air travel, X-59 top speed, aerospace innovation, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog142" => [
+        "image" => STORAGE_URL . "/blogs/chandrayaan-3-moon-hop.jpg",
+        "tags" => "Chandrayaan-3 Moon hop, ISRO lunar mission, Chandrayaan-3 lander move, Moon surface exploration, ISRO space research, India's space achievements, lunar landing updates",
+        "time" => "20 Feb 2025 06:10 AM", // Manually updated date & time
+        "title" => "How Chandrayaan-3 Lander Made a Surprise ‘Hop’ on the Moon",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/chandrayaan-3-moon-hop",
+        "desc" => "<strong>ISRO’s Chandrayaan-3 lander</strong> made a surprising <strong>‘hop’ on the Moon’s surface</strong>, showcasing its potential for future lunar missions. Find out how this unexpected maneuver happened.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/chandrayaan-3-moon-hop",
+        "keywords" => "Chandrayaan-3 lander, ISRO Moon mission, lunar exploration, Chandrayaan-3 hop, India space research, Moon surface experiments, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog141" => [
+        "image" => STORAGE_URL . "/blogs/hp-acquires-humane-ai-pin.jpg",
+        "tags" => "HP Humane acquisition, AI Pin technology, Humane AI startup, HP AI innovations, wearable AI devices, tech industry mergers, future of AI hardware",
+        "time" => "20 Feb 2025 06:05 AM", // Manually updated date & time
+        "title" => "HP Acquires Humane, the Startup Behind the Star Trek-Style AI Pin, for $116 Million",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/hp-acquires-humane-ai-pin",
+        "desc" => "<strong>HP</strong> has acquired <strong>Humane</strong>, the startup behind the futuristic <strong>Star Trek-style AI Pin</strong>, in a deal worth <strong>$116 million</strong>. Learn how this acquisition could shape the future of AI-powered wearables.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/hp-acquires-humane-ai-pin",
+        "keywords" => "HP buys Humane, AI Pin acquisition, Humane startup sale, wearable AI devices, HP AI hardware, tech industry acquisitions, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog140" => [
+        "image" => STORAGE_URL . "/blogs/baidu-deepseek-open-source.jpg",
+        "tags" => "Baidu AI, DeepSeek AI success, Baidu open source move, AI industry trends, China AI development, DeepSeek open-source impact, AI research advancements",
+        "time" => "20 Feb 2025 06:00 AM", // Manually updated date & time
+        "title" => "China’s Baidu Says DeepSeek Success Inspired Its Open-Source Move",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/baidu-deepseek-open-source",
+        "desc" => "<strong>Baidu</strong> has announced that the success of <strong>DeepSeek AI</strong> has influenced its decision to embrace <strong>open-source AI development</strong>. Learn how this move could impact the AI industry.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/baidu-deepseek-open-source",
+        "keywords" => "Baidu AI open-source, DeepSeek AI impact, China AI research, Baidu AI development, open-source AI movement, AI industry trends, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog139" => [
+        "image" => STORAGE_URL . "/blogs/openai-special-voting-rights.jpg",
+        "tags" => "OpenAI voting rights, OpenAI takeover protection, AI company governance, OpenAI leadership, tech industry policies, OpenAI investor control, AI regulation",
+        "time" => "20 Feb 2025 05:55 AM", // Manually updated date & time
+        "title" => "OpenAI Weighs Special Voting Rights to Guard Against Hostile Takeovers: Report",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/openai-special-voting-rights",
+        "desc" => "<strong>OpenAI</strong> is reportedly considering <strong>special voting rights</strong> to protect against <strong>hostile takeovers</strong>. Learn how this move could shape the future of AI governance.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/openai-special-voting-rights",
+        "keywords" => "OpenAI voting rights, AI governance policies, OpenAI takeover defense, tech industry leadership, AI company regulations, OpenAI investor control, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog138" => [
+        "image" => STORAGE_URL . "/blogs/eu-antitrust-trump-us-relations.jpg",
+        "tags" => "EU antitrust chief, Trump US-EU relations, Europe-US trade policies, antitrust regulations, global trade tensions, US-EU economic relations, political impact on trade",
+        "time" => "20 Feb 2025 05:50 AM", // Manually updated date & time
+        "title" => "EU Antitrust Chief Says Trump Has Upended Europe-US Relations",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/eu-antitrust-trump-us-relations",
+        "desc" => "<strong>EU antitrust chief</strong> has stated that <strong>Donald Trump’s policies</strong> have disrupted <strong>Europe-US relations</strong>, impacting trade and economic cooperation. Learn more about the geopolitical implications.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/eu-antitrust-trump-us-relations",
+        "keywords" => "Trump EU relations, Europe-US trade policies, antitrust chief statement, global trade impact, economic tensions, political trade relations, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog137" => [
+        "image" => STORAGE_URL . "/blogs/mira-murati-new-ai-startup.jpg",
+        "tags" => "Mira Murati AI startup, former OpenAI CTO, AI alignment research, ethical AI development, new AI company, AI safety initiatives, OpenAI leadership changes",
+        "time" => "20 Feb 2025 05:45 AM", // Manually updated date & time
+        "title" => "Mira Murati, OpenAI’s Former CTO, Announces New Startup Focused on AI Alignment",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/mira-murati-new-ai-startup",
+        "desc" => "<strong>Mira Murati</strong>, the former <strong>CTO of OpenAI</strong>, has launched a <strong>new AI startup</strong> focused on <strong>AI alignment and safety</strong>. Discover her vision for ethical AI development.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/mira-murati-new-ai-startup",
+        "keywords" => "Mira Murati AI, OpenAI former CTO, AI alignment startup, ethical AI research, new AI company, AI safety initiatives, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog136" => [
+        "image" => STORAGE_URL . "/blogs/whatsapp-eu-digital-services-act.jpg",
+        "tags" => "WhatsApp EU regulation, Digital Services Act, WhatsApp scrutiny Europe, WhatsApp data privacy, EU tech laws, online platform regulations, WhatsApp compliance issues",
+        "time" => "20 Feb 2025 05:40 AM", // Manually updated date & time
+        "title" => "WhatsApp May Face Tougher EU Scrutiny Under Digital Services Act – Here’s Why",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/whatsapp-eu-digital-services-act",
+        "desc" => "<strong>WhatsApp</strong> could come under <strong>stricter EU regulations</strong> as part of the <strong>Digital Services Act (DSA)</strong>. Learn why the messaging platform may face increased scrutiny and what it means for users.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/whatsapp-eu-digital-services-act",
+        "keywords" => "WhatsApp EU rules, Digital Services Act impact, WhatsApp data policies, EU online regulations, WhatsApp privacy scrutiny, WhatsApp legal issues, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog135" => [
+        "image" => STORAGE_URL . "/blogs/google-ananta-campus-india.jpg",
+        "tags" => "Google Ananta campus, Google India expansion, Google AI-first approach, sustainable office design, Google India headquarters, tech industry growth, AI workspace innovation",
+        "time" => "20 Feb 2025 05:35 AM", // Manually updated date & time
+        "title" => "Google Unveils ‘Ananta,’ Its Largest Campus in India with 5,000 Seats & AI-First Design",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/google-ananta-campus-india",
+        "desc" => "<strong>Google</strong> has launched <strong>‘Ananta,’ its largest campus in India</strong>, featuring a <strong>5,000-seat capacity, sustainable architecture</strong>, and an <strong>AI-first approach</strong>. Discover how this campus aligns with Google’s vision for the future.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/google-ananta-campus-india",
+        "keywords" => "Google Ananta India, Google new campus, AI-first workspace, Google sustainability, India tech industry, Google headquarters India, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog134" => [
+        "image" => STORAGE_URL . "/blogs/reliance-jio-jioTele-os-launch.jpg",
+        "tags" => "JioTele OS, Reliance Jio smart TV OS, Jio smart TV software, Jio OS for TVs, JioTele OS features, Jio TV ecosystem, Indian smart TV market",
+        "time" => "20 Feb 2025 05:30 AM", // Manually updated date & time
+        "title" => "Reliance Jio Launches JioTele OS, A New Operating System for Smart TVs",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/reliance-jio-jioTele-os-launch",
+        "desc" => "<strong>Reliance Jio</strong> has introduced <strong>JioTele OS</strong>, a new smart TV operating system designed to enhance the <strong>TV viewing experience</strong>. Learn about its features and how it compares to existing platforms.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/reliance-jio-jioTele-os-launch",
+        "keywords" => "JioTele OS smart TV, Jio smart TV OS, JioTele OS features, Reliance Jio TV ecosystem, new smart TV operating system, Indian smart TV market, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog133" => [
+        "image" => STORAGE_URL . "/blogs/microsoft-macos-malware-warning.jpg",
+        "tags" => "Microsoft malware warning, macOS security threat, macOS developers targeted, new malware attack, cybersecurity news, Microsoft security update, macOS vulnerability",
+        "time" => "20 Feb 2025 05:25 AM", // Manually updated date & time
+        "title" => "Microsoft Warns of New, Sophisticated Malware Targeting macOS Developers",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/microsoft-macos-malware-warning",
+        "desc" => "<strong>Microsoft</strong> has issued a warning about a <strong>new, advanced malware</strong> specifically targeting <strong>macOS developers</strong>. Learn how this security threat works and how to stay protected.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/microsoft-macos-malware-warning",
+        "keywords" => "Microsoft malware alert, macOS security risk, developer-targeted malware, new macOS cyber threats, cybersecurity news 2025, Microsoft security report, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog132" => [
+        "image" => STORAGE_URL . "/blogs/uber-zero-commission-auto-rickshaw.jpg",
+        "tags" => "Uber auto rickshaw, Uber zero commission, Uber fare prices India, Uber drivers India, ride-hailing updates, auto-rickshaw fares, Uber India policy change",
+        "time" => "20 Feb 2025 05:20 AM", // Manually updated date & time
+        "title" => "Uber to Charge Zero Commission from Indian Auto-Rickshaw Drivers: Impact on Users & Fares",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/uber-zero-commission-auto-rickshaw",
+        "desc" => "<strong>Uber</strong> has announced a <strong>zero commission policy</strong> for <strong>auto-rickshaw drivers in India</strong>. Find out how this decision will impact <strong>users, fare prices, and driver earnings</strong> in the ride-hailing market.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/uber-zero-commission-auto-rickshaw",
+        "keywords" => "Uber zero commission, Uber auto fare changes, ride-hailing India, Uber drivers update, auto-rickshaw fare impact, Uber India policy change, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog131" => [
+        "image" => STORAGE_URL . "/blogs/gta-vi-custom-experiences.jpg",
+        "tags" => "GTA VI news, GTA VI custom content, Rockstar Games updates, GTA VI creators collaboration, gaming industry news, GTA VI mods, open-world gaming",
+        "time" => "20 Feb 2025 05:15 AM", // Manually updated date & time
+        "title" => "GTA VI Developer in Talks with Creators to Bring Custom Experiences: Report",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/gta-vi-custom-experiences",
+        "desc" => "<strong>Rockstar Games</strong> is reportedly in discussions with <strong>creators</strong> to integrate <strong>custom experiences</strong> into <strong>GTA VI</strong>. Learn how this move could shape the future of open-world gaming.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/gta-vi-custom-experiences",
+        "keywords" => "GTA VI updates, Rockstar Games news, GTA VI creator collaboration, open-world gaming innovation, custom content GTA VI, gaming news 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog130" => [
+        "image" => STORAGE_URL . "/blogs/mappls-mapmyindia-regional-languages.jpg",
+        "tags" => "Mappls MapMyIndia, MapMyIndia regional languages, Indian language navigation, MapMyIndia updates, navigation apps India, multilingual GPS support, digital maps India",
+        "time" => "20 Feb 2025 05:10 AM", // Manually updated date & time
+        "title" => "Navigate with Ease: Mappls MapMyIndia Now Supports 9 Regional Languages",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/mappls-mapmyindia-regional-languages",
+        "desc" => "<strong>Mappls MapMyIndia</strong> now offers navigation support in <strong>9 regional languages</strong>, including <strong>Hindi, Tamil, Telugu, Bengali, Marathi, Kannada, Punjabi, Malayalam, and Gujarati</strong>. Discover how this update improves accessibility for Indian users.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/mappls-mapmyindia-regional-languages",
+        "keywords" => "MapMyIndia languages, Indian navigation apps, regional language support, GPS India updates, multilingual maps, MapMyIndia Hindi Tamil Telugu, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog129" => [
+        "image" => STORAGE_URL . "/blogs/boult-cofounder-varun-gupta-interview.jpg",
+        "tags" => "Boult co-founder interview, Varun Gupta Boult, Boult premiumisation, Boult growth strategy, Indian audio brands, wearable tech market, Boult expansion plans",
+        "time" => "20 Feb 2025 05:05 AM", // Manually updated date & time
+        "title" => "‘We Do Not Want to Be Inaccessible’: Boult Co-Founder Varun Gupta on Premiumisation & Growth",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/boult-cofounder-varun-gupta-interview",
+        "desc" => "<strong>Boult co-founder Varun Gupta</strong> shares insights on the brand’s <strong>premiumisation strategy</strong> while maintaining affordability. Learn how Boult plans to grow in the competitive <strong>wearable tech market</strong>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/boult-cofounder-varun-gupta-interview",
+        "keywords" => "Boult premiumisation, Varun Gupta interview, Indian audio brands, Boult growth strategy, wearable tech expansion, Boult new products, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog128" => [
+        "image" => STORAGE_URL . "/blogs/apple-iphone-16e-launch.jpg",
+        "tags" => "Apple iPhone 16e, iPhone 16e budget model, Apple affordable iPhone, iPhone 16e features, iPhone 16 series, Apple smartphone launch 2025, iPhone vs older models",
+        "time" => "20 Feb 2025 05:00 AM", // Manually updated date & time
+        "title" => "Apple iPhone 16e Launches for Budget Buyers, Offers Key Edge Over Older Models",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/apple-iphone-16e-launch",
+        "desc" => "Apple has introduced the <strong>iPhone 16e</strong>, targeting <strong>price-conscious customers</strong> while offering a key upgrade over earlier models. Here’s what makes this budget-friendly iPhone stand out in 2025.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/apple-iphone-16e-launch",
+        "keywords" => "Apple iPhone 16e, budget iPhone model, iPhone 16e vs older iPhones, Apple smartphone 2025, affordable iPhone options, iPhone 16 series comparison, by Gaurav Singh (gauravsinghigc)"
+    ],
+
     //18 Feb 2025
     "blog127" => [
         "image" => STORAGE_URL . "/blogs/elon-musk-grok-3-ai-launch.jpg",

@@ -57,9 +57,9 @@
 
 <?php
 include __DIR__ . "/FooterComponents/GSIAssistant.php";
-include __DIR__ . "/FooterComponents/PopupForm.php";
 include __DIR__ . "/FooterComponents/HubSpotChatBox.php";
 include __DIR__ . "/FooterComponents/RightSideFixActionButtons.php";
 include __DIR__ . "/FooterComponents/DownloadBrochure.php";
 include __DIR__ . "/FooterComponents/FormDetailsSendConfirmationMessage.php";
+include __DIR__ . "/FooterComponents/FlashPopUpWindow.php";
 ?>
