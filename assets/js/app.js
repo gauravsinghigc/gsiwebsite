@@ -198,23 +198,3 @@ function MobileNavigation() {
     GsiMobileNavigation.style.display = "none";
   }
 }
-
-// Disable right-click
-document.addEventListener("contextmenu", function (e) {
-  e.preventDefault();
-});
-
-// Disable copy
-document.addEventListener("copy", function (e) {
-  e.preventDefault();
-});
-
-// Disable cut
-document.addEventListener("cut", function (e) {
-  e.preventDefault();
-});
-
-// Disable paste
-document.addEventListener("paste", function (e) {
-  e.preventDefault();
-});

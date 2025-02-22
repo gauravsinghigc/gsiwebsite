@@ -1,5 +1,66 @@
 <?php
 DEFINE("APP_BLOGS", [
+    //22 Feb 2025
+    "blog160" => [
+        "image" => STORAGE_URL . "/blogs/chatgpt-tasks-to-do-lists.jpg",
+        "tags" => "ChatGPT tasks, smarter to-do lists, productivity tools, task management, ChatGPT productivity, AI-powered to-do list, task automation, productivity hacks, artificial intelligence for productivity",
+        "time" => "22 Feb 2025 05:30 AM", // 5-minute gap from the last blog
+        "title" => "How to Use ChatGPT Tasks for Creating Smarter To-Do Lists",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/chatgpt-tasks-to-do-lists",
+        "desc" => "Discover how to leverage ChatGPT tasks to create smarter and more efficient to-do lists. Transform the way you manage your daily tasks with AI assistance.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/chatgpt-tasks-to-do-lists",
+        "keywords" => "ChatGPT tasks, AI productivity, to-do lists, task management, productivity tools, task automation, smarter to-do lists, artificial intelligence, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog159" => [
+        "image" => STORAGE_URL . "/blogs/grok-3-elon-musk-chatgpt.jpg",
+        "tags" => "Grok 3, Elon Musk AI, ChatGPT alternative, Grok AI, AI comparison, Grok vs ChatGPT, Elon Musk AI product, artificial intelligence news, Grok 3 features",
+        "time" => "22 Feb 2025 05:25 AM", // 5-minute gap from the last blog
+        "title" => "Grok 3 is Free: 5 Things We Tried with Elon Musk’s Answer to ChatGPT",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/grok-3-elon-musk-chatgpt",
+        "desc" => "Grok 3, Elon Musk’s new AI offering, is now free. Here are 5 things we tried with this ChatGPT alternative and how it stacks up in the world of AI.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/grok-3-elon-musk-chatgpt",
+        "keywords" => "Grok 3, Elon Musk AI, ChatGPT alternative, AI comparison, Grok vs ChatGPT, artificial intelligence, Grok features, Elon Musk AI product, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog158" => [
+        "image" => STORAGE_URL . "/blogs/mice-human-gene-mutation-talking.jpg",
+        "tags" => "Mice human gene mutation, gene mutation communication, human speech evolution, animal communication, gene mutation in mice, speech development, neuroscience, genetics research",
+        "time" => "22 Feb 2025 05:20 AM", // 5-minute gap from the last blog
+        "title" => "Mice With a Human Gene Mutation Start ‘Talking’ Differently—And It Might Be Why We Speak",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/mice-human-gene-mutation-talking",
+        "desc" => "A groundbreaking study shows how mice with a human gene mutation have started ‘talking’ differently. Could this mutation hold the key to understanding the evolution of human speech?",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/mice-human-gene-mutation-talking",
+        "keywords" => "Mice gene mutation, human gene mutation, speech evolution, animal communication, neuroscience research, human speech, gene mutation study, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog157" => [
+        "image" => STORAGE_URL . "/blogs/delhi-metro-internet-connectivity.jpg",
+        "tags" => "Delhi Metro, internet connectivity, underground metro, Delhi Metro news, 4G connectivity, Metro tech upgrades, underground internet, Delhi transport, digital connectivity",
+        "time" => "22 Feb 2025 05:15 AM", // 5-minute gap from the last blog
+        "title" => "Soon, Internet Connectivity on Delhi Metro When Underground",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/delhi-metro-internet-connectivity",
+        "desc" => "Delhi Metro commuters will soon experience seamless internet connectivity even while traveling underground. Read about the upcoming tech upgrades to improve your commute.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/delhi-metro-internet-connectivity",
+        "keywords" => "Delhi Metro internet, underground metro internet, 4G connectivity, Delhi transport upgrades, digital metro services, connectivity in metro, Delhi Metro news, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog156" => [
+        "image" => STORAGE_URL . "/blogs/openai-ai-agent-operator-expansion.jpg",
+        "tags" => "OpenAI, AI agent, Operator expansion, India AI market, OpenAI India, AI technology, AI in India, OpenAI global expansion, AI industry news",
+        "time" => "22 Feb 2025 05:10 AM", // 5-minute gap from the last blog
+        "title" => "OpenAI Expands Its AI Agent Operator to India, Other Markets",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/openai-ai-agent-operator-expansion",
+        "desc" => "OpenAI's AI agent, Operator, now reaches India and other global markets. Explore how this expansion is set to impact the AI landscape and businesses in India.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/openai-ai-agent-operator-expansion",
+        "keywords" => "OpenAI AI Agent, AI Operator, OpenAI India, AI technology expansion, Operator in India, AI market news, OpenAI global expansion, AI industry growth, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog155" => [
+        "image" => STORAGE_URL . "/blogs/phonepe-ipo-growth-story.jpg",
+        "tags" => "PhonePe IPO, UPI pioneers, PhonePe growth, Indian fintech, UPI success story, digital payments, PhonePe market expansion, fintech IPO",
+        "time" => "22 Feb 2025 05:00 AM", // Manually updated date & time
+        "title" => "PhonePe IPO | A Look at the Growth Story of This UPI Pioneer",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/phonepe-ipo-growth-story",
+        "desc" => "PhonePe's remarkable journey from a UPI pioneer to a major player in India's fintech space. Discover the growth story behind this upcoming IPO and its impact on digital payments in India.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/phonepe-ipo-growth-story",
+        "keywords" => "PhonePe IPO, UPI pioneers, Indian fintech, PhonePe growth story, digital payments India, fintech IPO, PhonePe market expansion, by Gaurav Singh (gauravsinghigc)"
+    ],
     //20 Feb 2025
     "blog154" => [
         "image" => STORAGE_URL . "/blogs/libra-cryptocurrency-argentina-scandal.jpg",
