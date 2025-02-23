@@ -1,5 +1,98 @@
 <?php
 DEFINE("APP_BLOGS", [
+    //23 Feb 2025
+
+    "blog169" => [
+        "image" => STORAGE_URL . "/blogs/ai-vs-human-skills-nandan-nilekani.jpg",
+        "tags" => "AI vs human skills, Nandan Nilekani AI jobs, Infosys chairman on AI, future of jobs with AI, AI evolution and employment, AI human skill gap, job security in AI era, artificial intelligence workforce impact",
+        "time" => "23 Feb 2025 05:40 AM", // 5-minute gap from the last blog
+        "title" => "AI Evolution Cannot Match Human Skills Ever: Infosys Chairman Nandan Nilekani on the Future of Jobs",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/ai-vs-human-skills-nandan-nilekani",
+        "desc" => "<b>Nandan Nilekani</b>, chairman of <strong>Infosys</strong>, asserts that <b>AI evolution</b> will never fully replace <strong>human skills</strong>. He emphasizes the significance of <b>human creativity, critical thinking, and emotional intelligence</b> in shaping the future of <strong>jobs and employment</strong>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/ai-vs-human-skills-nandan-nilekani",
+        "keywords" => "Nandan Nilekani AI future, AI vs human workforce, Infosys chairman on AI, AI job displacement, artificial intelligence and employment, human skill relevance, AI workforce transformation, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog168" => [
+        "image" => STORAGE_URL . "/blogs/elon-musk-us-federal-staff-rule.jpg",
+        "tags" => "Elon Musk federal staff rule, US government employees policy, SpaceX Twitter policy change, Elon Musk resignation rule, US federal staff regulations, Musk government workplace policies, strict workplace rules, employee compliance policy",
+        "time" => "23 Feb 2025 05:35 AM", // 5-minute gap from the last blog
+        "title" => "'Failure to Respond Will Be Taken as Resignation': Elon Musk's New Rule for US Federal Staff",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/elon-musk-us-federal-staff-rule",
+        "desc" => "<b>Elon Musk</b> has introduced a controversial new policy for <strong>US federal employees</strong>, stating that a <b>failure to respond</b> to official requests will be considered a <strong>resignation</strong>. This move is sparking debates about <b>workplace regulations</b> and <b>government employment policies</b>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/elon-musk-us-federal-staff-rule",
+        "keywords" => "Elon Musk government policy, federal employee rules, resignation by non-response, Musk workplace regulations, US federal staff compliance, new employment policies, SpaceX government relations, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog167" => [
+        "image" => STORAGE_URL . "/blogs/best-tecno-phones-stylish-value-for-money.jpg",
+        "tags" => "Best Tecno phones, stylish Tecno smartphones, value for money phones 2025, Tecno mobile review, Tecno budget smartphones, best affordable smartphones, Tecno camera phones, Tecno premium design phones",
+        "time" => "23 Feb 2025 05:30 AM", // 5-minute gap from the last blog
+        "title" => "Best Tecno Phones That Look Stylish and Offer Great Value for Money",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/best-tecno-phones-stylish-value-for-money",
+        "desc" => "Looking for a <b>stylish smartphone</b> without breaking the bank? Check out the <strong>best Tecno phones</strong> that combine premium design, great performance, and unbeatable value. Discover top picks for <b>budget-friendly, feature-packed Tecno devices</b>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/best-tecno-phones-stylish-value-for-money",
+        "keywords" => "Best Tecno phones, Tecno stylish smartphones, Tecno budget phones, value for money smartphones, Tecno phone reviews, Tecno best camera phones, Tecno premium design, affordable smartphones 2025, best Tecno mobile features, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog166" => [
+        "image" => STORAGE_URL . "/blogs/aprilia-tuono-457-first-ride-review.jpg",
+        "tags" => "Aprilia Tuono 457 review, Aprilia Tuono first ride, Italian motorcycles, best sports bikes 2025, Aprilia performance bikes, motorcycle road test, Tuono 457 features, premium sports motorcycles",
+        "time" => "23 Feb 2025 05:25 AM", // 5-minute gap from the last blog
+        "title" => "Aprilia Tuono 457 First Ride Review — Italian Engineering Close to Perfection",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/aprilia-tuono-457-first-ride-review",
+        "desc" => "The <b>Aprilia Tuono 457</b> delivers an exhilarating riding experience, blending <strong>Italian engineering</strong> with precision handling. Our first ride review explores its <b>performance, features, and ride quality</b>, making it a top contender in the <strong>sports bike category</strong>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/aprilia-tuono-457-first-ride-review",
+        "keywords" => "Aprilia Tuono 457 review, Aprilia first ride review, Tuono 457 performance, sports motorcycles 2025, best Italian bikes, high-performance motorcycles, Aprilia road test, premium sports bikes, Aprilia Tuono handling, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog165" => [
+        "image" => STORAGE_URL . "/blogs/microsoft-satya-nadella-missed-business-model.jpg",
+        "tags" => "Satya Nadella business model, Microsoft CEO insights, Microsoft missed opportunities, big tech business models, AI and cloud computing, future of technology, software industry trends, Microsoft growth strategy",
+        "time" => "23 Feb 2025 05:20 AM", // 5-minute gap from the last blog
+        "title" => "Satya Nadella on the Biggest Missed Business Model in Tech",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/microsoft-satya-nadella-missed-business-model",
+        "desc" => "<b>Microsoft CEO Satya Nadella</b> reveals what he believes is the <strong>biggest missed business model</strong> on the web. As companies race toward <b>AI and cloud computing</b>, Nadella shares insights on how <strong>tech giants</strong> can capitalize on <b>emerging digital opportunities</b>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/microsoft-satya-nadella-missed-business-model",
+        "keywords" => "Microsoft business model, Satya Nadella insights, Microsoft growth strategy, missed business opportunities, AI and cloud business, big tech revenue models, Microsoft innovation, tech industry trends, software market shifts, Microsoft leadership, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog164" => [
+        "image" => STORAGE_URL . "/blogs/air-india-express-hindon-kolkata-flights.jpg",
+        "tags" => "Air India Express flights, Hindon Kolkata flight, Air India new routes, Hindon Airport flights, Kolkata Airport connectivity, low-cost airlines India, domestic flight expansion, Indian aviation news",
+        "time" => "23 Feb 2025 05:15 AM", // 5-minute gap from the last blog
+        "title" => "Air India Express Introduces Hindon-Kolkata Flights from March 1",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/air-india-express-hindon-kolkata-flights",
+        "desc" => "Passengers traveling between <b>Hindon Airport</b> and <b>Kolkata</b> will soon benefit from <strong>Air India Express’ new direct flights</strong>, launching on <b>March 1</b>. The airline aims to enhance <b>regional connectivity</b> while offering <strong>affordable airfare</strong>. Learn how this route expansion impacts India's <b>domestic aviation sector</b>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/air-india-express-hindon-kolkata-flights",
+        "keywords" => "Air India Express Hindon Kolkata, Hindon to Kolkata flight, Air India Express new route, Kolkata flight updates, low-cost airline India, Air India Express domestic flights, Indian aviation growth, flight tickets India, budget airlines in India, new flight routes, Air India Express schedule, Air India Express ticket booking, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog163" => [
+        "image" => STORAGE_URL . "/blogs/tesla-model-3-india-price.jpg",
+        "tags" => "Tesla Model 3 India price, Tesla import duty India, electric vehicles in India, Tesla price reduction, Tesla India launch, EV market India, Elon Musk Tesla India, Tesla Model 3 cost in India, government EV policy",
+        "time" => "23 Feb 2025 05:10 AM", // 5-minute gap from the last blog
+        "title" => "Tesla Model 3 Pricing in India: Expected Cost After Import Duty Revisions",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/tesla-model-3-india-price",
+        "desc" => "The <b>Tesla Model 3</b> is expected to enter the <b>Indian market</b> with an estimated price of <strong>₹35-40 lakh</strong>. Despite the <b>government’s revised import duty</b> on electric vehicles, the cost remains higher than anticipated. Industry experts discuss the impact of <b>Tesla’s pricing strategy</b> on the growing <b>EV market in India</b>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/tesla-model-3-india-price",
+        "keywords" => "Tesla Model 3 India, Tesla Model 3 price in India, Tesla import duty, Tesla India launch, electric vehicles India, Tesla pricing strategy, EV subsidies in India, Elon Musk Tesla India, Tesla Model 3 booking India, Tesla car price India, Tesla manufacturing India, Tesla Gigafactory India, best EVs in India, Tesla Model 3 features, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog162" => [
+        "image" => STORAGE_URL . "/blogs/warren-buffett-market-crash-fears.jpg",
+        "tags" => "Warren Buffett investment, stock market crash fears, Buffett market moves, financial news, economic downturn, Berkshire Hathaway, investment strategy, market predictions",
+        "time" => "23 Feb 2025 05:05 AM", // 5-minute gap from the last blog
+        "title" => "Warren Buffett's Move That Has Sparked Fears of Market Crash",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/warren-buffett-market-crash-fears",
+        "desc" => "Warren Buffett's latest investment decision has fueled speculation of a potential market downturn. Find out what triggered these concerns and how it may impact investors.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/warren-buffett-market-crash-fears",
+        "keywords" => "Warren Buffett stock strategy, market crash warning, economic crisis fears, Berkshire Hathaway investments, financial market trends, stock market analysis, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog161" => [
+        "image" => STORAGE_URL . "/blogs/oxford-quantum-teleportation-breakthrough.jpg",
+        "tags" => "Quantum teleportation, Oxford quantum breakthrough, quantum computing, quantum supercomputer, teleportation research, quantum physics, scientific breakthroughs, future technology, quantum mechanics",
+        "time" => "23 Feb 2025 05:00 AM", // Start time as per your request
+        "title" => "Scientists at Oxford Achieve Quantum Teleportation Breakthrough with Quantum Supercomputer",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/oxford-quantum-teleportation-breakthrough",
+        "desc" => "Oxford scientists have made a groundbreaking quantum teleportation breakthrough using a quantum supercomputer. Learn how this discovery could revolutionize computing and communication.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/oxford-quantum-teleportation-breakthrough",
+        "keywords" => "Quantum teleportation, Oxford quantum research, quantum computing, teleportation breakthrough, quantum supercomputer, scientific innovation, quantum mechanics, by Gaurav Singh (gauravsinghigc)"
+    ],
+
     //22 Feb 2025
     "blog160" => [
         "image" => STORAGE_URL . "/blogs/chatgpt-tasks-to-do-lists.jpg",
