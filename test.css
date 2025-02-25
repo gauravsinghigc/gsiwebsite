@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html,
+body,
+section,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+strong,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+table,
+tr,
+td,
+th,
+blockquote {
+    font-family: "Nunito", serif !important;
+    font-size: 0.85rem !important;
+}
+
+@media only screen and (max-width: 1870px) {
+    div.tmenucenter {
+        width: 65px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: var(--colortextbackhmenu);
+        /* color: var(--colorbackhmenu1); */
+    }
+}
+
+.mainmenu .fa-fw {
+    font-size: 1.5rem !important;
+}
+
+.vmenu div.blockvmenusearch {
+    padding-bottom: 0.5rem;
+}
+
+div.blockvmenupair,
+div.blockvmenuimpair,
+div.blockvmenubookmarks,
+div.blockvmenuend {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+a.tab:link,
+a.tab:visited,
+a.tab:hover,
+a.tab#active {
+    padding: 5px 5px !important;
+}
+
+div.fiche {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+}
+
+div.fiche>table.table-fiche-title {
+    margin-bottom: 0px !important;
+}
+
+div.tabs {
+    margin-top: 0rem !important;
+}
+
+.login_table_title {
+    display: none !important;
+}
