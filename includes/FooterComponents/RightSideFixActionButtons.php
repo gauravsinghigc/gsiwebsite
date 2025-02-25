@@ -17,10 +17,4 @@
     <a href="<?php echo APP['SOCIAL_ACCOUNS']['github']; ?>" target="_blank">
         <img src="<?php echo STORAGE_URL; ?>/others/git-hub-icon.gif" class="img-fluid" alt='<?php echo APP['APP_NAME']; ?>' title='<?php echo APP['APP_NAME']; ?>'>
     </a>
-    <a href="<?php echo APP['SOCIAL_ACCOUNS']['google']; ?>" target="_blank">
-        <img src="<?php echo STORAGE_URL; ?>/others/google-search-page.gif" class="img-fluid" alt='<?php echo APP['APP_NAME']; ?>' title='<?php echo APP['APP_NAME']; ?>'>
-    </a>
-    <a href="<?php echo APP['SOCIAL_ACCOUNS']['map-marker']; ?>" target="_blank">
-        <img src="<?php echo STORAGE_URL; ?>/others/google-review-icon.gif" class="img-fluid" alt='<?php echo APP['APP_NAME']; ?>' title='<?php echo APP['APP_NAME']; ?>'>
-    </a>
 </div>
