@@ -14,7 +14,7 @@ include $RunningDir . "/config.php"; ?>
     <meta name="keywords" content="Gaurav Singh, gauravsinghigc, portfolio, full stack developer, IT support, web development, CRM solutions, PHP developer, JavaScript developer, Node.js, React.js, Angular.js, Vue.js, mobile app development, digital marketing, custom software development, Faridabad, IT solutions, technical services, project showcase, cross-platform apps">
 </head>
 
-<body id='MainBody' class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
+<body class="white-version template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
     <?php include $RunningDir . "/includes/PageHeader.php"; ?>
     <main class="main-page-wrapper">
 

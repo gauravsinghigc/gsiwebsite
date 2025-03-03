@@ -15,7 +15,7 @@ include $RunningDir . "/config.php"; ?>
 
 </head>
 
-<body id='MainBody' class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
+<body class="white-version template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
     <?php include $RunningDir . "/includes/PageHeader.php"; ?>
     <main class="main-page-wrapper">
 

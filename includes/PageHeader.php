@@ -6,7 +6,7 @@
                 <div class="logo ml-3">
                     <a href="<?php echo DOMAIN; ?>" class="ml-3">
                         <img class="img-fluid rounded-3 ml-2" src="<?php echo APP['LOGO']['SQAURE']; ?>" alt="<?php echo APP['APP_NAME']; ?> - <?php echo APP['TAGLINE']; ?>">
-                        <span class="h6 p-1 ml-2" id='AppName'><?php echo APP['NAME']; ?></span>
+                        <span class="h6 p-1 ml-2 text-black"><?php echo APP['NAME']; ?></span>
                     </a>
                 </div>
             </div>

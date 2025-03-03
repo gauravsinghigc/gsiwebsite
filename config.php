@@ -120,9 +120,6 @@ DEFINE("APP", [
         "linkedin" => "https://www.linkedin.com/in/gauravsinghigc",
         "twitter" => "https://twitter.com/gauravsinghigc",
         "github" => "https://github.com/gauravsinghigc",
-        "map-marker" => "https://maps.app.goo.gl/ZyeHMXpJQi9bc5FZA",
-        "codepen" => "https://codepen.io/gauravsinghigc",
-        "medium" => "https://medium.com/@gauravsinghigc",
         "link" => "https://www.threads.net/@gauravsinghigc",
         "google" => "https://www.google.com/search?q=gauravsinghigc.in"
     ],

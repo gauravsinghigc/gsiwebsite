@@ -144,7 +144,7 @@ input[type="checkbox"] {
 }
 
 .box-shadow-2 {
-    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e !important;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff !important;
 }
 
 .gsi-footer-links {
@@ -605,20 +605,32 @@ input[type="checkbox"] {
 }
 
 .content-box {
-    background-color: #282828e6;
+    background-color: white;
     margin: 1% auto;
     width: auto;
     max-width: 720px;
-    padding: 5.5rem;
+    padding: 3rem;
     border-radius: 2rem;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 2px black;
 }
 
 .content-box .container {
     border-radius: 2rem;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 .statusMsg {
     font-size: 10rem !important;
+}
+
+.text-black {
+    color: rgb(66, 66, 66) !important;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(66, 66, 66) !important;
 }

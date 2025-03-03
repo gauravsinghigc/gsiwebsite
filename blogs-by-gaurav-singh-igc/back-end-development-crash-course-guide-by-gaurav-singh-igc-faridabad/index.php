@@ -16,7 +16,7 @@ $ServiceId = "blog5";
 
 </head>
 
-<body id='MainBody' class="template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
+<body class="white-version template-color-1 spybody" data-spy="scroll" data-target=".navbar-example2" data-offset="70">
     <?php include $RunningDir . "/includes/PageHeader.php"; ?>
     <?php include $RunningDir . "/blogs-by-gaurav-singh-igc/sections/BlogHeaderSections.php"; ?>
 

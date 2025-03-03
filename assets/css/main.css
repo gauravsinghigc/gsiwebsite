@@ -13084,7 +13084,6 @@ a.gsi-btn,
 button.gsi-btn {
     border-radius: 6px;
     background: linear-gradient(145deg, #1e2024, #23272b);
-    box-shadow: var(--shadow-1);
     transition: var(--transition);
     position: relative;
     z-index: 2;

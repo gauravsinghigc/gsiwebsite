@@ -1,11 +1,332 @@
 <?php
 DEFINE("APP_BLOGS", [
-    //23 Feb 2025
+    //1 March 2025
+    "blog201" => [
+        "image" => STORAGE_URL . "/blogs/apple-ai-semiconductor-investment.jpg",
+        "tags" => "Apple AI investment, Apple semiconductor strategy, AI-powered iPhones, Apple &#36;500B AI push, Apple chip manufacturing, Apple AI research, AI and semiconductor industry, future of Apple AI",
+        "time" => "03 Mar 2025 08:55 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Not Just iPhones: Apple’s &#36;500B Push for AI & Semiconductor Strength",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/apple-ai-semiconductor-investment",
+        "desc" => "<b>Apple</b> is investing a massive <strong>&#36;500 billion</strong> to strengthen its <b>AI and semiconductor</b> capabilities. This strategic move aims to enhance <strong>AI-driven devices</strong>, optimize chip manufacturing, and secure Apple's position as a leader in <b>cutting-edge technology</b>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/apple-ai-semiconductor-investment",
+        "keywords" => "Apple AI and semiconductor, Apple chip innovation, AI-powered Apple devices, Apple’s &#36;500B tech investment, AI and semiconductor future, Apple AI expansion, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog200" => [
+        "image" => STORAGE_URL . "/blogs/aika-365-ai-sharepoint.jpg",
+        "tags" => "AIKA 365, AI-powered SharePoint, digital workplace AI, SharePoint search engine, next-gen enterprise search, AI-driven workplace solutions, Microsoft AI tools, enterprise productivity",
+        "time" => "03 Mar 2025 08:50 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "AIKA 365: Transforming SharePoint into Next-Gen AI-Driven Search Engine for Digital Workplace",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/aika-365-ai-sharepoint",
+        "desc" => "<b>AIKA 365</b> is revolutionizing <strong>SharePoint</strong> by integrating <b>AI-driven search capabilities</b>, making it a powerful tool for the <strong>digital workplace</strong>. With advanced <b>machine learning and automation</b>, it enhances <b>enterprise productivity</b> and <b>data accessibility</b>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/aika-365-ai-sharepoint",
+        "keywords" => "AI-powered SharePoint search, AIKA 365 features, digital workplace transformation, Microsoft AI search tools, enterprise AI integration, SharePoint automation, AI-driven business solutions, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog199" => [
+        "image" => STORAGE_URL . "/blogs/oneplus-red-rush-days-sale.jpg",
+        "tags" => "OnePlus Red Rush Days, OnePlus 13 discount, Nord 4 sale, OnePlus phone deals, smartphone discounts, limited-time OnePlus offers, OnePlus flagship sale, best smartphone deals",
+        "time" => "03 Mar 2025 08:45 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "OnePlus Red Rush Days Sale: Massive Discounts on OnePlus 13, Nord 4, and More",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/oneplus-red-rush-days-sale",
+        "desc" => "<b>OnePlus</b> has announced its highly anticipated <strong>Red Rush Days Sale</strong>, offering huge discounts on <b>OnePlus 13, Nord 4</b>, and other popular models. This limited-time event is perfect for those looking to upgrade to a flagship device at a lower price.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/oneplus-red-rush-days-sale",
+        "keywords" => "OnePlus 13 price drop, Nord 4 discount, OnePlus smartphone deals, limited-time sale, OnePlus Red Rush Days 2025, flagship phone offers, best smartphone sale, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog198" => [
+        "image" => STORAGE_URL . "/blogs/microsoft-copilot-mac-launch.jpg",
+        "tags" => "Microsoft Copilot Mac, AI tools for Mac, Copilot app features, Microsoft AI assistant, Mac productivity apps, AI-powered tools, Microsoft Copilot download, latest AI software",
+        "time" => "03 Mar 2025 08:40 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Microsoft Copilot Application is Now Available on Mac: All You Need to Know",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/microsoft-copilot-mac-launch",
+        "desc" => "<b>Microsoft</b> has officially launched the <strong>Copilot application</strong> for <b>Mac</b>, bringing AI-powered assistance to Apple users. The app aims to enhance <b>productivity, automation, and workflow</b> with advanced AI capabilities.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/microsoft-copilot-mac-launch",
+        "keywords" => "Microsoft Copilot for Mac, AI assistant for Mac users, Microsoft AI software, Mac productivity tools, AI-powered work automation, Copilot features on Mac, latest AI innovations, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog197" => [
+        "image" => STORAGE_URL . "/blogs/hmd-feature-phones-mwc-2025.jpg",
+        "tags" => "HMD feature phones, MWC 2025 mobile launches, new feature phones 2025, HMD Global phone lineup, classic phones with modern features, Nokia-inspired phones, affordable mobile devices, latest phone announcements",
+        "time" => "03 Mar 2025 08:35 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "HMD Expands Feature Phone Lineup with Four New Models at MWC 2025",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/hmd-feature-phones-mwc-2025",
+        "desc" => "<b>HMD Global</b> has unveiled four new <strong>feature phones</strong> at <b>MWC 2025</b>, combining classic designs with modern technology. These devices cater to users looking for <b>affordable, long-lasting</b> mobile solutions with essential features and improved durability.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/hmd-feature-phones-mwc-2025",
+        "keywords" => "HMD Global feature phones, MWC 2025 latest phones, new mobile launches, durable budget phones, Nokia-style classic phones, keypad phones with modern features, best feature phones 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog196" => [
+        "image" => STORAGE_URL . "/blogs/joe-rogan-elon-musk-podcast-viral.jpg",
+        "tags" => "Joe Rogan podcast Elon Musk, viral podcast discussion, Elon Musk latest interview, controversial statements, Joe Rogan Experience highlights, world's richest man interview, trending podcast topics, Elon Musk opinions",
+        "time" => "03 Mar 2025 08:30 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Another Joe Rogan Podcast Goes Viral, This Time with Elon Musk – Here's What the World's Richest Man Said",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/joe-rogan-elon-musk-podcast-viral",
+        "desc" => "<b>Joe Rogan</b>'s latest podcast featuring <b>Elon Musk</b> has taken the internet by storm. The tech billionaire shared his views on various global issues, making headlines once again. Here’s a look at the most talked-about moments from the conversation.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/joe-rogan-elon-musk-podcast-viral",
+        "keywords" => "Elon Musk Joe Rogan podcast, viral interview, trending podcast episodes, Joe Rogan Experience highlights, billionaire opinions, Musk on global issues, controversial podcast discussions, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog195" => [
+        "image" => STORAGE_URL . "/blogs/pm-modi-pension-card-scheme.jpg",
+        "tags" => "PM Modi pension scheme, India's pension card policy, universal pension plan, retirement benefits India, pension card eligibility, Indian government social security, Modi welfare schemes, financial security for seniors",
+        "time" => "03 Mar 2025 08:25 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "PM Modi's Next Big Move: A Pension Card for Every Indian?",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/pm-modi-pension-card-scheme",
+        "desc" => "The Indian government, under <b>PM Narendra Modi</b>, is reportedly working on a <strong>universal pension card</strong> to provide financial security for citizens post-retirement. This initiative could revolutionize <b>India’s social security system</b> and ensure pension benefits for millions.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/pm-modi-pension-card-scheme",
+        "keywords" => "PM Modi pension policy, India retirement benefits, universal pension system, Indian government welfare, pension card benefits, Modi social security schemes, financial planning for seniors, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog194" => [
+        "image" => STORAGE_URL . "/blogs/rohit-sharma-vs-travis-head-odi-record.jpg",
+        "tags" => "Rohit Sharma vs Travis Head, ODI records comparison, Rohit Sharma stats, Travis Head career, best ODI batsman, cricket player stats, India vs Australia cricket, ODI performance analysis",
+        "time" => "03 Mar 2025 08:20 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Rohit Sharma vs Travis Head: Who Has the Better Record After 72 ODIs?",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/rohit-sharma-vs-travis-head-odi-record",
+        "desc" => "<b>Rohit Sharma</b> and <b>Travis Head</b> are two of the most dynamic batsmen in modern-day cricket. But after 72 ODIs, who has the better record? We compare their <strong>batting averages, centuries, strike rates, and overall impact</strong> on the game.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/rohit-sharma-vs-travis-head-odi-record",
+        "keywords" => "Rohit Sharma vs Travis Head stats, ODI cricket records, best batsman comparison, India vs Australia cricket, cricket statistics analysis, Rohit Sharma milestones, Travis Head performance, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog193" => [
+        "image" => STORAGE_URL . "/blogs/elon-musk-un-nato-exit.jpg",
+        "tags" => "Elon Musk US foreign policy, US withdrawal from UN, US NATO exit debate, Elon Musk political views, US global alliances, NATO membership controversy, UN funding issues, geopolitics 2025",
+        "time" => "03 Mar 2025 08:15 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Elon Musk Publicly Supports US Withdrawal from UN and NATO",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/elon-musk-un-nato-exit",
+        "desc" => "<b>Elon Musk</b> has sparked controversy by endorsing the idea of the <strong>US withdrawing from the United Nations (UN) and NATO</strong>. The billionaire entrepreneur argues that such alliances are <b>costly and outdated</b>, raising concerns over America’s global strategy and diplomatic ties.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/elon-musk-un-nato-exit",
+        "keywords" => "Elon Musk on US alliances, UN withdrawal debate, NATO membership controversy, US foreign policy shift, Elon Musk political stance, US defense spending, global diplomacy changes, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog192" => [
+        "image" => STORAGE_URL . "/blogs/sebi-madhabi-puri-buch-scam.jpg",
+        "tags" => "Madhabi Puri Buch scam, SEBI ex-chief controversy, stock market fraud case, SEBI investigation news, financial fraud India, stock market scam 2025, SEBI regulations breach, insider trading allegations",
+        "time" => "03 Mar 2025 08:10 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Stock Market Scam: What Are the Charges Against Ex-SEBI Head Madhabi Puri Buch?",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/sebi-madhabi-puri-buch-scam",
+        "desc" => "Former <b>SEBI</b> chief <strong>Madhabi Puri Buch</strong> is facing serious allegations in connection with a <b>stock market scam</b>. Authorities are investigating potential violations of <strong>market regulations, insider trading, and financial misconduct</strong>. Here’s what we know so far.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/sebi-madhabi-puri-buch-scam",
+        "keywords" => "SEBI fraud case, stock market scam news, Madhabi Puri Buch controversy, SEBI insider trading probe, Indian financial fraud cases, stock market manipulation, SEBI regulatory breaches, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog191" => [
+        "image" => STORAGE_URL . "/blogs/xiaomi-15-ultra-launch.jpg",
+        "tags" => "Xiaomi 15 Ultra India launch, Xiaomi 15 Ultra specs, Xiaomi flagship phone 2025, Xiaomi 15 Ultra features, upcoming Xiaomi smartphones, Xiaomi 15 Ultra camera, Snapdragon 8 Gen 4, premium Android phones",
+        "time" => "03 Mar 2025 08:05 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Xiaomi 15 Ultra to Debut in India Soon: Launch Date, Expected Specifications, and More",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/xiaomi-15-ultra-launch",
+        "desc" => "<b>Xiaomi</b> is gearing up to launch the highly anticipated <strong>15 Ultra</strong> in India. With a powerful <b>Snapdragon 8 Gen 4</b> chipset, an advanced <strong>Leica-powered camera system</strong>, and a premium design, here’s what to expect from Xiaomi’s flagship device.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/xiaomi-15-ultra-launch",
+        "keywords" => "Xiaomi 15 Ultra features, Xiaomi India smartphone launch, Xiaomi flagship phone, Snapdragon 8 Gen 4 phones, Xiaomi 15 Ultra price, Xiaomi 15 Ultra vs competitors, best Android flagship 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog190" => [
+        "image" => STORAGE_URL . "/blogs/zerodha-nithin-kamath-sip-tips.jpg",
+        "tags" => "Nithin Kamath SIP tips, Zerodha founder investment advice, market downturn investing, best SIP strategies, stock market SIP benefits, mutual fund investments, long-term wealth planning, SIP market trends",
+        "time" => "03 Mar 2025 08:00 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "'You Are Better Off...': Zerodha's Nithin Kamath Shares SIP Tips Amid Market Blues",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/zerodha-nithin-kamath-sip-tips",
+        "desc" => "<b>Zerodha</b> co-founder <strong>Nithin Kamath</strong> shares expert insights on <b>SIP investment strategies</b> during market volatility. He explains why investors should stay disciplined and how <strong>systematic investing</strong> can help build wealth in uncertain times.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/zerodha-nithin-kamath-sip-tips",
+        "keywords" => "SIP investment strategy, Zerodha stock market tips, Nithin Kamath investing insights, mutual fund SIP benefits, long-term investing, wealth-building techniques, smart SIP planning, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog189" => [
+        "image" => STORAGE_URL . "/blogs/nothing-phone-3a-launch.jpg",
+        "tags" => "Nothing Phone 3a launch, Nothing Phone 3a Pro features, Nothing Phone new model, upcoming Nothing smartphones, Nothing Phone 3a specs, smartphone launch March 2025, Carl Pei Nothing Phone, latest smartphone releases",
+        "time" => "03 Mar 2025 07:55 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Nothing Phone 3a, 3a Pro to Launch Tomorrow: Everything You Must Know About the Upcoming Phones",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/nothing-phone-3a-launch",
+        "desc" => "<b>Nothing</b> is set to launch its highly anticipated <strong>Phone 3a and 3a Pro</strong> models tomorrow. Packed with <b>premium design, improved performance, and AI-driven features</b>, here’s everything you need to know before the official reveal.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/nothing-phone-3a-launch",
+        "keywords" => "Nothing Phone 3a Pro, Nothing Phone 2025 launch, latest Nothing smartphones, Nothing 3a specs, Nothing Phone AI features, Carl Pei smartphone innovation, budget premium phones, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog188" => [
+        "image" => STORAGE_URL . "/blogs/iphone-17-air-ultra-thin.jpg",
+        "tags" => "iPhone 17 Air features, Apple ultra-thin design, iPhone 17 leaks, Apple September event 2025, iPhone 17 expected changes, iPhone 17 missing features, Apple innovation, iPhone 17 Air specs",
+        "time" => "03 Mar 2025 07:50 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "iPhone 17 Air May Ditch These 3 Features for Ultra-Thin Design: Here's What to Expect from Apple in September",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/iphone-17-air-ultra-thin",
+        "desc" => "The upcoming <b>iPhone 17 Air</b> is rumored to feature an <strong>ultra-thin design</strong>, but Apple may remove <b>three key features</b> to achieve it. Here's what to expect from the <strong>Apple September 2025 event</strong> and how it might change future iPhones.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/iphone-17-air-ultra-thin",
+        "keywords" => "iPhone 17 Air specs, Apple iPhone 2025 leaks, iPhone 17 design changes, Apple September launch event, iPhone 17 feature removal, ultra-thin smartphone, Apple future technology, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog187" => [
+        "image" => STORAGE_URL . "/blogs/samsung-oneui7-update.jpg",
+        "tags" => "Samsung OneUI 7 update, OneUI 7 supported devices, Samsung software update, latest OneUI features, Android 15 Samsung update, OneUI 7 rollout, Samsung phone compatibility, Samsung OS update news",
+        "time" => "03 Mar 2025 07:45 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Samsung Expanding OneUI 7 Update to More Phones: Is Yours on the List?",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/samsung-oneui7-update",
+        "desc" => "<b>Samsung</b> is rolling out its latest <strong>OneUI 7 update</strong> to more devices. The update brings <b>new features, performance improvements, and UI refinements</b>. Find out if your device is eligible for the upgrade!",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/samsung-oneui7-update",
+        "keywords" => "Samsung OneUI 7, Android 15 Samsung phones, OneUI 7 eligible devices, Samsung software upgrades, OneUI latest features, Samsung phone software update, mobile OS improvements, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog186" => [
+        "image" => STORAGE_URL . "/blogs/isro-spadex-mission-march-15.jpg",
+        "tags" => "ISRO SpaDeX mission, SpaDeX satellite experiment, Indian space research, ISRO latest missions, space docking technology, ISRO space experiments, future of Indian space tech, SpaDeX mission objectives",
+        "time" => "03 Mar 2025 07:40 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "ISRO to Resume SpaDeX Mission from March 15: All You Need to Know",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/isro-spadex-mission-march-15",
+        "desc" => "The <b>Indian Space Research Organisation (ISRO)</b> is set to <strong>resume the SpaDeX mission</strong> from <b>March 15</b>. This mission focuses on advancing <strong>space docking experiments</strong>, a crucial step toward India's future <b>space station ambitions</b>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/isro-spadex-mission-march-15",
+        "keywords" => "ISRO space missions, SpaDeX project India, Indian space technology, space docking research, ISRO upcoming launches, satellite experiments ISRO, space tech advancements, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog185" => [
+        "image" => STORAGE_URL . "/blogs/uk-investigation-tiktok-reddit.jpg",
+        "tags" => "UK investigation TikTok, Reddit data privacy, children's data protection, online safety laws, TikTok privacy concerns, Reddit user data policies, digital rights for minors, UK government tech regulations",
+        "time" => "03 Mar 2025 07:35 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "UK Launches Investigation into TikTok, Reddit Over Children's Personal Data Practices",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/uk-investigation-tiktok-reddit",
+        "desc" => "The <b>UK government</b> has launched an official <strong>investigation into TikTok and Reddit</strong> over concerns about their handling of <b>children's personal data</b>. The probe aims to evaluate compliance with <strong>data protection and online safety regulations</strong>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/uk-investigation-tiktok-reddit",
+        "keywords" => "TikTok data privacy, Reddit user data concerns, child safety online, UK tech regulations, digital privacy for minors, social media investigation, internet safety policies, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog184" => [
+        "image" => STORAGE_URL . "/blogs/valkyrae-cinna-emiru-stalker-threat.jpg",
+        "tags" => "Valkyrae stalker threat, Cinna livestream incident, Emiru safety concerns, streamer security issues, online harassment, Twitch and YouTube safety, content creator protection, cyberstalking cases",
+        "time" => "03 Mar 2025 07:30 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Valkyrae, Cinna, and Emiru Threatened by Stalker During Livestream",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/valkyrae-cinna-emiru-stalker-threat",
+        "desc" => "<b>Valkyrae</b>, <strong>Cinna</strong>, and <b>Emiru</b> faced a terrifying <strong>stalker threat</strong> while streaming live. The incident highlights the growing concern over <b>online harassment</b> and the need for better security measures to protect content creators.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/valkyrae-cinna-emiru-stalker-threat",
+        "keywords" => "streamer security, online stalking incidents, Valkyrae harassment case, protecting streamers, Twitch safety measures, cyberstalking awareness, Emiru Cinna safety, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog183" => [
+        "image" => STORAGE_URL . "/blogs/ai-animation-tom-gates-india.jpg",
+        "tags" => "AI in animation, Tom Gates India expansion, AI-powered storytelling, animation industry growth, kids entertainment India, AI-driven cartoons, Tom Gates book series, future of animation in India",
+        "time" => "03 Mar 2025 07:25 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "How AI & Animation Are Powering Tom Gates’ Expansion in India",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/ai-animation-tom-gates-india",
+        "desc" => "The fusion of <b>AI and animation</b> is transforming the way <strong>Tom Gates</strong> expands in <b>India</b>. Advanced <strong>AI-powered storytelling</strong> and engaging <b>animation</b> techniques are enhancing content creation, making entertainment more immersive for kids.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/ai-animation-tom-gates-india",
+        "keywords" => "AI in kids entertainment, Tom Gates animation, AI-powered cartoons, Indian animation industry, storytelling with AI, kids content innovation, animation tech evolution, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog182" => [
+        "image" => STORAGE_URL . "/blogs/sunita-williams-salary-net-worth.jpg",
+        "tags" => "Sunita Williams salary, NASA astronaut earnings, Sunita Williams net worth, astronaut salary details, NASA pay scale, space career earnings, astronaut financial insights, Sunita Williams career highlights",
+        "time" => "03 Mar 2025 07:20 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Sunita Williams' Salary and Net Worth: How Much Does the Veteran NASA Astronaut Earn? Check Details",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/sunita-williams-salary-net-worth",
+        "desc" => "<b>Sunita Williams</b>, a veteran <strong>NASA astronaut</strong>, has had an illustrious career in space exploration. Her <b>salary and net worth</b> reflect her years of dedication, training, and contributions to the field of <strong>aerospace and science</strong>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/sunita-williams-salary-net-worth",
+        "keywords" => "Sunita Williams earnings, NASA astronaut pay, space career salary, astronaut financial status, NASA salary scale, net worth of astronauts, space industry careers, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog181" => [
+        "image" => STORAGE_URL . "/blogs/digital-natives-reality-check.jpg",
+        "tags" => "digital natives reality, managing screen time, tech-life balance, digital detox strategies, impact of technology on youth, mental well-being in digital age, parenting digital generation, staying grounded in tech era",
+        "time" => "03 Mar 2025 07:15 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "How to Keep ‘Digital Natives' Rooted to Reality",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/digital-natives-reality-check",
+        "desc" => "In a world dominated by <b>technology</b>, keeping <strong>digital natives</strong> connected to reality is crucial. Strategies like <b>mindful tech usage, digital detox, and real-world engagement</b> can help maintain a healthy <strong>balance between virtual and real life</strong>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/digital-natives-reality-check",
+        "keywords" => "digital natives balance, tech addiction solutions, screen time management, mindfulness in digital age, real-life engagement, technology and mental health, guiding digital generation, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog180" => [
+        "image" => STORAGE_URL . "/blogs/apple-new-ipads-m4-macbook-air.jpg",
+        "tags" => "Apple new iPads, M4 MacBook Air launch, upcoming Apple devices, next-gen iPads, Apple 2025 product lineup, iPad Pro M4 chip, Apple tablet updates, MacBook Air M4 release",
+        "time" => "03 Mar 2025 07:10 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Apple on a Roll: New iPads Expected Right After M4 MacBook Air's Likely Launch This Week",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/apple-new-ipads-m4-macbook-air",
+        "desc" => "<b>Apple</b> is gearing up for an exciting week with the anticipated launch of the <strong>M4 MacBook Air</strong>, followed closely by the unveiling of new <b>iPad models</b>. The tech giant continues to push innovation in <strong>laptops and tablets</strong> with cutting-edge performance upgrades.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/apple-new-ipads-m4-macbook-air",
+        "keywords" => "Apple M4 MacBook Air, new iPads launch, Apple 2025 devices, iPad Pro M4 chip, MacBook Air update, Apple product leaks, upcoming Apple releases, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog179" => [
+        "image" => STORAGE_URL . "/blogs/infinix-solar-charging-phone-mwc-2025.jpg",
+        "tags" => "Infinix solar charging phone, MWC 2025 tech innovations, color-changing e-ink display, smartphone solar charging, next-gen mobile technology, Infinix concept phone, e-ink display phones, future of smartphones",
+        "time" => "03 Mar 2025 07:05 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Infinix Unveils Solar Charging Phone Concept and Colour-Changing E-Ink Tech at MWC 2025",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/infinix-solar-charging-phone-mwc-2025",
+        "desc" => "<b>Infinix</b> has introduced a revolutionary <strong>solar charging phone concept</strong> and an innovative <b>colour-changing e-ink display</b> at <strong>MWC 2025</strong>. These advancements showcase the future of <b>energy-efficient and customizable smartphones</b>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/infinix-solar-charging-phone-mwc-2025",
+        "keywords" => "Infinix MWC 2025, solar-powered smartphone, e-ink display technology, future mobile trends, energy-efficient smartphones, color-changing phone display, smartphone tech innovations, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog178" => [
+        "image" => STORAGE_URL . "/blogs/alphabet-taara-chip-light-internet.jpg",
+        "tags" => "Alphabet Taara chip, Google high-speed internet, light beam internet, wireless optical communication, Taara technology, internet connectivity solutions, next-gen internet tech, Alphabet innovations",
+        "time" => "03 Mar 2025 07:00 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Google's Parent Alphabet Unveils Taara Chip to Expand High-Speed Internet via Light Beams",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/alphabet-taara-chip-light-internet",
+        "desc" => "<b>Alphabet</b>, Google's parent company, has introduced the <strong>Taara chip</strong>, a groundbreaking technology that uses <b>light beams</b> to deliver <strong>high-speed internet</strong>. This innovation aims to improve <b>connectivity</b> in remote and underserved areas.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/alphabet-taara-chip-light-internet",
+        "keywords" => "Alphabet Taara internet, Google light beam tech, high-speed wireless internet, optical communication, next-gen connectivity, Taara chip innovation, global internet expansion, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog177" => [
+        "image" => STORAGE_URL . "/blogs/quantum-computing-light-powered-chips.jpg",
+        "tags" => "quantum computing startup, light-powered chips, quantum processor technology, American quantum chip innovation, photonic computing, next-gen quantum chips, quantum computing advancements, future of computing",
+        "time" => "03 Mar 2025 06:55 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "American Quantum Computing Startup Says It's Already Making Millions of Light-Powered Chips",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/quantum-computing-light-powered-chips",
+        "desc" => "A cutting-edge <b>American quantum computing startup</b> claims to have successfully produced <strong>millions of light-powered chips</strong>. These innovations could revolutionize <b>computing performance, efficiency, and scalability</b> in the tech industry.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/quantum-computing-light-powered-chips",
+        "keywords" => "quantum computing revolution, photonic quantum chips, future of computing, American tech startup, advanced computing chips, quantum processor innovation, next-gen chip technology, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog176" => [
+        "image" => STORAGE_URL . "/blogs/powerbeats-pro-2-review.jpg",
+        "tags" => "Powerbeats Pro 2 review, best sports earbuds, Apple and Android earbuds, Beats by Dre Powerbeats, wireless earbuds review, workout headphones, Powerbeats Pro 2 features, best fitness earbuds",
+        "time" => "03 Mar 2025 06:50 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Powerbeats Pro 2 Review: A Solid Sports Earbud for Both Your Apple and Android Ecosystem",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/powerbeats-pro-2-review",
+        "desc" => "<b>Powerbeats Pro 2</b> delivers an impressive <strong>sports earbud experience</strong> with seamless compatibility across <b>Apple and Android devices</b>. Designed for <strong>fitness enthusiasts</strong>, it offers premium sound, durability, and a secure fit.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/powerbeats-pro-2-review",
+        "keywords" => "Powerbeats Pro 2 sound quality, best sports earbuds, Apple Android compatible earbuds, Beats wireless earphones, workout earbuds, Powerbeats Pro vs AirPods, gym headphones, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog175" => [
+        "image" => STORAGE_URL . "/blogs/sunita-williams-nasa-return-earth.jpg",
+        "tags" => "Sunita Williams return, NASA astronaut homecoming, Sunita Williams Earth landing, NASA space mission, astronaut return timeline, space travel updates, ISS mission completion, NASA crew reentry",
+        "time" => "03 Mar 2025 06:45 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Sunita Williams' Homecoming: When, Where, and How Will NASA Astronaut Return to Earth",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/sunita-williams-nasa-return-earth",
+        "desc" => "<b>NASA astronaut Sunita Williams</b> is set to return to <strong>Earth</strong> after her latest <b>space mission</b>. Here's everything you need to know about the <strong>timeline, location, and details</strong> of her homecoming.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/sunita-williams-nasa-return-earth",
+        "keywords" => "Sunita Williams Earth return, NASA astronaut mission, space travel updates, ISS crew return, NASA landing schedule, Sunita Williams homecoming, astronaut reentry process, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog174" => [
+        "image" => STORAGE_URL . "/blogs/honor-ai-intelligent-phone.jpg",
+        "tags" => "Honor AI phone, intelligent smartphone, AI-powered mobile, Honor technology, AI in smartphones, Honor AI innovation, next-gen smartphones, smart AI devices",
+        "time" => "03 Mar 2025 06:40 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Smartphone Maker Honor Bets on AI-Powered 'Intelligent Phone'",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/honor-ai-intelligent-phone",
+        "desc" => "<b>Honor</b> is revolutionizing the smartphone industry with its latest <strong>AI-powered intelligent phone</strong>. The brand aims to redefine user experiences through advanced <b>artificial intelligence</b> integration in <strong>next-gen mobile devices</strong>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/honor-ai-intelligent-phone",
+        "keywords" => "Honor AI smartphone, intelligent phone features, AI-driven mobile technology, smart devices by Honor, AI-powered phone evolution, Honor mobile innovation, future of smartphones, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog173" => [
+        "image" => STORAGE_URL . "/blogs/microsoft-shutting-down-skype.jpg",
+        "tags" => "Microsoft shutting down Skype, Skype discontinued, Skype replaced by Teams, end of Skype, Microsoft Teams focus, Skype to Teams transition, Skype alternatives, Microsoft communication tools",
+        "time" => "03 Mar 2025 06:35 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "End of an Icon: Microsoft to Shut Down Skype Permanently to Focus on Teams",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/microsoft-shutting-down-skype",
+        "desc" => "<b>Microsoft</b> is set to <strong>shut down Skype permanently</strong> as it shifts focus to <b>Teams</b>. This marks the end of an era for the once-dominant <strong>communication platform</strong>, as businesses and users transition to <b>Microsoft Teams</b> for collaboration.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/microsoft-shutting-down-skype",
+        "keywords" => "Skype shutdown, Microsoft Teams vs Skype, end of Skype service, Skype discontinued 2025, Microsoft communication strategy, Teams replacing Skype, Skype user migration, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog172" => [
+        "image" => STORAGE_URL . "/blogs/hulu-down-missing-error-json.jpg",
+        "tags" => "Hulu down US, Hulu error fix, missing error JSON structure, Hulu streaming issues, Hulu outage solutions, fix Hulu missing JSON, Hulu troubleshooting, streaming error fix",
+        "time" => "03 Mar 2025 06:30 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "Hulu Down in US: How to Fix ‘Missing Error JSON Structure’",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/hulu-down-missing-error-json",
+        "desc" => "<b>Hulu users</b> in the <strong>US</strong> are facing disruptions due to the <b>'Missing Error JSON Structure'</b> issue. Here’s how to <strong>troubleshoot and fix</strong> the error for uninterrupted <b>streaming</b>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/hulu-down-missing-error-json",
+        "keywords" => "Hulu error fix, Hulu missing JSON error, Hulu not working US, streaming service down, fix Hulu errors, troubleshooting Hulu, Hulu outage solutions, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog171" => [
+        "image" => STORAGE_URL . "/blogs/ap-government-home-services-app.jpg",
+        "tags" => "AP government home services, doorstep repair services, affordable home repairs, Andhra Pradesh digital services, government repair app, home maintenance initiative, AP doorstep services, smart governance AP",
+        "time" => "03 Mar 2025 06:25 PM", // Adjusted to today’s date and current time with a 5-minute gap from the last blog
+        "title" => "AP Government to Launch Home Services App for Affordable Doorstep Repairs",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/ap-government-home-services-app",
+        "desc" => "<b>Andhra Pradesh Government</b> is set to introduce a <strong>home services app</strong> aimed at providing <b>affordable doorstep repairs</b>. The initiative focuses on making <strong>home maintenance</strong> accessible, ensuring skilled professionals reach residents efficiently.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/ap-government-home-services-app",
+        "keywords" => "AP home repair app, Andhra Pradesh services, doorstep repair solutions, government digital initiatives, home services platform, AP tech-driven governance, smart services AP, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog170" => [
+        "image" => STORAGE_URL . "/blogs/elon-musk-14th-child-punjabi-roots.jpg",
+        "tags" => "Elon Musk child, Seldon Lycurgus, Musk family roots, Punjabi connection of Musk, Musk 14th child, SpaceX founder family, Tesla CEO children, Musk ancestry",
+        "time" => "03 Mar 2025 06:20 PM", // Adjusted to today’s date and current time with a 5-minute gap for future blogs
+        "title" => "‘Built Like a Juggernaut’: Elon Musk’s 14th Child, Seldon Lycurgus, Has Punjabi Roots",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/elon-musk-14th-child-punjabi-roots",
+        "desc" => "<b>Elon Musk</b>, the visionary behind <strong>SpaceX</strong> and <strong>Tesla</strong>, welcomes his 14th child, <b>Seldon Lycurgus</b>. Reports suggest the newborn has a <strong>Punjabi lineage</strong>, adding an intriguing cultural dimension to Musk’s expanding family.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/elon-musk-14th-child-punjabi-roots",
+        "keywords" => "Elon Musk son, Musk family heritage, Punjabi ancestry of Musk, Tesla CEO family, Seldon Lycurgus Musk, Musk kids, SpaceX CEO children, by Gaurav Singh (gauravsinghigc)"
+    ],
 
+    //23 Feb 2025
     "blog169" => [
         "image" => STORAGE_URL . "/blogs/ai-vs-human-skills-nandan-nilekani.jpg",
         "tags" => "AI vs human skills, Nandan Nilekani AI jobs, Infosys chairman on AI, future of jobs with AI, AI evolution and employment, AI human skill gap, job security in AI era, artificial intelligence workforce impact",
-        "time" => "23 Feb 2025 05:40 AM", // 5-minute gap from the last blog
+        "time" => "23 Feb 2025 05:40 AM", // 5-minute gap from the last blog and start from current and today date -time
         "title" => "AI Evolution Cannot Match Human Skills Ever: Infosys Chairman Nandan Nilekani on the Future of Jobs",
         "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/ai-vs-human-skills-nandan-nilekani",
         "desc" => "<b>Nandan Nilekani</b>, chairman of <strong>Infosys</strong>, asserts that <b>AI evolution</b> will never fully replace <strong>human skills</strong>. He emphasizes the significance of <b>human creativity, critical thinking, and emotional intelligence</b> in shaping the future of <strong>jobs and employment</strong>.",

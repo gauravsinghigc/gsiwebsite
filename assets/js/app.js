@@ -55,74 +55,9 @@ function createStarLine(x, y) {
   setTimeout(() => line.remove(), 1000);
 }
 setInterval(() => {
-  const currentTime = new Date();
-  const hours = currentTime.getHours();
-
   // Get the main body and app name elements
   const mainBody = document.getElementById("MainBody");
-  const appName = document.getElementById("AppName");
-  const GsiMobileNavigation = document.getElementById("GsiMobileNavigation");
-
-  // Check if the current time is between 6 AM and 6 PM (daytime)
-  if (hours >= 6 && hours < 18) {
-    // Daytime: Add 'white-version' and apply the theme
-    if (mainBody) {
-      mainBody.classList.add("white-version");
-      GsiMobileNavigation.classList.remove("dark");
-
-      // Replace 'box-shadow-2' back to 'box-shadow' on all elements that have box-shadow-2
-      const allElements = document.querySelectorAll("*");
-      allElements.forEach((element) => {
-        if (getComputedStyle(element).boxShadow !== "none") {
-          element.classList.remove("box-shadow-2");
-          element.classList.add("box-shadow");
-        }
-      });
-
-      // Change color of h1 to h6 to dark grey (black) when 'white-version' is added
-      const headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
-      headers.forEach((header) => {
-        header.style.color = "black";
-      });
-    }
-
-    // Apply 'text-dark' class to the element with id 'AppName'
-    if (appName) {
-      appName.classList.remove("text-white");
-      appName.classList.add("text-dark");
-      document.querySelectorAll("a").style.color = "black !important";
-      document.querySelectorAll("a").style.transition = "color 0.5s !important";
-    }
-  } else {
-    // Nighttime: Remove 'white-version' and apply the theme
-    if (mainBody) {
-      mainBody.classList.remove("white-version");
-      GsiMobileNavigation.classList.add("dark");
-
-      // Replace 'box-shadow' with 'box-shadow-2' on all elements that have box-shadow
-      const allElements = document.querySelectorAll("*");
-      allElements.forEach((element) => {
-        if (getComputedStyle(element).boxShadow !== "none") {
-          element.classList.remove("box-shadow");
-          element.classList.add("box-shadow-2");
-        }
-      });
-
-      // Change color of h1 to h6 to light grey when 'white-version' is removed
-      const headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
-      headers.forEach((header) => {
-        header.style.color = "lightgrey";
-      });
-    }
-
-    // Apply 'text-white' class to the element with id 'AppName'
-    if (appName) {
-      appName.classList.remove("text-dark");
-      appName.classList.add("text-white");
-      document.querySelectorAll("a").style.color = "white !important";
-      document.querySelectorAll("a").style.transition = "color 0.5s !important";
-    }
-  }
+  mainBody.classList.add("white-version");
 }, 500); // The interval is set to 10 seconds, so it repeats every 10 seconds
 
 function GreetingMessage() {

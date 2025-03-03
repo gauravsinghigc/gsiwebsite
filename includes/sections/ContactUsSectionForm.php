@@ -22,7 +22,7 @@
                      <div class="description text-justify">
                          <p>I am available for freelance work like web development, crm and mobile app development, digital marketing and promotions, leads generations and industry automation.
                          </p>
-                         <span class="phone">Address: <a href="<?php echo APP['SOCIAL_ACCOUNS']['map-marker']; ?>" class="text-decoration-underline"><?php echo APP['ADDRESS']['PRIMARY']; ?></a></span>
+                         <span class="phone">Address: <a href="https://www.google.com/maps/search/gauravsinghigc/" class="text-decoration-underline"><?php echo APP['ADDRESS']['PRIMARY']; ?></a></span>
                          <span class="phone">Phone: <a href="tel:<?php echo APP['PHONE_NUMBER']['PRIMARY']; ?>" class="text-decoration-underline">+91-<?php echo APP['PHONE_NUMBER']['PRIMARY']; ?></a></span>
                          <span class="mail">Email: <a href="mailto:<?php echo APP['EMAILS']['PRIMARY']; ?>" class="text-decoration-underline"><?php echo APP['EMAILS']['PRIMARY']; ?></a></span>
                      </div>
