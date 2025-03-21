@@ -1,5 +1,13 @@
 <?php
 DEFINE("APP_PORTFOLIO", [
+    "portfolio8" => [
+        "name" => "THE SHIFTING EXPERTS",
+        "tag" => "Website Development",
+        "image" => STORAGE_URL . "/portfolio/the-shifting-experts-dot-com-by-gauravsinghigc.png",
+        "shortdesc" => "The Shifting Experts' website, crafted by Gaurav Singh, offers a sleek and professional platform showcasing reliable shifting and relocation services. With a modern design and intuitive navigation, it effectively highlights the brand's expertise in providing hassle-free moving solutions.",
+        "longdesc" => "The Shifting Experts' website, developed by Gaurav Singh, presents a modern and user-friendly platform that perfectly showcases the premium shifting and relocation services offered by the company. The website is built using a combination of HTML, CSS, JavaScript, and Bootstrap, ensuring a responsive and visually appealing experience across devices. With seamless navigation and a clean design, the site highlights The Shifting Experts' efficiency in offering professional and hassle-free moving services. Developed with PHP for dynamic content management, the website is hosted on Hostinger's cloud server, providing reliable performance and scalability. The integration of sleek visuals, interactive elements, and clear service descriptions ensures a captivating user experience for visitors, making it a strong online presence for The Shifting Experts.",
+        "link" => "https://theshiftingexperts.com/"
+    ],
     "portfolio7" => [
         "name" => "JH Interiors",
         "tag" => "Website Development",

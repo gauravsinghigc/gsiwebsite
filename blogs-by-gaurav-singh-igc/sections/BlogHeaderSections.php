@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section-title text-left">
-                    <h1 class="title mb-4 h2"><?php echo APP_BLOGS[$ServiceId]['title']; ?></h1>
+                    <h1 class="title mb-4 h2 text-black"><?php echo APP_BLOGS[$ServiceId]['title']; ?></h1>
                     <span class="subtitle">by <?php echo APP['APP_NAME_2']; ?></span>
                     <p class="description small text-justify mb-2">
                         <span>Tags : <strong><?php echo APP_BLOGS[$ServiceId]['tags']; ?></strong></span> |

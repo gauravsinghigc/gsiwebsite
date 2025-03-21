@@ -22,10 +22,10 @@
                         <li class="nav-item"><a class="nav-link" href="<?php echo DOMAIN; ?>/about-gaurav-singh-faridabad">About Me</a></li>
                         <li class="nav-item"><a class="nav-link" href="<?php echo DOMAIN; ?>/what-i-do">What I Do</a></li>
                         <li class="nav-item"><a class="nav-link" href="<?php echo DOMAIN; ?>/gaurav-singh-igc-portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="<?php echo DOMAIN; ?>/gaurav-singh-igc-skills">Resume</a></li>
-                        <li class="nav-item"><a class="nav-link" href="<?php echo DOMAIN; ?>/gaurav-singh-igc-clients">Clients</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?php echo DOMAIN; ?>/gaurav-singh-igc-skills">Expertise</a></li>
                         <li class="nav-item"><a class="nav-link" href="<?php echo DOMAIN; ?>/gaurav-singh-igc-pricing">Pricing</a></li>
-                        <li class="nav-item"><a class="nav-link" href="<?php echo DOMAIN; ?>/blogs-by-gaurav-singh-igc">blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?php echo DOMAIN; ?>/blogs-by-gaurav-singh-igc">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="<?php echo DOMAIN; ?>/digital-store-by-gaurav-singh-igc-faridabad">Digital Store</a></li>
                         <li class="nav-item"><a class="nav-link" href="<?php echo DOMAIN; ?>/contact-gaurav-singh-igc">Contact Me</a></li>
                     </ul>
                     <!-- End Mainmanu Nav -->
@@ -65,10 +65,10 @@
                     <li><a class="nav-link" href="<?php echo DOMAIN; ?>/about-gaurav-singh-faridabad">About Me</a></li>
                     <li><a class="nav-link" href="<?php echo DOMAIN; ?>/what-i-do">What I Do</a></li>
                     <li><a class="nav-link" href="<?php echo DOMAIN; ?>/gaurav-singh-igc-portfolio">Portfolio</a></li>
-                    <li><a class="nav-link" href="<?php echo DOMAIN; ?>/gaurav-singh-igc-skills">Resume</a></li>
-                    <li><a class="nav-link" href="<?php echo DOMAIN; ?>/gaurav-singh-igc-clients">Clients</a></li>
+                    <li><a class="nav-link" href="<?php echo DOMAIN; ?>/gaurav-singh-igc-skills">Expertise</a></li>
                     <li><a class="nav-link" href="<?php echo DOMAIN; ?>/gaurav-singh-igc-pricing">Pricing</a></li>
-                    <li><a class="nav-link" href="<?php echo DOMAIN; ?>/blogs-by-gaurav-singh-igc">blog</a></li>
+                    <li><a class="nav-link" href="<?php echo DOMAIN; ?>/blogs-by-gaurav-singh-igc">Blog</a></li>
+                    <li><a class="nav-link" href="<?php echo DOMAIN; ?>/digital-store-by-gaurav-singh-igc-faridabad">Digital Store</a></li>
                     <li><a class="nav-link" href="<?php echo DOMAIN; ?>/contact-gaurav-singh-igc">Contact Me</a></li>
                 </ul>
                 <hr>

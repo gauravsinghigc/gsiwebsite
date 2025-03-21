@@ -16,10 +16,6 @@
 <link rel="icon" type="image/png" sizes="32x32" href="<?php echo APP['LOGO']['FAVICON']; ?>">
 <link rel="icon" type="image/png" sizes="16x16" href="<?php echo APP['LOGO']['FAVICON']; ?>">
 
-<!-- Canonical Meta Tag -->
-<?php $canonicalUrl = getCurrentUrl(); ?>
-<link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8'); ?>">
-
 <link rel="stylesheet" href="<?php echo ASSETS_URL; ?>/css/bootstrap.css">
 <link rel="stylesheet" href="<?php echo ASSETS_URL; ?>/css/slick.css">
 <link rel="stylesheet" href="<?php echo ASSETS_URL; ?>/css/slick-slider.css">

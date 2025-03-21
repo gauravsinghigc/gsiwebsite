@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200..900&display=swap');
+
+html,
+body,
+section,
+div,
+p,
+ul,
+li,
+table,
+tr,
+th,
+td,
+header,
+nav,
+footer,
+a,
+main {
+    font-size: 0.95rem !important;
+    font-family: "Outfit", sans-serif !important;
+}
+
+.fiche>table.table-fiche-title tr.toptitle,
+.fiche>form>table.table-fiche-title tr.toptitle {
+    height: 30px !important;
+}
+
+a.tab:link,
+a.tab:visited,
+a.tab:hover,
+a.tab#active {
+    padding: 1px 5px 2px;
+}
+
+div.tabs {
+    margin-top: -10px;
+}
+
+@media only screen and (max-width: 1870px) {
+    div.tmenucenter {
+        width: 85px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: var(--colortextbackhmenu);
+    }
+}
+
+div.topmenuimage {
+    font-size: 1.3rem !important;
+}
+
+@media only screen and (max-width: 1780px) {
+    .mainmenuaspan {
+        font-size: 0.85rem !important;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

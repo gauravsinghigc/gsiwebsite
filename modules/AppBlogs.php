@@ -1,5 +1,97 @@
 <?php
 DEFINE("APP_BLOGS", [
+    //9 March 2025
+    "blog210" => [
+        "image" => STORAGE_URL . "/blogs/ppf-tax-free-income-60000-month.jpg",
+        "tags" => "PPF regular income, tax-free income PPF, Public Provident Fund investment, PPF monthly income plan, Rs 60000 per month PPF, retirement income from PPF, tax-free savings India, secure investment India",
+        "time" => "09 Mar 2025 08:30 PM", // Adjusted with a 5-minute gap from the last blog
+        "title" => "PPF For Regular Income: How to Get Rs 60,000/Month Tax-Free Income from Public Provident Fund?",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/ppf-tax-free-income-60000-month",
+        "desc" => "Want <b>tax-free income of Rs 60,000/month</b> from your <strong>Public Provident Fund (PPF)</strong>? Learn how strategic <b>PPF investments</b> can secure you a <strong>stable, tax-free monthly income</strong> in India.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/ppf-tax-free-income-60000-month",
+        "keywords" => "PPF monthly income, tax-free savings India, PPF Rs 60000 per month, secure investment India, retirement income PPF, Public Provident Fund investment, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog209" => [
+        "image" => STORAGE_URL . "/blogs/best-fitness-trackers-2025-india.jpg",
+        "tags" => "best fitness trackers 2025, top fitness trackers in India, health tracking devices 2025, best smart bands 2025, fitness wearables India, fitness tracker comparison, health gadgets 2025, top health bands India",
+        "time" => "09 Mar 2025 08:25 PM", // Adjusted with a 5-minute gap from the last blog
+        "title" => "5 Best Fitness Trackers of 2025: Top Picks for Health Enthusiasts in India",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/best-fitness-trackers-2025-india",
+        "desc" => "Looking for the <b>best fitness trackers of 2025</b>? Here are the <strong>top picks</strong> for <b>health enthusiasts in India</b>, offering <strong>advanced health monitoring, fitness tracking, and smart features</strong> to keep you fit and active.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/best-fitness-trackers-2025-india",
+        "keywords" => "best fitness trackers 2025, fitness bands India, health gadgets 2025, smart bands India, health monitoring devices, fitness tracker comparison 2025, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog208" => [
+        "image" => STORAGE_URL . "/blogs/india-first-hydrogen-train-jind-sonipat.jpg",
+        "tags" => "India first hydrogen train, Jind Sonipat hydrogen train, hydrogen-powered train India, green energy train, eco-friendly train India, hydrogen fuel train, Indian Railways hydrogen train, sustainable transportation India",
+        "time" => "09 Mar 2025 08:20 PM", // Adjusted with a 5-minute gap from the last blog
+        "title" => "India's First Hydrogen Train to Launch on Jind-Sonipat Route by March 31",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/india-first-hydrogen-train-jind-sonipat",
+        "desc" => "<b>India's first hydrogen-powered train</b> is set to <strong>launch on the Jind-Sonipat route</strong> by <b>March 31</b>, marking a major step toward <strong>eco-friendly transportation</strong> and promoting <b>green energy</b> in the railway sector.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/india-first-hydrogen-train-jind-sonipat",
+        "keywords" => "hydrogen train India, Jind Sonipat train, green energy train, hydrogen fuel transportation, eco-friendly train India, Indian Railways hydrogen train, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog207" => [
+        "image" => STORAGE_URL . "/blogs/geido-japanese-philosophy-career-mastery.jpg",
+        "tags" => "Geido Japanese philosophy, Geido career mastery, master any skill with Geido, Japanese traditional philosophy, career growth with Geido, 700-year-old Japanese philosophy, Geido skill development, improve career through Geido",
+        "time" => "09 Mar 2025 08:15 PM", // Adjusted with a 5-minute gap from the last blog
+        "title" => "What Is ‘Geido’? This 700-Year-Old Japanese Philosophy Can Help You Master Any Skill in Your Career",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/geido-japanese-philosophy-career-mastery",
+        "desc" => "The ancient <b>Japanese philosophy of Geido</b>, rooted in <strong>700 years of tradition</strong>, offers a powerful approach to <b>mastering any skill</b> in your career. Learn how <strong>discipline, focus, and practice</strong> can elevate your professional growth.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/geido-japanese-philosophy-career-mastery",
+        "keywords" => "Geido philosophy, master any skill, Japanese career mastery, Geido for personal growth, traditional Japanese philosophy, career improvement techniques, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog206" => [
+        "image" => STORAGE_URL . "/blogs/helios-capital-bear-market-explained.jpg",
+        "tags" => "Helios Capital Samir Arora, 2008 financial crash, current bear market, stock market insights, Samir Arora bear market opinion, financial market trends, market crash comparison, global economy analysis",
+        "time" => "09 Mar 2025 08:10 PM", // Adjusted with a 5-minute gap from the last blog
+        "title" => "'This is No 2008-Style Crash': Helios Capital's Samir Arora Explains Why This Bear Market Is Different",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/helios-capital-bear-market-explained",
+        "desc" => "According to <b>Helios Capital's Samir Arora</b>, the <strong>current bear market</strong> is vastly different from the <b>2008 financial crash</b>. He explains why this market correction is unique and what investors should expect in the near future.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/helios-capital-bear-market-explained",
+        "keywords" => "Helios Capital bear market, Samir Arora market prediction, 2008 vs 2025 market crash, stock market insights, financial market update, global economy analysis, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog205" => [
+        "image" => STORAGE_URL . "/blogs/hidden-cat-optical-illusion.jpg",
+        "tags" => "hidden cat illusion, optical illusion challenge, find the hidden cat, viral optical illusion, brain teaser cat, hidden object challenge, visual puzzle, cat in optical illusion",
+        "time" => "09 Mar 2025 08:05 PM", // Adjusted with a 5-minute gap from the last blog
+        "title" => "Internet Struggles to Spot the Hidden Cat in This Optical Illusion – Can You Do It in 30 Seconds?",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/hidden-cat-optical-illusion",
+        "desc" => "A new <b>optical illusion</b> has taken the <strong>internet by storm</strong>, as people are struggling to <b>spot the hidden cat</b> in the image. Can you find the cat in <strong>under 30 seconds</strong>? Challenge yourself now and test your visual skills.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/hidden-cat-optical-illusion",
+        "keywords" => "hidden cat illusion, optical illusion puzzle, find the hidden cat, viral brain teaser, optical illusion challenge, visual puzzle, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog204" => [
+        "image" => STORAGE_URL . "/blogs/mega-smartwatch-days-amazon-offer.jpg",
+        "tags" => "Amazon smartwatch sale, Mega Smartwatch Days, smartwatches up to 80% off, best smartwatch deals, fitness smartwatch sale, health smartwatch discounts, Amazon gadget offers, smartwatch offers 2025",
+        "time" => "09 Mar 2025 08:00 PM", // Adjusted with a 5-minute gap from the last blog
+        "title" => "Mega Smartwatch Days: Grab up to 80% Off on Top Smartwatches at Amazon",
+        "link" => "https://www.amazon.in/b?pf_rd_r=J942QN8187NE0BVGTT6R&pf_rd_p=5776899f-b6fe-4768-9c1d-6e35d1e8ef6c&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_s=merchandised-search-6&pf_rd_t=&pf_rd_i=976419031&node=11599648031&linkCode=ll2&tag=saurav0a4-21&linkId=5d6ffc8ef08269e8ee75ba36af3489b6&language=en_IN&ref_=as_li_ss_tl",
+        "desc" => "It's time to upgrade your wrist! <b>Amazon</b> is offering up to <strong>80% off</strong> on the <b>best smartwatches</b> for <strong>fitness, health, and daily use</strong>. Don't miss the chance to grab your favorite smartwatch at unbeatable prices during <b>Mega Smartwatch Days</b>.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/mega-smartwatch-days-amazon-offer",
+        "keywords" => "Amazon smartwatch sale, Mega Smartwatch Days, best smartwatch discounts, fitness watches offer, health smartwatch deals, up to 80% off smartwatches, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog203" => [
+        "image" => STORAGE_URL . "/blogs/ufc-313-last-minute-fight-cancellations.jpg",
+        "tags" => "UFC 313 cancellations, UFC fight cancellations, UFC 313 last-minute changes, UFC breaking news, UFC 313 fight update, canceled UFC fights, UFC match reschedule, MMA fight cancellations",
+        "time" => "09 Mar 2025 07:55 PM", // Adjusted with a 5-minute gap from the last blog
+        "title" => "UFC 313: Two Massive Last-Minute Fight Cancellations Shake Up Event",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/ufc-313-last-minute-fight-cancellations",
+        "desc" => "In a surprising turn of events, <b>UFC 313</b> faced <strong>two major last-minute fight cancellations</strong>, leaving fans and organizers shocked. The unexpected changes have led to quick reshuffling of match cards, significantly impacting the overall event schedule.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/ufc-313-last-minute-fight-cancellations",
+        "keywords" => "UFC 313 cancellations, canceled UFC fights, last-minute fight changes, UFC 313 news, MMA fight updates, UFC breaking news, fight reschedule, by Gaurav Singh (gauravsinghigc)"
+    ],
+    "blog202" => [
+        "image" => STORAGE_URL . "/blogs/scotland-rugby-call-up-trio.jpg",
+        "tags" => "Scotland rugby squad, Scotland call up trio, Scotland Six Nations team, Rugby injury replacements, Scotland squad update, Rugby player call-ups, Crosbie and Mann drop out, Rugby news 2025",
+        "time" => "09 Mar 2025 07:45 PM", // Adjusted to today’s date and current time
+        "title" => "Scotland Call Up Trio as Crosbie and Mann Drop Out Ahead of Six Nations Clash",
+        "link" => DOMAIN . "/blogs-by-gaurav-singh-igc/scotland-call-up-trio-crosbie-mann-out",
+        "desc" => "<b>Scotland</b> has announced a squad update for the <strong>Six Nations tournament</strong>, calling up <b>three new players</b> as replacements after <b>Luke Crosbie</b> and <b>Glen Young Mann</b> were ruled out due to injuries. This change is expected to reshape Scotland's lineup and impact their upcoming fixtures.",
+        "dir" => DOMAIN . "/blogs-by-gaurav-singh-igc/scotland-call-up-trio-crosbie-mann-out",
+        "keywords" => "Scotland rugby squad, Six Nations team update, Rugby player call-ups, Crosbie and Mann injuries, Scotland rugby news, latest sports updates, by Gaurav Singh (gauravsinghigc)"
+    ],
+
     //1 March 2025
     "blog201" => [
         "image" => STORAGE_URL . "/blogs/apple-ai-semiconductor-investment.jpg",
